@@ -2,7 +2,7 @@
 
   $root_abs_path = dirname(dirname(__FILE__)) . "/";
 
-  $site_abs_path = "/ips-explorer/";
+  $site_abs_path = "/AI-watch-T6-X/";
 
   $img_folder_name  = "img";
 

@@ -4,21 +4,21 @@
   require_once("../config/folders.php");
 
   $site_logo = $img_path . "ipso-logo.jpg";
-  $site_title = "IPS-X";
-  $site_subtitle = "Innovative Public Services Explorer";
-  $site_description = "These pages allow you to explore innovative public services that have been collected from different sources in an integrated and harmonised way. Services can be discovered using a text-based, as well as, a graphic-based approach. We also list the contributing sources and offer the possibility to add your own service descriptions.";
+  $site_title = "AI-X";
+  $site_subtitle = "AI Public Services Explorer";
+  $site_description = "These pages allow you to explore AI public services that have been collected from different sources in an integrated and harmonised way. Services can be discovered using a text-based, as well as, a graphic-based approach. We also list the contributing sources and offer the possibility to add your own service descriptions.";
 
   $twitter = "";
-  $github = "https://github.com/ipsoeu/ips-explorer/";
-  $contribute = "https://github.com/ipsoeu/ips-explorer/";
- $feedback = "https://github.com/ipsoeu/ips-explorer/issues/";
-  $survey = "https://ec.europa.eu/eusurvey/runner/isa2-ips-survey-review";
+  $github = "https://github.com/lorenzino/AI-watch-T6-X/";
+  $contribute = "https://github.com/lorenzino/AI-watch-T6-X/";
+ $feedback = "https://github.com/lorenzino/AI-watch-T6-X/issues/";
+  $survey = "https://ec.europa.eu/eusurvey/runner/JRCAIinthePublicSectorSurvey2020";
 
   $footer = '<p></p>';
 
   $headline["welcome"]["name"] = "Welcome to " . $site_title . "!";
   $headline["welcome"]["icon"] = "";
-  $headline["welcome"]["descr"] = "The Innovative Public Services Explorer is an exercise to provide an integrated view of public services using emerging and disruptive technologies.";
+  $headline["welcome"]["descr"] = "The AI Public Services Explorer is an exercise to provide an integrated view of public services using AI.";
   $headline["welcome"]["url"] = $site_abs_path . "service/";
   $headline["welcome"]["url_caption"] = "Explore";
   
@@ -28,9 +28,9 @@
   $headline["contribute"]["url"] = $contribute;
   $headline["contribute"]["url_caption"] = "How to contribute";
   
-  $headline["survey"]["name"] = "IPS survey";
+  $headline["survey"]["name"] = "AI-X survey";
   $headline["survey"]["icon"] = "";
-  $headline["survey"]["descr"] = "If you are involved in the provision of public services using emerging technologies, please consider filling in our survey.";
+  $headline["survey"]["descr"] = "If you are involved in the provision of public services using AI, please consider filling in our survey.";
   $headline["survey"]["url"] = $survey;
   $headline["survey"]["url_caption"] = "Start the survey";
   
@@ -41,7 +41,7 @@
    
   $section["service"]["name"] = "Services";
   $section["service"]["icon"] = "fa-group";
-  $section["service"]["descr"] = "Explore European public services making use of emerging and disruptive technologies, such as AI, DLT, IoT and APIs, and find out their distribution and scope in terms of public administration levels and sectors.";
+  $section["service"]["descr"] = "Explore European public services making use of AI, and find out their distribution and scope in terms of public administration levels and sectors.";
   $section["service"]["url"] = $site_abs_path . "service/";
   $section["service"]["path"] = $root_abs_path . "service/";
 //  $section["service"]["data"] = $site_abs_path . $data_folder . "services";
@@ -53,7 +53,7 @@
 */   
   $section["chart"]["name"] = "Gallery";
   $section["chart"]["icon"] = "fa-area-chart";
-  $section["chart"]["descr"] = "Access statistics of public services based on their core characteristics, including geographic coverage, uptake and the technologies used. Browse the already prepared views, and create dynamic visualisations.";
+  $section["chart"]["descr"] = "Access statistics of AI public services based on their core characteristics, including geographic coverage, uptake and the technologies used. Browse the already prepared views, and create dynamic visualisations.";
   $section["chart"]["url"] = $site_abs_path . "chart/";
   $section["chart"]["path"] = $root_abs_path . "chart/";
 
@@ -67,7 +67,7 @@
    
   $subsection["chart"]["10001"]["name"] = "Geographic coverage";
   $subsection["chart"]["10001"]["icon"] = "fa-globe";
-  $subsection["chart"]["10001"]["descr"] = "Countries covered by the different public services. Hovering the mouse on one country, a tooltip shows the number of public services covering it.";
+  $subsection["chart"]["10001"]["descr"] = "Countries covered by the different public services. Hovering the mouse on one country, a tooltip shows the number of AI public services covering it.";
 //  $subsection["chart"]["10001"]["url"] = $site_abs_path . "chart/10001.html";
 //  $subsection["chart"]["10001"]["path"] = $root_abs_path . "chart/10001.html";
 //  $subsection["chart"]["10001"]["data"] = $site_abs_path . $data_folder . "services";
@@ -201,7 +201,7 @@
     $nav .= '<li><a target="_blank" href="' . $contribute . '" title="Report projects, services, initiatives you are aware of."><i class="fa fa-github"></i> Contribute</a></li>' . "\n";
   }
   if ($contribute != "") {
-    $nav .= '<li><a target="_blank" href="' . $survey . '" title="Fill in the IPS survey."><i class="fa fa-edit"></i> IPS Survey</a></li>' . "\n";
+    $nav .= '<li><a target="_blank" href="' . $survey . '" title="Fill in the AI-X survey."><i class="fa fa-edit"></i> AI-X Survey</a></li>' . "\n";
   }
   $nav .= '</ul>' . "\n";
   $nav .= '</div>' . "\n";
