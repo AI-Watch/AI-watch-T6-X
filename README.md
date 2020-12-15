@@ -1,6 +1,6 @@
-# Welcome to the Innovative Public Services Explorer!
+# Welcome to the AI Watch T6 Explorer!
 
-The Innovative Public Services Explorer (IPS-X) is an exercise to provide an integrated view of the public services using emerging and disruptive technologies, and to derive statistical data from them.
+The AI Watch T6 Explorer (AIWatch-T6-X) is an exercise to provide an integrated view of public services using AI, and to derive statistical data from them.
 
 Service records are collected from voluntarily contributed data sources (e.g., surveys, catalogues, datasets), which are harmonised into a common data schema - nothing complicated, just a flat list of attributes, as the name and description of the service, the geographic area covered, its social and policy uptake (if any).
 
