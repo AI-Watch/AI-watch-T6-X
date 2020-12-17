@@ -1,3 +1,5 @@
 var uptake = [
-    "Unknown"
+    "Inclusion",
+    "Openness",
+    "Performance"
 ]

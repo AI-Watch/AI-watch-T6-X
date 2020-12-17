@@ -1,9 +1,11 @@
 var primary_sector = [
-    "Agriculture",
+    "Defence",
     "Economic affairs",
+    "Education",
     "General public services",
     "Health",
+    "Housing and community amenities",
     "Public order and safety",
-    "Social protection",
-    "Social welfare"
+    "Recreation, culture and religion",
+    "Social protection"
 ]

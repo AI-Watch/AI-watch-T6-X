@@ -1,8 +1,7 @@
 var secondary_sector = [
-    "Control and monitoring",
-    "Information",
-    "Law enforcement",
-    "Recruitment",
-    "Taxation",
-    "Unemployment"
+    "Adjudication",
+    "Enforcement",
+    "Internal management",
+    "Public services and engagement",
+    "Regulatory research, analysis and monitoring"
 ]

@@ -1,4 +1,3 @@
 var status = [
-    "In production",
-    "Withdrawn"
+    "In production"
 ]
