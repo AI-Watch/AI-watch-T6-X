@@ -10,7 +10,7 @@
 
   $twitter = "";
   $github = "https://github.com/AI-Watch/AI-watch-T6-X/";
-  $contribute = "https://github.com/AI-WatchAI-watch-T6-X/";
+  $contribute = "https://github.com/AI-Watch/AI-watch-T6-X/";
  $feedback = "https://github.com/AI-Watch/AI-watch-T6-X/issues/";
   $survey = "https://ec.europa.eu/eusurvey/runner/JRCAIinthePublicSectorSurvey2020";
 
