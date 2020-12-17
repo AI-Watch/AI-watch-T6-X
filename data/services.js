@@ -124,7 +124,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "No",
-        "type": "Chatbot",
+        "type": "Chatbot-test",
         "status": "In production"
     },
     {

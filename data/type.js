@@ -1,6 +1,6 @@
 var type = [
     "Auditing and logging",
-    "Chatbot",
+    "Chatbot-test",
     "Other",
     "Process automation",
     "Validation and benchmarking"
