@@ -9,9 +9,9 @@
   $site_description = "These pages allow you to explore AI public services that have been collected from different sources in an integrated and harmonised way. Services can be discovered using a text-based, as well as, a graphic-based approach. We also list the contributing sources and offer the possibility to add your own service descriptions.";
 
   $twitter = "";
-  $github = "https://github.com/lorenzino/AI-watch-T6-X/";
-  $contribute = "https://github.com/lorenzino/AI-watch-T6-X/";
- $feedback = "https://github.com/lorenzino/AI-watch-T6-X/issues/";
+  $github = "https://github.com/AI-Watch/AI-watch-T6-X/";
+  $contribute = "https://github.com/AI-WatchAI-watch-T6-X/";
+ $feedback = "https://github.com/AI-Watch/AI-watch-T6-X/issues/";
   $survey = "https://ec.europa.eu/eusurvey/runner/JRCAIinthePublicSectorSurvey2020";
 
   $footer = '<p></p>';
