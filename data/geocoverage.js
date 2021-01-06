@@ -9,13 +9,10 @@ var geocoverage = [
     "Finland",
     "France",
     "Germany",
-    "Greece",
-    "Hungary",
     "Ireland",
     "Italy",
     "Latvia",
     "Lithuania",
-    "Luxembourg",
     "Netherlands",
     "Norway",
     "Poland",
@@ -26,6 +23,5 @@ var geocoverage = [
     "Spain",
     "Sweden",
     "Switzerland",
-    "United Kingdom",
-    "italy"
+    "United Kingdom"
 ]

@@ -1,5 +1,6 @@
 var uptake = [
-    "Inclusion",
-    "Openness",
-    "Performance"
+    "",
+    "Incremental \/ technical change",
+    "Organizational \/ sustained change",
+    "Transformative \/ disruptive"
 ]
