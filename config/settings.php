@@ -18,19 +18,19 @@
 
   $headline["welcome"]["name"] = "Welcome to " . $site_title . "!";
   $headline["welcome"]["icon"] = "";
-  $headline["welcome"]["descr"] = "The AI Public Services Explorer is an exercise to provide an integrated view of public services using AI.";
+  $headline["welcome"]["descr"] = "The AI Public Services Explorer is an exercise to provide an integrated view of public services using AI.\n IMPORTANT: THIS SERVICE IS CURRENTLY UNDER TESTING, BOTH THE SITE STRUCTURE AND THE DATA MIGHT CHANGE IN THE FUTURE";
   $headline["welcome"]["url"] = $site_abs_path . "service/";
   $headline["welcome"]["url_caption"] = "Explore";
   
   $headline["contribute"]["name"] = "Contribute";
   $headline["contribute"]["icon"] = "";
-  $headline["contribute"]["descr"] = "If you are aware of any project, service, or initiative that is not listed here, please let us know. We will be happy to add them to the catalogue.";
+  $headline["contribute"]["descr"] = "If you are aware of any project, service, or initiative that is not listed here, please let us know. We will be happy to add them to the catalogue.\n IMPORTANT: THIS SERVICE IS CURRENTLY UNDER TESTING, BOTH THE SITE STRUCTURE AND THE DATA MIGHT CHANGE IN THE FUTURE";
   $headline["contribute"]["url"] = $contribute;
   $headline["contribute"]["url_caption"] = "How to contribute";
   
   $headline["survey"]["name"] = "AI-X survey";
   $headline["survey"]["icon"] = "";
-  $headline["survey"]["descr"] = "If you are involved in the provision of public services using AI, please consider filling in our survey.";
+  $headline["survey"]["descr"] = "If you are involved in the provision of public services using AI, please consider filling in our survey.\n IMPORTANT: THIS SERVICE IS CURRENTLY UNDER TESTING, BOTH THE SITE STRUCTURE AND THE DATA MIGHT CHANGE IN THE FUTURE";
   $headline["survey"]["url"] = $survey;
   $headline["survey"]["url_caption"] = "Start the survey";
   
