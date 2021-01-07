@@ -135,7 +135,7 @@
 //  $subsection["chart"]["10007"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10007"]["data"] = $data_path . "services";
 //  $subsection["chart"]["10007"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["uptake", "lead_organisation_category"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10007"></perspective-viewer>';
-  $subsection["chart"]["10007"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["uptake"]\' columns=\'["id", "name"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10007"></perspective-viewer>';
+  $subsection["chart"]["10007"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["uptake"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "geocoverage"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10007"></perspective-viewer>';
   $subsection["chart"]["10007"]["lib"] = 'perspective';
   
   $subsection["chart"]["10008"]["name"] = "Technology vs. uptake";
