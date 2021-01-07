@@ -59,7 +59,7 @@
 
   $section["catalog"]["name"] = "Sources";
   $section["catalog"]["icon"] = "fa-download";
-  $section["catalog"]["descr"] = "Get to know the surveys, catalogues and data sets of public services that are integrated here. Find out how you could add your own public service, or results from a longitudinal study.";
+  $section["catalog"]["descr"] = "Get to know the surveys, catalogues and data sets of cases that are integrated here. Find out how you could add your own case, or results from a longitudinal study.";
   $section["catalog"]["url"] = $site_abs_path . "catalog/";
   $section["catalog"]["path"] = $root_abs_path . "catalog/";
 //  $section["catalog"]["data"] = $site_abs_path . $data_folder . "catalogs";
@@ -67,7 +67,7 @@
    
   $subsection["chart"]["10001"]["name"] = "Geographic coverage";
   $subsection["chart"]["10001"]["icon"] = "fa-globe";
-  $subsection["chart"]["10001"]["descr"] = "Countries covered by the different public services. Hovering the mouse on one country, a tooltip shows the number of AI public services covering it.";
+  $subsection["chart"]["10001"]["descr"] = "Countries covered by the different cases. Hovering the mouse on one country, a tooltip shows the number of cases covering it.";
 //  $subsection["chart"]["10001"]["url"] = $site_abs_path . "chart/10001.html";
 //  $subsection["chart"]["10001"]["path"] = $root_abs_path . "chart/10001.html";
 //  $subsection["chart"]["10001"]["data"] = $site_abs_path . $data_folder . "services";
@@ -78,7 +78,7 @@
   $subsection["chart"]["10002"]["name"] = "Primary sector";
   $subsection["chart"]["10002"]["icon"] = "fa-area-chart";
 //  $subsection["chart"]["10002"]["descr"] = "The primary sector tackled by public services. Hovering the mouse on a sector name, a tooltip shows the number of public services tackling it.";
-  $subsection["chart"]["10002"]["descr"] = "The primary sector tackled by public services.";
+  $subsection["chart"]["10002"]["descr"] = "Distribution of COFOG primary sector for the collected cases.";
 //  $subsection["chart"]["10002"]["url"] = $site_abs_path . "chart/10002.html";
 //  $subsection["chart"]["10002"]["path"] = $root_abs_path . "chart/10002.html";
 //  $subsection["chart"]["10002"]["data"] = $site_abs_path . $data_folder . "services";
@@ -89,7 +89,7 @@
   $subsection["chart"]["10003"]["name"] = "Activity";
   $subsection["chart"]["10003"]["icon"] = "fa-area-chart";
 //  $subsection["chart"]["10003"]["descr"] = "Main activity addressed by public services. Hovering the mouse on an activity, a tooltip shows the number of public services addressing this activity.";
-  $subsection["chart"]["10003"]["descr"] = "Distribution of activities for the collected public services.";
+  $subsection["chart"]["10003"]["descr"] = "Distribution of activities for the collected cases.";
 //  $subsection["chart"]["10003"]["url"] = $site_abs_path . "chart/10003.html";
 //  $subsection["chart"]["10003"]["path"] = $root_abs_path . "chart/10003.html";
 //  $subsection["chart"]["10003"]["data"] = $site_abs_path . $data_folder . "services";
@@ -99,7 +99,7 @@
   
   $subsection["chart"]["10004"]["name"] = "Primary sector vs. activity";
   $subsection["chart"]["10004"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10004"]["descr"] = "Joint visual representation of the primary sector and the activity of the collected public services.";
+  $subsection["chart"]["10004"]["descr"] = "Joint visual representation of the primary sector and the activity of the collected cases.";
 //  $subsection["chart"]["10004"]["url"] = $site_abs_path . "chart/10004.html";
 //  $subsection["chart"]["10004"]["path"] = $root_abs_path . "chart/10004.html";
 //  $subsection["chart"]["10004"]["data"] = $site_abs_path . $data_folder . "services";
@@ -109,7 +109,7 @@
   
   $subsection["chart"]["10005"]["name"] = "Service type vs. technology";
   $subsection["chart"]["10005"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10005"]["descr"] = "Joint visual representation of the public service type and the used technologies.";
+  $subsection["chart"]["10005"]["descr"] = "Joint visual representation of the case type and the used technologies.";
 //  $subsection["chart"]["10005"]["url"] = $site_abs_path . "chart/10005.html";
 //  $subsection["chart"]["10005"]["path"] = $root_abs_path . "chart/10005.html";
 //  $subsection["chart"]["10005"]["data"] = $site_abs_path . $data_folder . "services";
@@ -119,7 +119,7 @@
   
   $subsection["chart"]["10006"]["name"] = "Cross-sector applicability vs. technology";
   $subsection["chart"]["10006"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10006"]["descr"] = "Joint visual representation of the public service applicability in cross-sector scenarios and the used technologies.";
+  $subsection["chart"]["10006"]["descr"] = "Joint visual representation of the case applicability in cross-sector scenarios and the used technologies.";
 //  $subsection["chart"]["10006"]["url"] = $site_abs_path . "chart/10006.html";
 //  $subsection["chart"]["10006"]["path"] = $root_abs_path . "chart/10006.html";
 //  $subsection["chart"]["10006"]["data"] = $site_abs_path . $data_folder . "services";
@@ -129,7 +129,7 @@
   
   $subsection["chart"]["10007"]["name"] = "Uptake vs. organisation category";
   $subsection["chart"]["10007"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10007"]["descr"] = "Joint visual representation of the public service uptake and the responsible organisation category.";
+  $subsection["chart"]["10007"]["descr"] = "Joint visual representation of the case uptake and the responsible organisation category.";
 //  $subsection["chart"]["10007"]["url"] = $site_abs_path . "chart/10007.html";
 //  $subsection["chart"]["10007"]["path"] = $root_abs_path . "chart/10007.html";
 //  $subsection["chart"]["10007"]["data"] = $site_abs_path . $data_folder . "services";
@@ -140,7 +140,7 @@
   
   $subsection["chart"]["10008"]["name"] = "Technology vs. uptake";
   $subsection["chart"]["10008"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10008"]["descr"] = "Joint visual representation of the public service technology and its social uptake.";
+  $subsection["chart"]["10008"]["descr"] = "Joint visual representation of the case technology and its social uptake.";
 //  $subsection["chart"]["10008"]["url"] = $site_abs_path . "chart/10008.html";
 //  $subsection["chart"]["10008"]["path"] = $root_abs_path . "chart/10008.html";
 //  $subsection["chart"]["10008"]["data"] = $site_abs_path . $data_folder . "services";
