@@ -127,9 +127,9 @@
   $subsection["chart"]["10006"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["cross_sector", "technology"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10006"></perspective-viewer>';
   $subsection["chart"]["10006"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10007"]["name"] = "Uptake vs. organisation category";
+  $subsection["chart"]["10007"]["name"] = "Uptake";
   $subsection["chart"]["10007"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10007"]["descr"] = "Joint visual representation of the case uptake and the responsible organisation category.";
+  $subsection["chart"]["10007"]["descr"] = "Distribution of the case uptake for the collected cases.";
 //  $subsection["chart"]["10007"]["url"] = $site_abs_path . "chart/10007.html";
 //  $subsection["chart"]["10007"]["path"] = $root_abs_path . "chart/10007.html";
 //  $subsection["chart"]["10007"]["data"] = $site_abs_path . $data_folder . "services";
