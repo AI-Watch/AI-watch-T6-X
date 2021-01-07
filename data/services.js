@@ -1116,7 +1116,7 @@ var services = [
         "uptake": "Unknown",
         "cross_border": "No",
         "cross_sector": "No",
-        "type": "",
+        "type": "Unknown",
         "status": "Unknown"
     },
     {
