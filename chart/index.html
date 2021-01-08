@@ -102,7 +102,7 @@ $(document).ready(function () {
 </div>
 <div class="col-sm-6 col-md-6 block-link" href="/AI-watch-T6-X/chart/10002.html">
 <div class="thumbnail">
-<perspective-viewer view="x_bar" row-pivots='["primary_sector"]' sort='[["id", "asc"]]' columns='["id", "name"]' aggregates='{"id": "distinct count"}' id="chart-10002"></perspective-viewer>
+<perspective-viewer view="x_bar" row-pivots='["primary_sector"]' sort='[["id", "desc"]]' columns='["id"]' aggregates='{"id": "distinct count"}' id="chart-10002"></perspective-viewer>
 <div class="caption">
 <h3>Primary sector</h3>
 <p>Distribution of COFOG primary sector for the collected cases.</p>
@@ -112,7 +112,7 @@ $(document).ready(function () {
 </div>
 <div class="col-sm-6 col-md-6 block-link" href="/AI-watch-T6-X/chart/10003.html">
 <div class="thumbnail">
-<perspective-viewer view="x_bar" row-pivots='["secondary_sector"]' columns='["id", "name"]' aggregates='{"id": "distinct count"}' id="chart-10003"></perspective-viewer>
+<perspective-viewer view="x_bar" row-pivots='["secondary_sector"]' sort='[["id", "desc"]]' columns='["id"]' aggregates='{"id": "distinct count"}' id="chart-10003"></perspective-viewer>
 <div class="caption">
 <h3>Activity</h3>
 <p>Distribution of activities for the collected cases.</p>
@@ -122,7 +122,7 @@ $(document).ready(function () {
 </div>
 <div class="col-sm-6 col-md-6 block-link" href="/AI-watch-T6-X/chart/10004.html">
 <div class="thumbnail">
-<perspective-viewer view="x_bar" row-pivots='["technology"]' sort='[["id", "asc"]]' columns='["id", "geocoverage"]' aggregates='{"id": "distinct count"}' id="chart-10004"></perspective-viewer>
+<perspective-viewer view="x_bar" row-pivots='["technology"]' sort='[["id", "desc"]]' columns='["id"]' aggregates='{"id": "distinct count"}' id="chart-10004"></perspective-viewer>
 <div class="caption">
 <h3>Technology</h3>
 <p>Distribution of AI technology for the collected cases.</p>
@@ -132,7 +132,7 @@ $(document).ready(function () {
 </div>
 <div class="col-sm-6 col-md-6 block-link" href="/AI-watch-T6-X/chart/10005.html">
 <div class="thumbnail">
-<perspective-viewer view="x_bar" row-pivots='["type"]' sort='[["id", "desc"]]' columns='["id", "geocoverage"]' aggregates='{"id": "distinct count"}' id="chart-10005"></perspective-viewer>
+<perspective-viewer view="x_bar" row-pivots='["type"]' sort='[["id", "desc"]]' columns='["id"]' aggregates='{"id": "distinct count"}' id="chart-10005"></perspective-viewer>
 <div class="caption">
 <h3>Service type</h3>
 <p>Distribution of AI service types for the collected cases.</p>
@@ -142,7 +142,7 @@ $(document).ready(function () {
 </div>
 <div class="col-sm-6 col-md-6 block-link" href="/AI-watch-T6-X/chart/10006.html">
 <div class="thumbnail">
-<perspective-viewer view="sunburst" row-pivots='["geoextent"]' sort='[["id", "asc"]]' columns='["id"]' aggregates='{"id": "distinct count"}' id="chart-10006"></perspective-viewer>
+<perspective-viewer view="sunburst" row-pivots='["geoextent"]' sort='[["id", "asc"]]' columns='["id", "geocoverage"]' aggregates='{"id": "distinct count"}' id="chart-10006"></perspective-viewer>
 <div class="caption">
 <h3>Administration</h3>
 <p>Distribution of AI cases by administrative levels</p>
@@ -162,10 +162,10 @@ $(document).ready(function () {
 </div>
 <div class="col-sm-6 col-md-6 block-link" href="/AI-watch-T6-X/chart/10008.html">
 <div class="thumbnail">
-<perspective-viewer view="sunburst" row-pivots='["uptake", "country"]' sort='[["id", "asc"]]' columns='["id", "geocoverage"]' aggregates='{"id": "distinct count"}' id="chart-10008"></perspective-viewer>
+<perspective-viewer view="sunburst" row-pivots='["uptake", "geocoverage"]' sort='[["id", "asc"]]' columns='["id", "name"]' aggregates='{"id": "distinct count"}' id="chart-10008"></perspective-viewer>
 <div class="caption">
 <h3>Uptake vs country</h3>
-<p>Joint visual representation of the case technology and its social uptake.</p>
+<p>Joint visual representation of the case uptake by country.</p>
 <a class="btn btn-primary block-link center-block" href="/AI-watch-T6-X/chart/10008.html">Open this graph</a>
 </div>
 </div>
