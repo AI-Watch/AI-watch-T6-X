@@ -1,7 +1,7 @@
 [
     {
         "cid": 10009,
-        "id": 90002,
+        "id": 90001,
         "name": "Chatbot Mona",
         "url": "https:\/\/www.usp.gv.at\/Portal.Node\/usp\/public",
         "contact": "",
@@ -33,7 +33,7 @@
     },
     {
         "cid": 10009,
-        "id": 90003,
+        "id": 90002,
         "name": "AI search methods in central e-Government information system",
         "url": "https:\/\/ai-watch.github.io\/AI-watch-T6-X\/",
         "contact": "",
@@ -56,8 +56,8 @@
         "end_date": "",
         "primary_sector": "General public services",
         "secondary_sector": "General services.",
-        "technology": "Ai-empowered knowledge management",
-        "uptake": "Unknown",
+        "technology": "Knowledge management and sentiment analysis - ai-empowered knowledge management",
+        "uptake": "Incremental \/ technical change",
         "cross_border": "No",
         "cross_sector": "No",
         "type": "Internal management",
@@ -65,7 +65,7 @@
     },
     {
         "cid": 10009,
-        "id": 90012,
+        "id": 90003,
         "name": "Project Verontrustingen",
         "url": "https:\/\/www.dialogic.nl\/wp-content\/uploads\/2018\/06\/VTOM-Small-Kids-Big-Data-Frank-Bongers-mei-2018.pdf",
         "contact": "",
@@ -97,7 +97,7 @@
     },
     {
         "cid": 10009,
-        "id": 90015,
+        "id": 90004,
         "name": "Jobnet AI",
         "url": "https:\/\/jobbereik.vdab.be",
         "contact": "",
@@ -129,7 +129,7 @@
     },
     {
         "cid": 10009,
-        "id": 90025,
+        "id": 90005,
         "name": "Plovdic City Concierge Chatbot",
         "url": "https:\/\/www.facebook.com\/PlovdivCityConcierge\/",
         "contact": "",
@@ -161,7 +161,7 @@
     },
     {
         "cid": 10009,
-        "id": 90028,
+        "id": 90006,
         "name": "Andrija",
         "url": "https:\/\/andrija.ai\/",
         "contact": "",
@@ -193,7 +193,7 @@
     },
     {
         "cid": 10009,
-        "id": 90029,
+        "id": 90007,
         "name": "Chatbot Hope",
         "url": "https:\/\/www.themayor.eu\/en\/coronavirus-chatbot-educates-the-citizens-of-vinkovci",
         "contact": "",
@@ -217,7 +217,7 @@
         "primary_sector": "Health",
         "secondary_sector": "Public health services.",
         "technology": "Chatbots - intelligent digital assistants - virtual agents and recommendation systems",
-        "uptake": "Unknown",
+        "uptake": "Organizational \/ sustained change",
         "cross_border": "No",
         "cross_sector": "No",
         "type": "Public services and engagement",
@@ -225,7 +225,7 @@
     },
     {
         "cid": 10009,
-        "id": 90030,
+        "id": 90008,
         "name": "Assessment effectiveness social protection policy Cyprus",
         "url": "https:\/\/ai-watch.github.io\/AI-watch-T6-X\/",
         "contact": "",
@@ -249,7 +249,7 @@
         "primary_sector": "Social protection",
         "secondary_sector": "Social protection n.e.c.",
         "technology": "Machine learning - deep learning",
-        "uptake": "Unknown",
+        "uptake": "Incremental \/ technical change",
         "cross_border": "No",
         "cross_sector": "No",
         "type": "Regulatory research, analysis and monitoring",
@@ -257,7 +257,7 @@
     },
     {
         "cid": 10009,
-        "id": 90031,
+        "id": 90009,
         "name": "AI for water quality monitoring",
         "url": "https:\/\/ai-watch.github.io\/AI-watch-T6-X\/",
         "contact": "",
@@ -289,7 +289,7 @@
     },
     {
         "cid": 10009,
-        "id": 90036,
+        "id": 90010,
         "name": "Detection of errors in business statements",
         "url": "https:\/\/joinup.ec.europa.eu\/sites\/default\/files\/custom-page\/attachment\/2020-07\/Study%20on%20public%20sector%20data%20strategies%2C%20policies%20and%20governance%20%E2%80%93%20ANNEX%20Case%20studies.pdf",
         "contact": "",
@@ -321,7 +321,7 @@
     },
     {
         "cid": 10009,
-        "id": 90042,
+        "id": 90011,
         "name": "CHAIN Smart Water",
         "url": "https:\/\/www.aquatechtrade.com\/news\/article\/video-story-digital-denmark\/",
         "contact": "",
@@ -353,7 +353,7 @@
     },
     {
         "cid": 10009,
-        "id": 90055,
+        "id": 90012,
         "name": "SATIKAS",
         "url": "https:\/\/kosmos.ut.ee\/en\/news\/information-system-satikas-helps-detect-mowing-using-satellite-data",
         "contact": "",
@@ -385,7 +385,7 @@
     },
     {
         "cid": 10009,
-        "id": 90060,
+        "id": 90013,
         "name": "Predicting long term unemployment",
         "url": "https:\/\/e-estonia.com\/new-e-estonia-factsheet-national-ai-kratt-strategy\/",
         "contact": "",
@@ -417,7 +417,7 @@
     },
     {
         "cid": 10009,
-        "id": 90072,
+        "id": 90014,
         "name": "Migri.fi Chatbot Kamu",
         "url": "https:\/\/migri.fi\/en\/chat1",
         "contact": "",
@@ -449,7 +449,7 @@
     },
     {
         "cid": 10009,
-        "id": 90075,
+        "id": 90015,
         "name": "OuloBot",
         "url": "https:\/\/www.ouka.fi\/oulu\/oulubot\/",
         "contact": "",
@@ -481,7 +481,7 @@
     },
     {
         "cid": 10009,
-        "id": 90079,
+        "id": 90016,
         "name": "Fraud detection value declarations",
         "url": "https:\/\/www.aiforhumanity.fr\/pdfs\/MissionVillani_Report_ENG-VF.pdf",
         "contact": "",
@@ -513,7 +513,7 @@
     },
     {
         "cid": 10009,
-        "id": 90085,
+        "id": 90017,
         "name": "LaBonneBo\u00eete",
         "url": "https:\/\/ec.europa.eu\/social\/BlobServlet?docId=20605&langId=en",
         "contact": "",
@@ -545,7 +545,7 @@
     },
     {
         "cid": 10009,
-        "id": 90092,
+        "id": 90018,
         "name": "Refugee Language Detection",
         "url": "https:\/\/www.dw.com\/en\/automatic-speech-analysis-software-used-to-verify-refugees-dialects\/a-37980819",
         "contact": "",
@@ -577,7 +577,7 @@
     },
     {
         "cid": 10009,
-        "id": 90094,
+        "id": 90019,
         "name": "Buddy Krefeld",
         "url": "https:\/\/open.nrw\/de\/content\/kumpel-krefeld-gewinnt-nrw-hackathon",
         "contact": "",
@@ -609,7 +609,7 @@
     },
     {
         "cid": 10009,
-        "id": 90100,
+        "id": 90020,
         "name": "Revenue Chatbot",
         "url": "https:\/\/www.ops2020.gov.ie\/actions\/innovating-for-our-future\/innovation\/emerging-technology\/artificial-intelligence\/revenue-chatbot\/",
         "contact": "",
@@ -641,7 +641,7 @@
     },
     {
         "cid": 10009,
-        "id": 90101,
+        "id": 90021,
         "name": "The Dublin Beat",
         "url": "https:\/\/smartdublin.ie\/smart-dublin-explores-how-ai-social-media-can-help-improve-the-city-region\/",
         "contact": "",
@@ -673,7 +673,7 @@
     },
     {
         "cid": 10009,
-        "id": 90104,
+        "id": 90022,
         "name": "Borbot (acronym for Bourbons and Robotics)",
         "url": "https:\/\/borbot.it\/",
         "contact": "",
@@ -705,7 +705,7 @@
     },
     {
         "cid": 10009,
-        "id": 90108,
+        "id": 90023,
         "name": "Smart Planner",
         "url": "https:\/\/www.smartcommunitylab.it\/app\/",
         "contact": "",
@@ -737,7 +737,7 @@
     },
     {
         "cid": 10009,
-        "id": 90115,
+        "id": 90024,
         "name": "Automation HRM and Court of Justice Information System",
         "url": "https:\/\/ai-watch.github.io\/AI-watch-T6-X\/",
         "contact": "",
@@ -769,7 +769,7 @@
     },
     {
         "cid": 10009,
-        "id": 90121,
+        "id": 90025,
         "name": "FITS (Future Intelligent Transport Systems) ITEMS",
         "url": "https:\/\/ai-watch.github.io\/AI-watch-T6-X\/",
         "contact": "",
@@ -801,7 +801,7 @@
     },
     {
         "cid": 10009,
-        "id": 90127,
+        "id": 90026,
         "name": "viLT\u00e9 chatbot",
         "url": "https:\/\/koronastop.lrv.lt\/",
         "contact": "",
@@ -833,7 +833,7 @@
     },
     {
         "cid": 10009,
-        "id": 90128,
+        "id": 90027,
         "name": "FCIS H2020",
         "url": "https:\/\/http:\/\/www.fntt.lt\/lt\/ivykiai\/fntt-kartu-su-partneriais-pradeda-igyvendinti-europos-sajungos-moksliniu-tyrimu-ir-inovaciju-lesomis-remiama-projekta\/3768",
         "contact": "",
@@ -865,7 +865,7 @@
     },
     {
         "cid": 10009,
-        "id": 90140,
+        "id": 90028,
         "name": "AmberScript - Automated speech translation",
         "url": "https:\/\/www.amberscript.com\/en\/news\/amberscript-makes-council-meetings-of-dutch-municipalities-accessible-to-the-deaf-and-hearing-impaired",
         "contact": "",
@@ -897,7 +897,7 @@
     },
     {
         "cid": 10009,
-        "id": 90149,
+        "id": 90029,
         "name": "Validity of foreign public documents",
         "url": "https:\/\/Letter to parliament on the application of artificial intelligence and algorithms in the administration of justice (Eerste Kamer 2018-2019, 2414316, 19 December 2018)",
         "contact": "",
@@ -929,7 +929,7 @@
     },
     {
         "cid": 10009,
-        "id": 90169,
+        "id": 90030,
         "name": "VDI: Protection of digital infrastructure",
         "url": "https:\/\/www.regjeringen.no\/en\/dokumenter\/nasjonal-strategi-for-kunstig-intelligens\/id2685594\/?ch=7",
         "contact": "",
@@ -961,7 +961,7 @@
     },
     {
         "cid": 10009,
-        "id": 90173,
+        "id": 90031,
         "name": "Insolvency Predicition",
         "url": "https:\/\/norden.diva-portal.org\/smash\/get\/diva2:1375500\/FULLTEXT01.pdf",
         "contact": "",
@@ -993,7 +993,7 @@
     },
     {
         "cid": 10009,
-        "id": 90181,
+        "id": 90032,
         "name": "Clearance Chamber ICT System",
         "url": "https:\/\/epf.org.pl\/en\/wp-content\/uploads\/sites\/3\/2019\/05\/alGOVrithms-State-of-Play-Report.pdf",
         "contact": "",
@@ -1025,7 +1025,7 @@
     },
     {
         "cid": 10009,
-        "id": 90185,
+        "id": 90033,
         "name": "Home Quarantine app",
         "url": "https:\/\/www.gov.pl\/web\/cyfryzacja\/aplikacja-kwarantanna-domowa--ruszyl-proces-jej-udostepniania",
         "contact": "",
@@ -1057,7 +1057,7 @@
     },
     {
         "cid": 10009,
-        "id": 90190,
+        "id": 90034,
         "name": "Sigma",
         "url": "https:\/\/joinup.ec.europa.eu\/sites\/default\/files\/news\/2019-09\/ISA2_Architecture%20for%20public%20service%20chatbots.pdf",
         "contact": "",
@@ -1089,11 +1089,11 @@
     },
     {
         "cid": 10009,
-        "id": 90195,
+        "id": 90035,
         "name": "Verification of medical prescriptions",
         "url": "https:\/\/algorithmwatch.org\/en\/story\/portugal-automated-verification-prescriptions-medical-fraud\/",
         "contact": "",
-        "description": "In Portugal, the Control and Monitoring Center from the Portuguese Public National Health Service (Centro de Controlo e Monitoriza\u00e7\u00e3o do Sistema Nacional de Sa\u00fade, CCM-SNS), using data from several databases, in order to detect and fight prescription fraud. The \u201cpaperless prescriptions\u201d program and the electronic medical prescriptions system were implemented in 2016 and were made mandatory for the public sector, although exceptions were allowed in some cases. During the first seven years, the central unit detected irregularities amounting to hundreds of millions of euros, and was instrumental in starting many prosecution for fraud in the health system. According to the Ministry of Health, in the first semester of 2017, the Invoice Control Center processed 356.2 million euros\u2019 worth of prescriptions and flagged 21.1 millions euros to the State prosecutor. In December 2019, the adjunct Secretary of State for Health, Jamila Madeira, made an official visit on the premises of the Invoice Control Center. She said the center was a priority for the government because \u201crigor, transparency and permanent monitoring are essential instruments in the fight against fraud and corruption\u201d. Each month, the center checks 8 millions documents, 70% of them digital.",
+        "description": "In Portugal, the Control and Monitoring Center from the Portuguese Public National Health Service (Centro de Controlo e Monitoriza\u00e7\u00e3o do Sistema Nacional de Sa\u00fade, CCM-SNS), using data from several databases, in order to detect and fight prescription fraud. It follows a paperless prescription program and the electronic medical prescriptions system which were both implemented in 2016 and made mandatory for the public sector. During the first seven years, the central unit detected irregularities amounting to hundreds of millions of euros, and was instrumental in starting many prosecution for fraud in the health system. According to the Ministry of Health, in the first semester of 2017, the Invoice Control Center processed 356.2 million euros\u2019 worth of prescriptions and flagged 21.1 millions euros to the State prosecutor.",
         "geoextent": "National",
         "geocoverage": [
             "Portugal"
@@ -1112,16 +1112,16 @@
         "end_date": "",
         "primary_sector": "Health",
         "secondary_sector": "Health n.e.c.",
-        "technology": "Unknown",
-        "uptake": "Unknown",
+        "technology": "Machine learning - deep learning",
+        "uptake": "Transformative \/ disruptive",
         "cross_border": "No",
         "cross_sector": "No",
-        "type": "Unknown",
+        "type": "Enforcement",
         "status": "Unknown"
     },
     {
         "cid": 10009,
-        "id": 90212,
+        "id": 90036,
         "name": "Face recognition Bucharest Airport",
         "url": "https:\/\/www.uti.eu.com\/press-releases\/uti-will-implement-face-recognition-and-intelligent-image-analysis-systems-with-otopeni-airport\/",
         "contact": "",
@@ -1153,7 +1153,7 @@
     },
     {
         "cid": 10009,
-        "id": 90214,
+        "id": 90037,
         "name": "Antonia",
         "url": "https:\/\/www.romaniajournal.ro\/society-people\/antonia-the-first-virtual-public-servant-in-romania\/",
         "contact": "",
@@ -1185,7 +1185,7 @@
     },
     {
         "cid": 10009,
-        "id": 90215,
+        "id": 90038,
         "name": "Chatbot Taxana",
         "url": "https:\/\/www.youtube.com\/watch?v=UQ_XRlIFtrQ & https:\/\/www.podnikajte.sk\/dane\/taxana-chatbot",
         "contact": "",
@@ -1217,7 +1217,7 @@
     },
     {
         "cid": 10009,
-        "id": 90222,
+        "id": 90039,
         "name": "Catagory Tester",
         "url": "https:\/\/ai-watch.github.io\/AI-watch-T6-X\/",
         "contact": "",
@@ -1249,7 +1249,7 @@
     },
     {
         "cid": 10009,
-        "id": 90225,
+        "id": 90040,
         "name": "060 Service",
         "url": "https:\/\/joinup.ec.europa.eu\/sites\/default\/files\/inline-files\/08-2%20Salvador_Estevan_Martinez%20and%20Doaa_Samy_0.pdf",
         "contact": "",
@@ -1281,7 +1281,7 @@
     },
     {
         "cid": 10009,
-        "id": 90227,
+        "id": 90041,
         "name": "AI for measuring beach attendance",
         "url": "https:\/\/www.euroweeklynews.com\/2020\/05\/04\/costa-del-sols-fuengirola-will-use-artificial-intelligence-to-control-capacity-at-beaches-and-public-spaces\/",
         "contact": "",
@@ -1313,7 +1313,7 @@
     },
     {
         "cid": 10009,
-        "id": 90241,
+        "id": 90042,
         "name": "Automated social wefare decisions",
         "url": "https:\/\/valcon.com\/insights\/trelleborg-robotics-solution\/",
         "contact": "",
@@ -1345,7 +1345,7 @@
     },
     {
         "cid": 10009,
-        "id": 90242,
+        "id": 90043,
         "name": "Tengai",
         "url": "https:\/\/www.upplands-bro.se\/kommun--politik\/om-kommunen\/information-om-coronaviruset\/nyheter-corona\/2020-05-05-kommunen-tar-nasta-steg-i-fordomsfri-rekrytering-med-intervjuroboten-tengai.html",
         "contact": "",
@@ -1377,7 +1377,7 @@
     },
     {
         "cid": 10009,
-        "id": 90258,
+        "id": 90044,
         "name": "NOGAuto",
         "url": "https:\/\/www.experimental.bfs.admin.ch\/expstat\/en\/home\/innovation-data-science\/nogauto.html",
         "contact": "",
@@ -1409,7 +1409,7 @@
     },
     {
         "cid": 10009,
-        "id": 90261,
+        "id": 90045,
         "name": "Maxi Chatbot",
         "url": "https:\/\/www.previon.ch\/projekte\/maxi-der-clevere-chatbot-der-sva-aargau",
         "contact": "",
@@ -1441,7 +1441,7 @@
     },
     {
         "cid": 10009,
-        "id": 90270,
+        "id": 90046,
         "name": "HART",
         "url": "https:\/\/www.tandfonline.com\/doi\/pdf\/10.1080\/13600834.2018.1458455",
         "contact": "",
@@ -1473,7 +1473,7 @@
     },
     {
         "cid": 10009,
-        "id": 90273,
+        "id": 90047,
         "name": "Babylon",
         "url": "https:\/\/www.babylonhealth.com\/",
         "contact": "",
@@ -1505,7 +1505,7 @@
     },
     {
         "cid": 10009,
-        "id": 90277,
+        "id": 90048,
         "name": "Early Help Profiling System (EHPS)",
         "url": "https:\/\/www.hackneycitizen.co.uk\/2018\/10\/18\/council-360k-xantura-software-profiles-troubled-families\/",
         "contact": "",
