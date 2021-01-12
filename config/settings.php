@@ -124,7 +124,7 @@
 //  $subsection["chart"]["10006"]["path"] = $root_abs_path . "chart/10006.html";
 //  $subsection["chart"]["10006"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10006"]["data"] = $data_path . "services";
-  $subsection["chart"]["10006"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["geoextent"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "geocoverage"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10006"></perspective-viewer>';
+  $subsection["chart"]["10006"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["geoextent"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10006"></perspective-viewer>';
   $subsection["chart"]["10006"]["lib"] = 'perspective';
   
   $subsection["chart"]["10007"]["name"] = "Uptake";
@@ -135,7 +135,7 @@
 //  $subsection["chart"]["10007"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10007"]["data"] = $data_path . "services";
 //  $subsection["chart"]["10007"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["uptake", "lead_organisation_category"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10007"></perspective-viewer>';
-  $subsection["chart"]["10007"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["uptake"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "geocoverage"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10007"></perspective-viewer>';
+  $subsection["chart"]["10007"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["uptake"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10007"></perspective-viewer>';
   $subsection["chart"]["10007"]["lib"] = 'perspective';
   
   $subsection["chart"]["10008"]["name"] = "Uptake vs country";
@@ -145,7 +145,7 @@
 //  $subsection["chart"]["10008"]["path"] = $root_abs_path . "chart/10008.html";
 //  $subsection["chart"]["10008"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10008"]["data"] = $data_path . "services";
-  $subsection["chart"]["10008"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["uptake", "geocoverage"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "name"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10008"></perspective-viewer>';
+  $subsection["chart"]["10008"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["uptake", "geocoverage"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10008"></perspective-viewer>';
   $subsection["chart"]["10008"]["lib"] = 'perspective';
 
   foreach ($subsection["chart"] as $ssk => $ssv) {
