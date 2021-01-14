@@ -169,23 +169,23 @@ $(document).ready(function() {
 <aside class="sidebar col-md-3">
 <div>
 <div class="well">
-<p><strong>Technologies</strong></p>
+<p><strong>AI typologies</strong></p>
 <p>' . $technology . '</p>
-<p><strong>Geographic extent</strong></p>
+<p><strong>Administrative level</strong></p>
 <p>' . $geoextent . '</p>
 <p><strong>Geographic coverage</strong></p>
 <p>' . join(", ", $geocoverage) . '</p>
-<p><strong>Primary sector</strong></p>
+<p><strong>Main government division (COFOG I level)</strong></p>
 <p>' . $primary_sector . '</p>
-<p><strong>Activity</strong></p>
+<p><strong>Government group (COFOG II level)</strong></p>
 <p>' . $secondary_sector . '</p>
-<p><strong>Uptake</strong></p>
+<p><strong>Purpose of AI uptake</strong></p>
 <p>' . $uptake . '</p>
 <p><strong>Cross-border</strong></p>
 <p>' . $cross_border . '</p>
 <p><strong>Cross-sector</strong></p>
 <p>' . $cross_sector . '</p>
-<p><strong>Type</strong></p>
+<p><strong>Innovative potential</strong></p>
 <p>' . $type . '</p>
 <p><strong>Status</strong></p>
 <p>' . $status . '</p>
@@ -276,7 +276,7 @@ $(document).ready(function() {
 </section>';
 */
   $html .= '<section>
-<h3>Related services</h3>
+<h3>Related AI cases</h3>
 ';
 
   $related_services = array();
@@ -343,36 +343,36 @@ $(document).ready(function() {
         if ($rpf == "Yes") {
           switch ($rpfn) {
             case "technology":
-              $tag = "IT";
-              $label = "Same technology";
+              $tag = "TY";
+              $label = "Same AI typology";
               break;
             case "geoextent":
-              $tag = "GE";
-              $label = "Same geographic extent";
+              $tag = "AD";
+              $label = "Same administrative level";
               break;
             case "geocoverage":
               $tag = "GC";
               $label = "Overlapping geographic coverage";
               break;
             case "primary_sector":
-              $tag = "PS";
-              $label = "Same primary sector";
+              $tag = "I";
+              $label = "Same main government division (COFOG I level)";
               break;
             case "secondary_sector":
-              $tag = "AC";
-              $label = "Same activity";
+              $tag = "II";
+              $label = "Same government group (COFOG II level)";
               break;
             case "uptake":
               $tag = "UP";
-              $label = "Same level of uptake";
+              $label = "Same purpose of AI uptake";
               break;
             case "cross_sector":
               $tag = "CS";
               $label = "Same cross-sector applicability";
               break;
             case "type":
-              $label = "Same service type";
-              $tag = "TY";
+              $label = "Same innovative potential";
+              $tag = "IP";
 	      break;
 /*	      
             case "unsdg":
