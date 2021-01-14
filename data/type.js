@@ -1,5 +1,7 @@
 var type = [
-    "Incremental \/ technical change",
-    "Organizational \/ sustained change",
-    "Transformative \/ disruptive"
+    "Adjudication",
+    "Enforcement",
+    "Internal management",
+    "Public services and engagement",
+    "Regulatory research, analysis and monitoring"
 ]
