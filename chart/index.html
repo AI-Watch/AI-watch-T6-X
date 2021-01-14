@@ -104,8 +104,8 @@ $(document).ready(function () {
 <div class="thumbnail">
 <perspective-viewer view="x_bar" row-pivots='["primary_sector"]' sort='[["id", "desc"]]' columns='["id"]' aggregates='{"id": "distinct count"}' id="chart-10002"></perspective-viewer>
 <div class="caption">
-<h3>Primary sector</h3>
-<p>Distribution of COFOG primary sector for the collected cases.</p>
+<h3>Main Government division (COFOG I level)</h3>
+<p>Distribution of main government division for the collected cases. The Classification of the Functions of Government (COFOG) classifies government expenditure into ten main categories (divisions known as the 'COFOG I level' breakdown). The classification has three levels of detail: divisions groups and classes.</p>
 <a class="btn btn-primary block-link center-block" href="/AI-watch-T6-X/chart/10002.html">Open this graph</a>
 </div>
 </div>
@@ -114,8 +114,8 @@ $(document).ready(function () {
 <div class="thumbnail">
 <perspective-viewer view="x_bar" row-pivots='["secondary_sector"]' sort='[["id", "desc"]]' columns='["id"]' aggregates='{"id": "distinct count"}' id="chart-10003"></perspective-viewer>
 <div class="caption">
-<h3>Activity</h3>
-<p>Distribution of activities for the collected cases.</p>
+<h3>Government group (COFOG II level)</h3>
+<p>Distribution of government group for the collected cases. The Classification of the Functions of Government (COFOG) further classifies government expenditure into a II level breakdown or 'group'. The classification has three levels of detail: divisions groups and classes.</p>
 <a class="btn btn-primary block-link center-block" href="/AI-watch-T6-X/chart/10003.html">Open this graph</a>
 </div>
 </div>
@@ -124,8 +124,8 @@ $(document).ready(function () {
 <div class="thumbnail">
 <perspective-viewer view="x_bar" row-pivots='["technology"]' sort='[["id", "desc"]]' columns='["id"]' aggregates='{"id": "distinct count"}' id="chart-10004"></perspective-viewer>
 <div class="caption">
-<h3>Technology</h3>
-<p>Distribution of AI technology for the collected cases.</p>
+<h3>AI typology</h3>
+<p>Distribution of AI typology for the collected cases. AI typologies corresponds to 10 AI application domains identified in the JRC report 'Misuraca, G., and van Noordt, C., Overview of the use and impact of AI in public services in the EU, EUR 30255 EN, Publications Office of the European Union, Luxembourg, 2020, ISBN 978-92-76-19540-5, doi:10.2760/039619, JRC120399'</p>
 <a class="btn btn-primary block-link center-block" href="/AI-watch-T6-X/chart/10004.html">Open this graph</a>
 </div>
 </div>
@@ -144,7 +144,7 @@ $(document).ready(function () {
 <div class="thumbnail">
 <perspective-viewer view="sunburst" row-pivots='["geoextent"]' sort='[["id", "asc"]]' columns='["id"]' aggregates='{"id": "distinct count"}' id="chart-10006"></perspective-viewer>
 <div class="caption">
-<h3>Administration</h3>
+<h3>Administrative level</h3>
 <p>Distribution of AI cases by administrative levels</p>
 <a class="btn btn-primary block-link center-block" href="/AI-watch-T6-X/chart/10006.html">Open this graph</a>
 </div>
@@ -154,18 +154,18 @@ $(document).ready(function () {
 <div class="thumbnail">
 <perspective-viewer view="treemap" row-pivots='["uptake"]' sort='[["id", "asc"]]' columns='["id"]' aggregates='{"id": "distinct count"}' id="chart-10007"></perspective-viewer>
 <div class="caption">
-<h3>Uptake</h3>
-<p>Distribution of the case uptake for the collected cases.</p>
+<h3>Innovative potential</h3>
+<p>Distribution of the innovative potential of the collected cases. Cases are classified based on their potential of innovation into four main categories: technical/incremental change, sustained/organisational change, disruptive/transformative change, radical/transformative change. These categories have been identified and defined in the JRC report 'Misuraca, G., and van Noordt, C., Overview of the use and impact of AI in public services in the EU, EUR 30255 EN, Publications Office of the European Union, Luxembourg, 2020, ISBN 978-92-76-19540-5, doi:10.2760/039619, JRC120399'</p>
 <a class="btn btn-primary block-link center-block" href="/AI-watch-T6-X/chart/10007.html">Open this graph</a>
 </div>
 </div>
 </div>
 <div class="col-sm-6 col-md-6 block-link" href="/AI-watch-T6-X/chart/10008.html">
 <div class="thumbnail">
-<perspective-viewer view="sunburst" row-pivots='["uptake", "geocoverage"]' sort='[["id", "asc"]]' columns='["id"]' aggregates='{"id": "distinct count"}' id="chart-10008"></perspective-viewer>
+<perspective-viewer view="sunburst" row-pivots='["technology", "uptake"]' sort='[["id", "asc"]]' columns='["id"]' aggregates='{"id": "distinct count"}' id="chart-10008"></perspective-viewer>
 <div class="caption">
-<h3>Uptake vs country</h3>
-<p>Joint visual representation of the case uptake by country.</p>
+<h3>AI typology vs Innovative potential</h3>
+<p>Joint visual representation of the case AI typology vs its innovative potential.</p>
 <a class="btn btn-primary block-link center-block" href="/AI-watch-T6-X/chart/10008.html">Open this graph</a>
 </div>
 </div>

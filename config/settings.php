@@ -53,7 +53,7 @@
 */   
   $section["chart"]["name"] = "Gallery";
   $section["chart"]["icon"] = "fa-area-chart";
-  $section["chart"]["descr"] = "Access statistics of AI public services based on their core characteristics, including geographic coverage, uptake and the technologies used. Browse the already prepared views, and create dynamic visualisations.";
+  $section["chart"]["descr"] = "Access statistics of AI public services based on their core characteristics, including geographic coverage and the technologies used. Browse the already prepared views, and create dynamic visualisations.";
   $section["chart"]["url"] = $site_abs_path . "chart/";
   $section["chart"]["path"] = $root_abs_path . "chart/";
 
@@ -75,10 +75,10 @@
   $subsection["chart"]["10001"]["graph"] = '<div id="chart-10001"></div>';
   $subsection["chart"]["10001"]["lib"] = 'jvectormap';
 
-  $subsection["chart"]["10002"]["name"] = "Primary sector";
+  $subsection["chart"]["10002"]["name"] = "Main Government division (COFOG I level)";
   $subsection["chart"]["10002"]["icon"] = "fa-area-chart";
 //  $subsection["chart"]["10002"]["descr"] = "The primary sector tackled by public services. Hovering the mouse on a sector name, a tooltip shows the number of public services tackling it.";
-  $subsection["chart"]["10002"]["descr"] = "Distribution of COFOG primary sector for the collected cases.";
+  $subsection["chart"]["10002"]["descr"] = "Distribution of main government division for the collected cases. The Classification of the Functions of Government (COFOG) classifies government expenditure into ten main categories (divisions known as the 'COFOG I level' breakdown). The classification has three levels of detail: divisions groups and classes.";
 //  $subsection["chart"]["10002"]["url"] = $site_abs_path . "chart/10002.html";
 //  $subsection["chart"]["10002"]["path"] = $root_abs_path . "chart/10002.html";
 //  $subsection["chart"]["10002"]["data"] = $site_abs_path . $data_folder . "services";
@@ -86,10 +86,10 @@
   $subsection["chart"]["10002"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["primary_sector"]\' sort=\'[["id", "desc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10002"></perspective-viewer>';
   $subsection["chart"]["10002"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10003"]["name"] = "Activity";
+  $subsection["chart"]["10003"]["name"] = "Government group (COFOG II level)";
   $subsection["chart"]["10003"]["icon"] = "fa-area-chart";
 //  $subsection["chart"]["10003"]["descr"] = "Main activity addressed by public services. Hovering the mouse on an activity, a tooltip shows the number of public services addressing this activity.";
-  $subsection["chart"]["10003"]["descr"] = "Distribution of activities for the collected cases.";
+  $subsection["chart"]["10003"]["descr"] = "Distribution of government group for the collected cases. The Classification of the Functions of Government (COFOG) further classifies government expenditure into a II level breakdown or 'group'. The classification has three levels of detail: divisions groups and classes.";
 //  $subsection["chart"]["10003"]["url"] = $site_abs_path . "chart/10003.html";
 //  $subsection["chart"]["10003"]["path"] = $root_abs_path . "chart/10003.html";
 //  $subsection["chart"]["10003"]["data"] = $site_abs_path . $data_folder . "services";
@@ -97,9 +97,9 @@
   $subsection["chart"]["10003"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["secondary_sector"]\' sort=\'[["id", "desc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10003"></perspective-viewer>';
   $subsection["chart"]["10003"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10004"]["name"] = "Technology";
+  $subsection["chart"]["10004"]["name"] = "AI typology";
   $subsection["chart"]["10004"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10004"]["descr"] = "Distribution of AI technology for the collected cases.";
+  $subsection["chart"]["10004"]["descr"] = "Distribution of AI typology for the collected cases. AI typologies corresponds to 10 AI application domains identified in the JRC report 'Misuraca, G., and van Noordt, C., Overview of the use and impact of AI in public services in the EU, EUR 30255 EN, Publications Office of the European Union, Luxembourg, 2020, ISBN 978-92-76-19540-5, doi:10.2760/039619, JRC120399'";
 //  $subsection["chart"]["10004"]["url"] = $site_abs_path . "chart/10004.html";
 //  $subsection["chart"]["10004"]["path"] = $root_abs_path . "chart/10004.html";
 //  $subsection["chart"]["10004"]["data"] = $site_abs_path . $data_folder . "services";
@@ -117,7 +117,7 @@
   $subsection["chart"]["10005"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["type"]\' sort=\'[["id", "desc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10005"></perspective-viewer>';
   $subsection["chart"]["10005"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10006"]["name"] = "Administration";
+  $subsection["chart"]["10006"]["name"] = "Administrative level";
   $subsection["chart"]["10006"]["icon"] = "fa-area-chart";
   $subsection["chart"]["10006"]["descr"] = "Distribution of AI cases by administrative levels";
 //  $subsection["chart"]["10006"]["url"] = $site_abs_path . "chart/10006.html";
@@ -127,9 +127,9 @@
   $subsection["chart"]["10006"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["geoextent"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10006"></perspective-viewer>';
   $subsection["chart"]["10006"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10007"]["name"] = "Uptake";
+  $subsection["chart"]["10007"]["name"] = "Innovative potential";
   $subsection["chart"]["10007"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10007"]["descr"] = "Distribution of the case uptake for the collected cases.";
+  $subsection["chart"]["10007"]["descr"] = "Distribution of the innovative potential of the collected cases. Cases are classified based on their potential of innovation into four main categories: technical/incremental change, sustained/organisational change, disruptive/transformative change, radical/transformative change. These categories have been identified and defined in the JRC report 'Misuraca, G., and van Noordt, C., Overview of the use and impact of AI in public services in the EU, EUR 30255 EN, Publications Office of the European Union, Luxembourg, 2020, ISBN 978-92-76-19540-5, doi:10.2760/039619, JRC120399'";
 //  $subsection["chart"]["10007"]["url"] = $site_abs_path . "chart/10007.html";
 //  $subsection["chart"]["10007"]["path"] = $root_abs_path . "chart/10007.html";
 //  $subsection["chart"]["10007"]["data"] = $site_abs_path . $data_folder . "services";
@@ -138,14 +138,14 @@
   $subsection["chart"]["10007"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["uptake"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10007"></perspective-viewer>';
   $subsection["chart"]["10007"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10008"]["name"] = "Uptake vs country";
+  $subsection["chart"]["10008"]["name"] = "AI typology vs Innovative potential";
   $subsection["chart"]["10008"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10008"]["descr"] = "Joint visual representation of the case uptake by country.";
+  $subsection["chart"]["10008"]["descr"] = "Joint visual representation of the case AI typology vs its innovative potential.";
 //  $subsection["chart"]["10008"]["url"] = $site_abs_path . "chart/10008.html";
 //  $subsection["chart"]["10008"]["path"] = $root_abs_path . "chart/10008.html";
 //  $subsection["chart"]["10008"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10008"]["data"] = $data_path . "services";
-  $subsection["chart"]["10008"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["uptake", "geocoverage"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10008"></perspective-viewer>';
+  $subsection["chart"]["10008"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["technology", "uptake"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10008"></perspective-viewer>';
   $subsection["chart"]["10008"]["lib"] = 'perspective';
 
   foreach ($subsection["chart"] as $ssk => $ssv) {
