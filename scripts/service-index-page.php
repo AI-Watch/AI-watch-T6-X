@@ -395,11 +395,11 @@
             <p><%= lead_organisation_name %>, <%= geocoverage %></p>
 <!--          
             <p>
-              <span class="icon icon-ca" title="Technology">IT</span> <%= technology %> 
-              <span class="icon icon-ed" title="Primary sector">PS</span> <%= primary_sector %> 
-              <span class="icon icon-ef" title="Activity">AC</span> <%= secondary_sector %> 
-              <span class="icon icon-su" title="Uptake">UP</span> <%= uptake %>
-              <span class="icon icon-pr" title="Type">TY</span> <%= type %> 
+              <span class="icon icon-ca" title="AI typology">TY</span> <%= technology %> 
+              <span class="icon icon-ed" title="Main government division (COFOG I level)">I</span> <%= primary_sector %> 
+              <span class="icon icon-ef" title="Government group (COFOG II level)">II</span> <%= secondary_sector %> 
+              <span class="icon icon-su" title="Purpose of AI uptake">UP</span> <%= uptake %>
+              <span class="icon icon-pr" title="Innovative potential">IP</span> <%= type %> 
               <span class="icon icon-pu" title="Cross-sector">CS</span> <%= cross_sector %> 
             </p>
 -->              
