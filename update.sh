@@ -5,7 +5,7 @@ else
 	cd /Users/vaccalo/AIWatchT6/AI-watch-T6-data/output
 	cp -R /Users/vaccalo/Downloads/List-of-Initiatives-AI-X-xlsx-v2.csv .
 	cd /Users/vaccalo/AIWatchT6/AI-watch-T6-X/src
-	cp -R /Users/vaccalo/AIWatchT6/AI-watch-T6-data/output/List-of-Initiatives-AI-X-xlsx-v1.csv ./9-services-ai-watch-t6-jrc120399.csv
+	cp -R /Users/vaccalo/AIWatchT6/AI-watch-T6-data/output/List-of-Initiatives-AI-X-xlsx-v2.csv ./9-services-ai-watch-t6-jrc120399.csv
 	cd ../catalog
 	rm *.html
 	cd ../chart
