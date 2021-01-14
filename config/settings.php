@@ -138,9 +138,9 @@
   $subsection["chart"]["10007"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["uptake"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "name"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10007"></perspective-viewer>';
   $subsection["chart"]["10007"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10008"]["name"] = "AI typology vs Innovative potential";
+  $subsection["chart"]["10008"]["name"] = "Innovative potential vs AI typology";
   $subsection["chart"]["10008"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10008"]["descr"] = "Joint visual representation of the case AI typology vs its innovative potential.";
+  $subsection["chart"]["10008"]["descr"] = "Joint visual representation of the cases innovative potential vs AI typologies.";
 //  $subsection["chart"]["10008"]["url"] = $site_abs_path . "chart/10008.html";
 //  $subsection["chart"]["10008"]["path"] = $root_abs_path . "chart/10008.html";
 //  $subsection["chart"]["10008"]["data"] = $site_abs_path . $data_folder . "services";
