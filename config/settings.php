@@ -107,9 +107,9 @@
   $subsection["chart"]["10004"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["technology"]\' sort=\'[["id", "desc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10004"></perspective-viewer>';
   $subsection["chart"]["10004"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10005"]["name"] = "Service type";
+  $subsection["chart"]["10005"]["name"] = "Purpose of AI uptake";
   $subsection["chart"]["10005"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10005"]["descr"] = "Distribution of AI service types for the collected cases.";
+  $subsection["chart"]["10005"]["descr"] = "Distribution of purpose of AI uptake as described in the JRC report 'Misuraca, G., and van Noordt, C., Overview of the use and impact of AI in public services in the EU, doi:10.2760/039619'";
 //  $subsection["chart"]["10005"]["url"] = $site_abs_path . "chart/10005.html";
 //  $subsection["chart"]["10005"]["path"] = $root_abs_path . "chart/10005.html";
 //  $subsection["chart"]["10005"]["data"] = $site_abs_path . $data_folder . "services";
