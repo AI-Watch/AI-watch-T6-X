@@ -365,9 +365,9 @@ $(document).ready(function() {
     $html .= '<table id="related_services" class="table table-hover table-striped">
 <thead>
 <tr>
-<th>Service</th>
-<th>Technology</th>
-<th>Geo extent</th>
+<th>Government group</th>
+<th>AI typology</th>
+<th>Administrative level</th>
 </tr>
 </thead>
 <tbody>
@@ -385,9 +385,9 @@ $(document).ready(function() {
   $html .= '</tbody>
 <tfoot>
 <tr>
-<th><input class="filter" type="text" placeholder="Filter by service" data-index="0" /></th>
-<th><input class="filter" type="text" placeholder="Filter by technology" data-index="1" /></th>
-<th><input class="filter" type="text" placeholder="Filter by geo extent" data-index="2" /></th>
+<th><input class="filter" type="text" placeholder="Filter by government group" data-index="0" /></th>
+<th><input class="filter" type="text" placeholder="Filter by AI typology" data-index="1" /></th>
+<th><input class="filter" type="text" placeholder="Filter by administrative level" data-index="2" /></th>
 </tr>
 </tfoot>
 </table>

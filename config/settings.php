@@ -75,7 +75,7 @@
   $subsection["chart"]["10001"]["graph"] = '<div id="chart-10001"></div>';
   $subsection["chart"]["10001"]["lib"] = 'jvectormap';
 
-  $subsection["chart"]["10002"]["name"] = "Main Government division (COFOG I level)";
+  $subsection["chart"]["10002"]["name"] = "Main government division (COFOG I level)";
   $subsection["chart"]["10002"]["icon"] = "fa-area-chart";
 //  $subsection["chart"]["10002"]["descr"] = "The primary sector tackled by public services. Hovering the mouse on a sector name, a tooltip shows the number of public services tackling it.";
   $subsection["chart"]["10002"]["descr"] = "Distribution of main government division for the collected cases. The Classification of the Functions of Government (COFOG) classifies government expenditure into ten main categories (divisions known as the 'COFOG I level' breakdown).";
