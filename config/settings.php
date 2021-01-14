@@ -78,7 +78,7 @@
   $subsection["chart"]["10002"]["name"] = "Main Government division (COFOG I level)";
   $subsection["chart"]["10002"]["icon"] = "fa-area-chart";
 //  $subsection["chart"]["10002"]["descr"] = "The primary sector tackled by public services. Hovering the mouse on a sector name, a tooltip shows the number of public services tackling it.";
-  $subsection["chart"]["10002"]["descr"] = "Distribution of main government division for the collected cases. The Classification of the Functions of Government (COFOG) classifies government expenditure into ten main categories (divisions known as the 'COFOG I level' breakdown). The classification has three levels of detail: divisions groups and classes.";
+  $subsection["chart"]["10002"]["descr"] = "Distribution of main government division for the collected cases. The Classification of the Functions of Government (COFOG) classifies government expenditure into ten main categories (divisions known as the 'COFOG I level' breakdown).";
 //  $subsection["chart"]["10002"]["url"] = $site_abs_path . "chart/10002.html";
 //  $subsection["chart"]["10002"]["path"] = $root_abs_path . "chart/10002.html";
 //  $subsection["chart"]["10002"]["data"] = $site_abs_path . $data_folder . "services";
@@ -89,7 +89,7 @@
   $subsection["chart"]["10003"]["name"] = "Government group (COFOG II level)";
   $subsection["chart"]["10003"]["icon"] = "fa-area-chart";
 //  $subsection["chart"]["10003"]["descr"] = "Main activity addressed by public services. Hovering the mouse on an activity, a tooltip shows the number of public services addressing this activity.";
-  $subsection["chart"]["10003"]["descr"] = "Distribution of government group for the collected cases. The Classification of the Functions of Government (COFOG) further classifies government expenditure into a II level breakdown or 'group'. The classification has three levels of detail: divisions groups and classes.";
+  $subsection["chart"]["10003"]["descr"] = "Distribution of government group for the collected cases. The Classification of the Functions of Government (COFOG) further classifies government expenditure into a II level breakdown or 'group'.";
 //  $subsection["chart"]["10003"]["url"] = $site_abs_path . "chart/10003.html";
 //  $subsection["chart"]["10003"]["path"] = $root_abs_path . "chart/10003.html";
 //  $subsection["chart"]["10003"]["data"] = $site_abs_path . $data_folder . "services";
@@ -99,7 +99,7 @@
   
   $subsection["chart"]["10004"]["name"] = "AI typology";
   $subsection["chart"]["10004"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10004"]["descr"] = "Distribution of AI typology for the collected cases. AI typologies corresponds to 10 AI application domains identified in the JRC report 'Misuraca, G., and van Noordt, C., Overview of the use and impact of AI in public services in the EU, EUR 30255 EN, Publications Office of the European Union, Luxembourg, 2020, ISBN 978-92-76-19540-5, doi:10.2760/039619, JRC120399'";
+  $subsection["chart"]["10004"]["descr"] = "Distribution of AI typology for the collected cases. AI typologies corresponds to 10 AI application domains identified in the JRC report 'Misuraca, G., and van Noordt, C., Overview of the use and impact of AI in public services in the EU, doi:10.2760/039619'";
 //  $subsection["chart"]["10004"]["url"] = $site_abs_path . "chart/10004.html";
 //  $subsection["chart"]["10004"]["path"] = $root_abs_path . "chart/10004.html";
 //  $subsection["chart"]["10004"]["data"] = $site_abs_path . $data_folder . "services";
@@ -129,7 +129,7 @@
   
   $subsection["chart"]["10007"]["name"] = "Innovative potential";
   $subsection["chart"]["10007"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10007"]["descr"] = "Distribution of the innovative potential of the collected cases. Cases are classified based on their potential of innovation into four main categories: technical/incremental change, sustained/organisational change, disruptive/transformative change, radical/transformative change. These categories have been identified and defined in the JRC report 'Misuraca, G., and van Noordt, C., Overview of the use and impact of AI in public services in the EU, EUR 30255 EN, Publications Office of the European Union, Luxembourg, 2020, ISBN 978-92-76-19540-5, doi:10.2760/039619, JRC120399'";
+  $subsection["chart"]["10007"]["descr"] = "Distribution of the innovative potential of the collected cases. Cases are classified based on their potential of innovation into four main categories. These categories have been defined in the JRC report 'Misuraca, G., and van Noordt, C., Overview of the use and impact of AI in public services in the EU, doi:10.2760/039619''";
 //  $subsection["chart"]["10007"]["url"] = $site_abs_path . "chart/10007.html";
 //  $subsection["chart"]["10007"]["path"] = $root_abs_path . "chart/10007.html";
 //  $subsection["chart"]["10007"]["data"] = $site_abs_path . $data_folder . "services";
