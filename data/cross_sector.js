@@ -1,3 +1,3 @@
 var cross_sector = [
-    "No"
+    "Unknown"
 ]

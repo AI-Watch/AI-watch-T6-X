@@ -190,7 +190,7 @@ $(document).ready(function() {
 
   $html .= '  "includedInDataCatalog":{
     "@type":"DataCatalog",
-    "name":"IPS Explorer",
+    "name":"AI Explorer",
     "url":"' . SITE_URI . '"
   }
 ';
