@@ -78,7 +78,7 @@
             <fieldset id="technology_criteria" class="panel panel-default">
             <div class="panel-heading" role="tab" id="technology_criteria_heading">
 	    <legend role="button" class="panel-title" data-toggle="collapse" data-target="#technology_criteria_list" aria-expanded="true" aria-controls="technology_criteria_list">
-              Technologies
+              AI Typologies
             </legend>
 	    </div>
             <div id="technology_criteria_list" class="panel-collapse collapse in" role="tabpanel" aria-labelled-by="technology_criteria_heading">
@@ -107,7 +107,7 @@
             <fieldset id="geoextent_criteria" class="panel panel-default">
             <div class="panel-heading" role="tab" id="geoextent_criteria_heading">
 	    <legend role="button" class="panel-title" data-toggle="collapse" data-target="#geoextent_criteria_list" aria-expanded="false" aria-controls="geoextent_criteria_list">
-              Geographic extent
+              Administrative level
             </legend>
 	    </div>
             <div id="geoextent_criteria_list" class="panel-collapse collapse" role="tabpanel" aria-labelled-by="geoextent_criteria_heading">
@@ -136,7 +136,7 @@
             <fieldset id="primary_sector_criteria" class="panel panel-default">
             <div class="panel-heading" role="tab" id="primary_sector_criteria_heading">
 	    <legend role="button" class="panel-title" data-toggle="collapse" data-target="#primary_sector_criteria_list" aria-expanded="false" aria-controls="primary_sector_criteria_list">
-              Primary sector
+              Main government division (COFOG I level)
             </legend>
 	    </div>
             <div id="primary_sector_criteria_list" class="panel-collapse collapse" role="tabpanel" aria-labelled-by="primary_sector_criteria_heading">
@@ -165,7 +165,7 @@
             <fieldset id="secondary_sector_criteria" class="panel panel-default">
             <div class="panel-heading" role="tab" id="secondary_sector_criteria_heading">
 	    <legend role="button" class="panel-title" data-toggle="collapse" data-target="#secondary_sector_criteria_list" aria-expanded="false" aria-controls="secondary_sector_criteria_list">
-              Activity
+              Government group (COFOG II level)
             </legend>
 	    </div>
             <div id="secondary_sector_criteria_list" class="panel-collapse collapse" role="tabpanel" aria-labelled-by="secondary_sector_criteria_heading">
@@ -194,7 +194,7 @@
             <fieldset id="uptake_criteria" class="panel panel-default">
             <div class="panel-heading" role="tab" id="uptake_criteria_heading">
 	    <legend role="button" class="panel-title" data-toggle="collapse" data-target="#uptake_criteria_list" aria-expanded="false" aria-controls="uptake_criteria_list">
-              Uptake
+              Purpose of AI uptake
             </legend>
 	    </div>
             <div id="uptake_criteria_list" class="panel-collapse collapse" role="tabpanel" aria-labelled-by="uptake_criteria_heading">
@@ -281,7 +281,7 @@
             <fieldset id="type_criteria" class="panel panel-default">
             <div class="panel-heading" role="tab" id="type_criteria_heading">
 	    <legend role="button" class="panel-title" data-toggle="collapse" data-target="#type_criteria_list" aria-expanded="false" aria-controls="type_criteria_list">
-              Service Type
+              Innovative potential
             </legend>
 	    </div>
             <div id="type_criteria_list" class="panel-collapse collapse" role="tabpanel" aria-labelled-by="type_criteria_heading">
