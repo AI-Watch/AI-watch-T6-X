@@ -113,8 +113,8 @@ The value of "N" must be incremental to the ones used in the already contributed
 </tr>
 <tr>
 <td><code>type</code></td>
-<td>Innovative potential</a></td>
-<td>innovative potential of the cases as defined in in the report <a href=" "https://www.doi.org/10.2760/039619">Overview of the use and impact of AI in public services in the EU</a></td>
+<td>Innovative potential of the cases as defined in in the report <a href=" "https://www.doi.org/10.2760/039619">Overview of the use and impact of AI in public services in the EU</a></td>
+<td>Innovative potential</td>
 </tr>
 <tr>
 <td><code>url</code></td>
