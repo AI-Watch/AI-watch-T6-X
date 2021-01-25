@@ -113,8 +113,8 @@ The value of "N" must be incremental to the ones used in the already contributed
 </tr>
 <tr>
 <td><code>type</code></td>
-<td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/type/2019">IPS service types taxonomy</a></td>
-<td>The type of service/activity</td>
+<td>Innovative potential</a></td>
+<td>innovative potential of the cases as defined in in the report <a href=" "https://www.doi.org/10.2760/039619">Overview of the use and impact of AI in public services in the EU</a></td>
 </tr>
 <tr>
 <td><code>url</code></td>
@@ -133,8 +133,8 @@ The value of "N" must be incremental to the ones used in the already contributed
 </tr>
 <tr>
 <td><code>geoextent</code></td>
-<td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/geo-extent/2019">IPS geo extent taxonomy</a></td>
-<td>The spatial scale at which the service is implemented. Subnational is used as generic category for services for which the sub-national scale is not known (i.e. regional, or city, or neighborhood). All regional, city and neighborhood services are also sub-national services.</td>
+<td>One of the values (from the column 'name') of the <a href="https://ipsoeu.github.io/taxonomy/geo-extent/2019"> geo extent concepts taxonomy</a></td>
+<td>The spatial scale (administrative level) at which the service is implemented.</td>
 </tr>
 <tr>
 <td><code>geocoverage</code></td>
@@ -168,13 +168,14 @@ The value of "N" must be incremental to the ones used in the already contributed
 </tr>
 <tr>
 <td><code>primary_sector</code></td>
-<td>One of the values from the <a href="https://ipsoeu.github.io/ramon-ld/cofog/1999">COFOG taxonomy</a></td>
-<td>The primary sector for this service.</td>
+<td>One of the values from  COFOG I taxonomy</a></td>
+<td>Main government division (COFOG I level). The Classification of the Functions of Government (COFOG) classifies government expenditure into ten main categories (divisions known as the COFOG I level breakdown).</td>
 </tr>
 <tr>
 <td><code>secondary_sector</code></td>
-<td>One of the values from the <a href="https://ipsoeu.github.io/ramon-ld/cofog/1999">COFOG taxonomy</a></td>
-<td>The secondary sector tackled by the service.</td>
+<td>One of the values from the COFOG II taxonomy</a></td>
+<td>Government group (COFOG II level)
+Distribution of government group for the collected cases. The Classification of the Functions of Government (COFOG) further classifies government expenditure into a II level breakdown or group.</td>
 </tr>
 <tr>
 <td><code>cross_sector</code></td>
@@ -188,8 +189,8 @@ The value of "N" must be incremental to the ones used in the already contributed
 </tr>
 <tr>
 <td><code>technology</code></td>
-<td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/technology/2019">IPS technologies taxonomy</a></td>
-<td>The primary technology used in the service.</td>
+<td>AI typology. One of the 10 AI application domains identified in the report <a href=" "https://www.doi.org/10.2760/039619">Overview of the use and impact of AI in public services in the EU</a></td>
+<td>The AI typology used in the service.</td>
 </tr>
 <tr>
 <td><code>status</code></td>
@@ -198,9 +199,9 @@ The value of "N" must be incremental to the ones used in the already contributed
 </tr>
 <tr>
 <td><code>uptake</code></td>
-<td>One of the values from the <a href="https://ipsoeu.github.io/taxonomy/uptake/2019">IPS uptake taxonomy</a></td>
+<td>One of the values of AI uptake identified in the report <a href=" "https://www.doi.org/10.2760/039619">Overview of the use and impact of AI in public services in the EU</a></td>
 <td>
-<p>The level of uptake of the service. It basically corresponds to the percentage of stakeholders using the service.</p>
+<p>The purpose of AI update of the service.</p>
 </td>
 </tr>
 </tbody>
