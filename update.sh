@@ -2,8 +2,7 @@
 if [ $# -eq 0 ]; then
 	echo "No arguments supplied"
 else 
-	cd /Users/vaccalo/AIWatchT6/AI-watch-T6-X/src
-	cd ../catalog
+	cd ./catalog
 	rm *.html
 	cd ../chart
 	rm *.html
