@@ -1,3 +1,1 @@
-var status = [
-    "Unknown"
-]
+var status = []

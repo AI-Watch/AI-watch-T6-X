@@ -1,5 +1,1 @@
-var geoextent = [
-    "Local",
-    "National",
-    "Regional"
-]
+var geoextent = []

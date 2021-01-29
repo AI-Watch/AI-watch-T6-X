@@ -1,3 +1,1 @@
-var cross_sector = [
-    "Unknown"
-]
+var cross_sector = []
