@@ -1,1 +1,4 @@
-var active = []
+var active = [
+    "No",
+    "Unknown"
+]

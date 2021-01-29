@@ -1,1 +1,26 @@
-var geocoverage = []
+var geocoverage = [
+    "Austria",
+    "Belgium",
+    "Bulgaria",
+    "Croatia",
+    "Denmark",
+    "Estonia",
+    "Finland",
+    "France",
+    "Germany",
+    "Ireland",
+    "Italy",
+    "Latvia",
+    "Lithuania",
+    "Netherlands",
+    "Norway",
+    "Poland",
+    "Portugal",
+    "Romania",
+    "Slovakia",
+    "Slovenia",
+    "Spain",
+    "Sweden",
+    "Switzerland",
+    "United Kingdom"
+]

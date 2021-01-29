@@ -1,1 +1,3 @@
-var cross_border = []
+var cross_border = [
+    "Unknown"
+]
