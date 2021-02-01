@@ -94,7 +94,7 @@
 //  $subsection["chart"]["10003"]["path"] = $root_abs_path . "chart/10003.html";
 //  $subsection["chart"]["10003"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10003"]["data"] = $data_path . "services";
-  $subsection["chart"]["10003"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["secondary_sector"]\' sort=\'[["id", "desc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10003"></perspective-viewer>';
+  $subsection["chart"]["10003"]["graph"] = '<perspective-viewer view="y_bar" row-pivots=\'["secondary_sector"]\' sort=\'[["id", "desc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10003"></perspective-viewer>';
   $subsection["chart"]["10003"]["lib"] = 'perspective';
   
   $subsection["chart"]["10004"]["name"] = "AI typology";
