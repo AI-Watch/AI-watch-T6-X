@@ -104,7 +104,7 @@
 //  $subsection["chart"]["10004"]["path"] = $root_abs_path . "chart/10004.html";
 //  $subsection["chart"]["10004"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10004"]["data"] = $data_path . "services";
-  $subsection["chart"]["10004"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["technology"]\' sort=\'[["id", "desc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10004"></perspective-viewer>';
+  $subsection["chart"]["10004"]["graph"] = '<perspective-viewer view="y_bar" row-pivots=\'["technology"]\' sort=\'[["id", "desc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10004"></perspective-viewer>';
   $subsection["chart"]["10004"]["lib"] = 'perspective';
   
   $subsection["chart"]["10005"]["name"] = "Purpose of AI uptake";
@@ -124,7 +124,7 @@
 //  $subsection["chart"]["10006"]["path"] = $root_abs_path . "chart/10006.html";
 //  $subsection["chart"]["10006"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10006"]["data"] = $data_path . "services";
-  $subsection["chart"]["10006"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["geoextent"]\' sort=\'[["id", "desc"]]\' columns=\'["id", "name"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10006"></perspective-viewer>';
+  $subsection["chart"]["10006"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["geoextent"]\' sort=\'[["id", "desc"]]\' columns=\'["id", "name"]\' aggregates=\'{"name": "distinct count"}\' id="chart-10006"></perspective-viewer>';
   $subsection["chart"]["10006"]["lib"] = 'perspective';
   
   $subsection["chart"]["10007"]["name"] = "Innovative potential";
