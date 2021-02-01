@@ -138,14 +138,14 @@
   $subsection["chart"]["10007"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["type"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "name"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10007"></perspective-viewer>';
   $subsection["chart"]["10007"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10008"]["name"] = "Innovative potential vs Purpose of AI uptake";
+  $subsection["chart"]["10008"]["name"] = "COFOG I & COFOG II";
   $subsection["chart"]["10008"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10008"]["descr"] = "Joint visual representation of the cases innovative potential vs Purpose of AI uptake.";
+  $subsection["chart"]["10008"]["descr"] = "Joint visual representation of the cases COFOG I & COFIG II.";
 //  $subsection["chart"]["10008"]["url"] = $site_abs_path . "chart/10008.html";
 //  $subsection["chart"]["10008"]["path"] = $root_abs_path . "chart/10008.html";
 //  $subsection["chart"]["10008"]["data"] = $site_abs_path . $data_folder . "services";
   $subsection["chart"]["10008"]["data"] = $data_path . "services";
-  $subsection["chart"]["10008"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["type", "uptake"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "name"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10008"></perspective-viewer>';
+  $subsection["chart"]["10008"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["primary_sector", "secondary_sector"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "name"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10008"></perspective-viewer>';
   $subsection["chart"]["10008"]["lib"] = 'perspective';
 
   foreach ($subsection["chart"] as $ssk => $ssv) {
