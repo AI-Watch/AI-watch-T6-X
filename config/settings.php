@@ -140,7 +140,7 @@
   
   $subsection["chart"]["10008"]["name"] = "COFOG I & COFOG II";
   $subsection["chart"]["10008"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10008"]["descr"] = "Joint visual representation of the cases COFOG I & COFIG II.";
+  $subsection["chart"]["10008"]["descr"] = "Joint visual representation of the cases COFOG I & COFOG II.";
 //  $subsection["chart"]["10008"]["url"] = $site_abs_path . "chart/10008.html";
 //  $subsection["chart"]["10008"]["path"] = $root_abs_path . "chart/10008.html";
 //  $subsection["chart"]["10008"]["data"] = $site_abs_path . $data_folder . "services";
