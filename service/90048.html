@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>AI-X | Antonia</title>
+<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.10/css/dataTables.bootstrap.min.css" media="screen"/>
+<link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css" media="screen"/>
+<link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/select/1.2.1/css/select.dataTables.min.css" media="screen"/>
+<link href="https://eloquentstudio.github.io/filter.js/assets/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+<link href="https://eloquentstudio.github.io/filter.js/assets/css/jquery-ui-1.10.2.custom.min.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/AI-watch-T6-X/css/common.css" media="screen" rel="stylesheet" type="text/css">
+<script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="https://eloquentstudio.github.io/filter.js/assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
+<script src="https://eloquentstudio.github.io/filter.js/filter.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.flash.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.print.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.colVis.min.js"></script>
+<script type="text/javascript" src="/AI-watch-T6-X/js/common.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" integrity="sha256-G7A4JrJjJlFqP0yamznwPjAApIKPkadeHfyIwiaa9e0=" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+  var related_services_table = $("#related_services").DataTable( { 
+    "scrollY": "500px", "scrollCollapse": true, "paging": false, "dom": "Bfrtip", 
+    "order": [[ 1, "desc" ]],
+    "buttons": [ "copy", "csv", "excel", "pdf" ] 
+  } );
+  related_services_table.columns().every( function () {
+    var that = this;
+    $( "input.filter", this.footer() ).on( "keyup change", function () {
+      if ( that.search() !== this.value ) {
+        that.search( this.value ).draw();
+      }
+    } );
+  } );    
+});
+</script>
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org/",
+  "@type":"Service",
+  "@id":"https://ai-watch.github.io/AI-watch-T6-X/service/90048",
+  "name":"Antonia",
+  "url":"https://www.romaniajournal.ro/society-people/antonia-the-first-virtual-public-servant-in-romania/",
+  "description":"The City Hall of Cluj has an AI system called Antonia, which handles the automatic processing of 64 types of forms for requesting public services. The also has a chatbot component so she can answer questions about how to fill the forms. In the second development stage of the AI-based technology, Antonia will become a hologram, this being the surprise-element for the next stage. This depends on how fast we will work out the technical aspects, so there is "no time estimation for the complete implementation" according o the local officials in Cluj-Napoca. The project is estimated to be completed within 30 months' period. Antonia has been launched in April 2018 and functions around the clock.",
+  "provider":{"@type":"Organization","name":""},
+  "areaServed":[
+    {"@type":"Place","name":"Romania"}
+  ]
+}
+</script>
+
+</head>
+<body>
+<nav role="navigation" class="navbar navbar-default">
+<div class="container">
+<p class="navbar-header"><a title="AI Public Services Explorer" class="navbar-brand" href="/AI-watch-T6-X/">AI-X</a></p>
+<ul class="nav navbar-nav collapse navbar-collapse">
+<li class="active"><a href="/AI-watch-T6-X/service/">Services</a></li>
+<li class=""><a href="/AI-watch-T6-X/chart/">Gallery</a></li>
+<li class=""><a href="/AI-watch-T6-X/catalog/">Sources</a></li>
+</ul>
+<ul class="nav navbar-nav collapse navbar-collapse navbar-right">
+<li><a target="_blank" href="https://github.com/AI-Watch/AI-watch-T6-X/issues/" title="Send us your feedback."><i class="fa fa-comment"></i> Feedback</a></li>
+<li><a target="_blank" href="https://github.com/AI-Watch/AI-watch-T6-X/" title="Report projects, services, initiatives you are aware of."><i class="fa fa-github"></i> Contribute</a></li>
+<li><a target="_blank" href="https://ec.europa.eu/eusurvey/runner/JRCAIinthePublicSectorSurvey2020" title="Fill in the AI-X survey."><i class="fa fa-edit"></i> AI-X Survey</a></li>
+</ul>
+</div>
+</nav>
+<article class="container">
+<aside class="sidebar col-md-3">
+<div>
+<div class="well">
+<p><strong>AI typologies</strong></p>
+<p>Chatbots, intelligent digital assistants, virtual agents and recommendation systems</p>
+<p><strong>Administrative level</strong></p>
+<p></p>
+<p><strong>Geographic coverage</strong></p>
+<p>Romania</p>
+<p><strong>Main government division (COFOG I level)</strong></p>
+<p>General public services</p>
+<p><strong>Government group (COFOG II level)</strong></p>
+<p>Executive and legislative organs, financial and fiscal affairs, external affairs.</p>
+<p><strong>Purpose of AI uptake</strong></p>
+<p>Public services and engagement</p>
+<p><strong>Cross-border</strong></p>
+<p>Unknown</p>
+<p><strong>Cross-sector</strong></p>
+<p>Unknown</p>
+<p><strong>Innovative potential</strong></p>
+<p>Transformative / disruptive</p>
+<p><strong>Status</strong></p>
+<p></p>
+</div>
+</div>
+</aside>
+<section class="col-md-9">
+<h2>Antonia</h2>
+<address class="small">
+<p>Responsible organisation:  ()</p>
+</address>
+<p>The City Hall of Cluj has an AI system called Antonia, which handles the automatic processing of 64 types of forms for requesting public services. The also has a chatbot component so she can answer questions about how to fill the forms. In the second development stage of the AI-based technology, Antonia will become a hologram, this being the surprise-element for the next stage. This depends on how fast we will work out the technical aspects, so there is "no time estimation for the complete implementation" according o the local officials in Cluj-Napoca. The project is estimated to be completed within 30 months' period. Antonia has been launched in April 2018 and functions around the clock.</p>
+<section>
+<h3>Additional information</h3>
+<table class="table table-hover table-striped">
+<tbody>
+<tr>
+<th>Source</th>
+<td><a href="/AI-watch-T6-X/catalog/10009.html">AI Watch - Artificial Intelligence in public services. Overview of the use and impact of AI in public services in the EU</a></td>
+</tr>
+<tr>
+<th>Web site</th>
+<td><a href="https://www.romaniajournal.ro/society-people/antonia-the-first-virtual-public-servant-in-romania/">https://www.romaniajournal.ro/society-people/antonia-the-first-virtual-public-servant-in-romania/</a></td>
+</tr>
+<tr>
+<th>Start/end date</th>
+<td> - </td>
+</tr>
+<tr>
+<th>Still active?</th>
+<td>Unknown</td>
+</tr>
+</tbody>
+</table>
+</section><section>
+<h3>Related AI cases</h3>
+<table id="related_services" class="table table-hover table-striped">
+<thead>
+<tr>
+<th>Service</th>
+<th>Similarity</th>
+<th>Relationships</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="./90001.html">Chatbot Mona</a></td>
+<td>60%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-ii" title="Same government group (COFOG II level)">II</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90002.html">Citizen Lab NLP AI</a></td>
+<td>40%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90003.html">NLP for AcPaas tenders</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90004.html">Project Verontrustingen</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ip" title="Same innovative potential">IP</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90005.html">Detection holding a phone in car</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ip" title="Same innovative potential">IP</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90006.html">Jobnet AI</a></td>
+<td>50%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-ii" title="Same government group (COFOG II level)">II</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90007.html">Plovdic City Concierge Chatbot</a></td>
+<td>60%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-ii" title="Same government group (COFOG II level)">II</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90008.html">Andrija</a></td>
+<td>40%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90009.html">Chatbot Hope</a></td>
+<td>40%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90010.html">AI for water quality monitoring</a></td>
+<td>20%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90011.html">Detection of errors in business statements</a></td>
+<td>20%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90012.html">Chatbot for citizen general service enquiries</a></td>
+<td>50%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90013.html">CHAIN Smart Water</a></td>
+<td>20%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90014.html">SATIKAS</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ip" title="Same innovative potential">IP</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90015.html">Statistics Estonia virtual assistant/chatbot ITI</a></td>
+<td>60%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ip" title="Same innovative potential">IP</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90016.html">OTT - predicting employment pathways</a></td>
+<td>40%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90017.html">Text analysis for removing personal data from documents</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90018.html">Detection of anomalies in X-Road / public officials computers</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90019.html">SUVE Chatbot</a></td>
+<td>40%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90020.html">Migri.fi Chatbot Kamu</a></td>
+<td>50%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90021.html">OuloBot</a></td>
+<td>60%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-ii" title="Same government group (COFOG II level)">II</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90022.html">SignauxFaibles</a></td>
+<td>20%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90023.html">LaBonneBoîte</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90024.html">Chatbot Claudia (Chorus)</a></td>
+<td>60%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-ii" title="Same government group (COFOG II level)">II</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90025.html">Refugee Language Detection</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ip" title="Same innovative potential">IP</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90026.html">GovBot Verwaltungssuchmaschine NRW</a></td>
+<td>50%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-ii" title="Same government group (COFOG II level)">II</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90027.html">Revenue Chatbot</a></td>
+<td>60%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-ii" title="Same government group (COFOG II level)">II</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90028.html">The Dublin Beat</a></td>
+<td>40%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ip" title="Same innovative potential">IP</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90029.html">Smart Planner</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90030.html">Hugo Virtual Asssistant</a></td>
+<td>60%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ip" title="Same innovative potential">IP</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90031.html">Chatbot UNA</a></td>
+<td>50%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ip" title="Same innovative potential">IP</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90032.html">FITS (Future Intelligent Transport Systems) ITEMS</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ip" title="Same innovative potential">IP</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90033.html">Chatbot Toms</a></td>
+<td>70%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-ii" title="Same government group (COFOG II level)">II</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ip" title="Same innovative potential">IP</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90034.html">viLTe' chatbot</a></td>
+<td>40%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90035.html">FCIS H2020</a></td>
+<td>20%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90036.html">Crime Anticipation System (CAS)</a></td>
+<td>20%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90037.html">ANPR</a></td>
+<td>20%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90038.html">SyRi</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ip" title="Same innovative potential">IP</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90039.html">Chatbots Norway</a></td>
+<td>50%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90040.html">VDI: Protection of digital infrastructure</a></td>
+<td>20%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90041.html">Insolvency Predicition</a></td>
+<td>20%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90042.html">HAL</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90043.html">Clearance Chamber ICT System</a></td>
+<td>40%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-ii" title="Same government group (COFOG II level)">II</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ip" title="Same innovative potential">IP</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90044.html">Home Quarantine app</a></td>
+<td>20%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90045.html">Sigma</a></td>
+<td>50%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90046.html">Verification of medical prescriptions</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ip" title="Same innovative potential">IP</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90047.html">Face recognition Bucharest Airport</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-gc" title="Overlapping geographic coverage">GC</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90049.html">Chatbot Taxana</a></td>
+<td>60%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-ii" title="Same government group (COFOG II level)">II</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90050.html">Chatbot Oversi</a></td>
+<td>50%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90051.html">AI algorithms PCA in audit methodology</a></td>
+<td>20%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90052.html">Semantic analyser</a></td>
+<td>40%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-ii" title="Same government group (COFOG II level)">II</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90053.html">060 Service</a></td>
+<td>50%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ip" title="Same innovative potential">IP</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90054.html">AI for measuring beach attendance</a></td>
+<td>20%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90055.html">VeriPol</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ip" title="Same innovative potential">IP</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90056.html">Automated social welfare decisions in Trelleborg</a></td>
+<td>20%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90057.html">Tengai</a></td>
+<td>50%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ip" title="Same innovative potential">IP</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90058.html">Skatti</a></td>
+<td>60%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-ii" title="Same government group (COFOG II level)">II</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90059.html">NOGAuto</a></td>
+<td>20%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90060.html">Maxi Chatbot</a></td>
+<td>60%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-ii" title="Same government group (COFOG II level)">II</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90061.html">Ensuring MOT standards in garages</a></td>
+<td>20%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90062.html">Amelia CitizenBot</a></td>
+<td>60%</td>      
+<td><span class="icon icon-ty" title="Same AI typology">TY</span>&nbsp;<span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-i" title="Same main government division (COFOG I level)">I</span>&nbsp;<span class="icon icon-ii" title="Same government group (COFOG II level)">II</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90063.html">Early Help Profiling System (EHPS)</a></td>
+<td>30%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ip" title="Same innovative potential">IP</span>&nbsp;</td>
+</tr>
+<tr>
+<td><a href="./90064.html">Misty II</a></td>
+<td>40%</td>      
+<td><span class="icon icon-ad" title="Same administrative level">AD</span>&nbsp;<span class="icon icon-up" title="Same purpose of AI uptake">UP</span>&nbsp;<span class="icon icon-cs" title="Same cross-sector applicability">CS</span>&nbsp;<span class="icon icon-ip" title="Same innovative potential">IP</span>&nbsp;</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th><input class="filter" type="text" placeholder="Filter by service" data-index="0" /></th>
+<th><input class="filter" type="text" placeholder="Filter by similarity" data-index="1" /></th>
+<th><input class="filter" type="text" placeholder="Filter by relationship" data-index="2" /></th>
+</tr>
+</tfoot>
+</table>
+</section>
+</section>
+</article>
+<footer>
+<?php echo $footer; ?>
+</footer>
+</body>
+</html>

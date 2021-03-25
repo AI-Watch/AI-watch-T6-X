@@ -6,7 +6,7 @@
         "url": "https:\/\/www.usp.gv.at\/Portal.Node\/usp\/public",
         "contact": "",
         "description": "The new chatbot \"Mona\" is intended to cover all relevant questions for companies on the subject of the corona crisis and the economy. The service of the Federal Ministry for Digitization and Business Location (BMDW) is available online on the \"Unternehmens Service Portal\" (USP, Company service portal ) website and can also be used on mobile devices. The service can be found on the home page of the USP and is intended to provide companies with important information on essential points such as subsidies, labor law matters such as short-time work and teleworking in a simple way during these difficult times . On the one hand, users can ask freely formulated questions, on the other hand there is a classic information channel in which more detailed information is provided step by step on the three central topics of work, financial aspects and research at the click of a mouse.",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "Austria"
         ],
@@ -14,11 +14,11 @@
             "AT"
         ],
         "lead_organisation": {
-            "name": "Unternehmensservice Portal, Austria",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Unternehmensservice Portal, Austria",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -29,16 +29,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
         "id": 90002,
-        "name": "Project Verontrustingen",
-        "url": "https:\/\/www.dialogic.nl\/wp-content\/uploads\/2018\/06\/VTOM-Small-Kids-Big-Data-Frank-Bongers-mei-2018.pdf",
+        "name": "Citizen Lab NLP AI",
+        "url": "Web link not available",
         "contact": "",
-        "description": "In 2014, the Flemish Agency for Child and Family (Kind en Gezin) developed an AI system which enables more accurate predictions to detect day-care services which require further inspection. These inspections enable the agencies to keep the quality of the day-care services high and to improve the wellbeing of children. The Child and Family agency does not carry out the inspections itself but works together with the Regional Health Care Inspection Unit of the Department of Welfare, Public Health and Family.  However, there is limited capacity available to conduct all the inspections. For a long period of time, there has been an interest to figure out how to optimise the inspection capacity. The use of data had been considered as way to enhance existing inspection practices and optimize the scarce amount of inspectors. The predictive system developed uses a supervised machine learning method (logistic regression and XGBoost) to analyse various internal and external data from the Health Care Inspection Unit. Combining the recommendations of the predictive system with existing staff experience and expertise enables more targeted and data-driven interventions.",
-        "geoextent": "Regional",
+        "description": "Digital participation platforms are important tools for increasing citizen engagement and improving government responsiveness. However, analysing the high volumes of citizen input collected on these platforms is extremely time-consuming and daunting for city officials; this technical difficulty can keep them from uncovering valuable learnings. Setting up a digital participation platform therefore isn\u2019t enough: it\u2019s also necessary to make data analysis more accessible so that civil servants can tap into collective intelligence and make better informed decisions. The challenge of automation we have been faced with as a civic tech company is shared by the public sector at large. CitizenLab aims to bridge the knowledge gap that currently exists in the public sector.The platform administrators have access to all of this information at a glance in intelligent, real- time dashboards. The topic modelling makes it easy to see what the citizen\u2019s priorities are, and to make decisions accordingly. The CitizenLab Platform is in use in over 200 local authorities which are likely to use some of the elements of the AI to analyse volumes of citizen input.",
+        "geoextent": "",
         "geocoverage": [
             "Belgium"
         ],
@@ -46,11 +46,75 @@
             "BE"
         ],
         "lead_organisation": {
-            "name": "Kind en Gezin, Belgium",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Kind en Gezin, Belgium",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General services.",
+        "technology": "Knowledge management and sentiment analysis, ai-empowered knowledge management",
+        "uptake": "Public services and engagement",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Transformative \/ radical",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90003,
+        "name": "NLP for AcPaas tenders",
+        "url": "https:\/\/acpaas.digipolis.be\/nl\/product\/NLP-engine\/about",
+        "contact": "",
+        "description": "The city of Antwerp has a platform called Antwerp City Platform as a Service (Acpaas) that uses NLP to compare a technical document of a procurement (or an offer\/call?) and find the already existent IT components they have in house (API, applications, etc) that could possibly satisfy some of the requirements. To do this, they compare the text of the files of the offer to the ones of the metadata of the components. In the case of the API they do some preprocessing and extract the descriptive information from the metadata files. They also have launched an experimental service that compares technical diagrams with the metadata of the IT components.",
+        "geoextent": "",
+        "geocoverage": [
+            "Belgium"
+        ],
+        "geocoverage_codes": [
+            "BE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General public services n.e.c.",
+        "technology": "Knowledge management and sentiment analysis, ai-empowered knowledge management",
+        "uptake": "Internal management",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Incremental \/ technical change",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90004,
+        "name": "Project Verontrustingen",
+        "url": "https:\/\/www.dialogic.nl\/wp-content\/uploads\/2018\/06\/VTOM-Small-Kids-Big-Data-Frank-Bongers-mei-2018.pdf",
+        "contact": "",
+        "description": "In 2014, the Flemish Agency for Child and Family (Kind en Gezin) developed an AI system which enables more accurate predictions to detect day-care services which require further inspection. These inspections enable the agencies to keep the quality of the day-care services high and to improve the wellbeing of children. The Child and Family agency does not carry out the inspections itself but works together with the Regional Health Care Inspection Unit of the Department of Welfare, Public Health and Family.  However, there is limited capacity available to conduct all the inspections. For a long period of time, there has been an interest to figure out how to optimise the inspection capacity. The use of data had been considered as way to enhance existing inspection practices and optimize the scarce amount of inspectors. The predictive system developed uses a supervised machine learning method (logistic regression and XGBoost) to analyse various internal and external data from the Health Care Inspection Unit. Combining the recommendations of the predictive system with existing staff experience and expertise enables more targeted and data-driven interventions.",
+        "geoextent": "",
+        "geocoverage": [
+            "Belgium"
+        ],
+        "geocoverage_codes": [
+            "BE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -61,16 +125,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Transformative \/ disruptive",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90003,
-        "name": "Jobnet AI",
-        "url": "https:\/\/jobbereik.vdab.be",
+        "id": 90005,
+        "name": "Detection holding a phone in car",
+        "url": "Web link not available",
         "contact": "",
-        "description": "The Flemish Employment and Vocational Training Service (VDAB) is using AI since 2018 which assists in the reskilling, upskilling and retraining of people. The software is called Jobnet and is the combination of a variety of different AI-models into one big AI-model. With the AI, citizens can see which jobs are fitting to their skills, which relevant skills they still lack, starting from their own experience combined with job market data.",
-        "geoextent": "Regional",
+        "description": "Traffic institute Vias is currently testing a new camera system that registers whether a motorist behind the wheel is on the phone with the phone in hand. Using artificial intelligence, the system filters the photos showing that the driver is using a smartphone. Other photos are deleted and faces are made unrecognizable. If the police establishes a violation based on that selection, they can issue a fine.",
+        "geoextent": "",
         "geocoverage": [
             "Belgium"
         ],
@@ -78,11 +142,43 @@
             "BE"
         ],
         "lead_organisation": {
-            "name": "Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Public order and safety",
+        "secondary_sector": "Police services",
+        "technology": "Computer vision and identity recognition",
+        "uptake": "Enforcement",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Transformative \/ disruptive",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90006,
+        "name": "Jobnet AI",
+        "url": "https:\/\/jobbereik.vdab.be",
+        "contact": "",
+        "description": "The Flemish Employment and Vocational Training Service (VDAB) is using AI since 2018 which assists in the reskilling, upskilling and retraining of people. The software is called Jobnet and is the combination of a variety of different AI-models into one big AI-model. With the AI, citizens can see which jobs are fitting to their skills, which relevant skills they still lack, starting from their own experience combined with job market data.",
+        "geoextent": "",
+        "geocoverage": [
+            "Belgium"
+        ],
+        "geocoverage_codes": [
+            "BE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -93,16 +189,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90004,
+        "id": 90007,
         "name": "Plovdic City Concierge Chatbot",
         "url": "https:\/\/umni.bg\/en\/plovdiv-city-concierge-chatbot\/",
         "contact": "",
         "description": "City Concierge is an AI-powered city chatbot like a virtual Tourist Office in the mobile. It is there for the visitors 24\/7 in Messenger and provides information about the city Point of Interests pf the city. It is possible for tourists and visitors to search information by category and location, or by keyword, or simply ask question about restaurants, entertainment, sightseeing, shopping, transportation and other",
-        "geoextent": "Local",
+        "geoextent": "",
         "geocoverage": [
             "Bulgaria"
         ],
@@ -110,11 +206,11 @@
             "BG"
         ],
         "lead_organisation": {
-            "name": "UMNI",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "UMNI",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -125,16 +221,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90005,
+        "id": 90008,
         "name": "Andrija",
         "url": "https:\/\/andrija.ai\/",
         "contact": "",
         "description": "Andrija is a virtual assistant powered by artificial intelligence and has been developed by Croatian IT companies in cooperation with epidemiologists to advise people on how to diagnose and manage suspected COVID-19 infections. The digital assistant is available at https:\/\/andrija.ai\/ and can be activated on WhatsApp under the name Andrija.",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "Croatia"
         ],
@@ -142,11 +238,11 @@
             "HR"
         ],
         "lead_organisation": {
-            "name": "Ministry of Health",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Ministry of Health",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -157,16 +253,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90006,
+        "id": 90009,
         "name": "Chatbot Hope",
         "url": "https:\/\/www.themayor.eu\/en\/a\/view\/coronavirus-chatbot-educates-the-citizens-of-vinkovci-4796",
         "contact": "",
         "description": "The Chatbot Hope is used in the City of Vinkovci to inform citizens about the work of the Civil Protection Staff. The chatbot was created pro bono by the Slavonian company Hero Factory, which recently created a similar program for the Croatian Institute of Public Health. The Chatbot can answer questions related to coronavirus, the Civil Protection Staff, e-passes and check for symptons of the virus.",
-        "geoextent": "Local",
+        "geoextent": "",
         "geocoverage": [
             "Croatia"
         ],
@@ -174,11 +270,11 @@
             "HR"
         ],
         "lead_organisation": {
-            "name": "Vinkovci munipality",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Vinkovci munipality",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -189,16 +285,48 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Organizational \/ sustained change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90007,
+        "id": 90010,
+        "name": "AI for water quality monitoring",
+        "url": "https:\/\/www.wateranalytics.eu\/",
+        "contact": "",
+        "description": "The Water Development Department in Cyprus is using AI algorithms for the analysis of water monitoring data (such as hydraulics and water quality).",
+        "geoextent": "",
+        "geocoverage": [
+            "Cyprus"
+        ],
+        "geocoverage_codes": [
+            "CY"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Housing and community amenities",
+        "secondary_sector": "Water supply.",
+        "technology": "Machine learning, deep learning",
+        "uptake": "Enforcement",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Incremental \/ technical change",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90011,
         "name": "Detection of errors in business statements",
         "url": "https:\/\/joinup.ec.europa.eu\/sites\/default\/files\/custom-page\/attachment\/2020-07\/Study%20on%20public%20sector%20data%20strategies%2C%20policies%20and%20governance%20%E2%80%93%20ANNEX%20Case%20studies.pdf",
         "contact": "",
         "description": "A project by the Danish Business Authority (Erhvervsstyrelsen) to use ML to identify fraud and highlight material errors in financial statements.",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "Denmark"
         ],
@@ -206,11 +334,11 @@
             "DK"
         ],
         "lead_organisation": {
-            "name": "Danish Business Authority",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Danish Business Authority",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -221,16 +349,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90008,
-        "name": "CHAIN Smart Water",
-        "url": "https:\/\/www.aquatechtrade.com\/news\/article\/video-story-digital-denmark\/",
+        "id": 90012,
+        "name": "Chatbot for citizen general service enquiries",
+        "url": "Web link not available",
         "contact": "",
-        "description": "Sensors analyse the water consumption in order to optimise energy consumption in Aarhus municipality. AI will be used to analyze the big amounts of data from sensors about water consumption and to monitor its quality.",
-        "geoextent": "Local",
+        "description": "The municipality of Frederiksberg launched an AI-based chatbot (\"Kiri\") to answer citizen queries about local services.. When you visit the Frederiksberg Municipality's website you will be able to get help from the chat bot Kiri. It is a digital assistant to whom citizens can ask general questions and answer immediately. The offer is a trial conducted by Gentofte, Gladsaxe, Lyngby-Taarb\u00e6k, Rudersdal, Roskilde and Frederiksberg municipalities, and which is inspired by similar trials with good results in Norway.  Initially, Kiri is an attempt, and initially Kiri will only be able to answer questions in the field of citizen services, such as passports and driver's licenses. Kiri is unable to answer specific cases, but will be able to answer the most typical and general questions.",
+        "geoextent": "",
         "geocoverage": [
             "Denmark"
         ],
@@ -238,11 +366,43 @@
             "DK"
         ],
         "lead_organisation": {
-            "name": "Aarhus Municipality",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Aarhus Municipality",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General public services n.e.c.",
+        "technology": "Chatbots, intelligent digital assistants, virtual agents and recommendation systems",
+        "uptake": "Public services and engagement",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Incremental \/ technical change",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90013,
+        "name": "CHAIN Smart Water",
+        "url": "https:\/\/www.aquatechtrade.com\/news\/article\/video-story-digital-denmark\/",
+        "contact": "",
+        "description": "Sensors analyse the water consumption in order to optimise energy consumption in Aarhus municipality. AI will be used to analyze the big amounts of data from sensors about water consumption and to monitor its quality.",
+        "geoextent": "",
+        "geocoverage": [
+            "Denmark"
+        ],
+        "geocoverage_codes": [
+            "DK"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -253,16 +413,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90009,
+        "id": 90014,
         "name": "SATIKAS",
         "url": "https:\/\/kosmos.ut.ee\/en\/news\/information-system-satikas-helps-detect-mowing-using-satellite-data",
         "contact": "",
         "description": "In the Estonian Agricultural Registers and Information Board (ARIB), AI is used in order to detect whether the agricultural grasslands have been mowed or not using image recognition. This system, called SATIKAS , uses deep learning methods and convolutional neural network approaches to analyse the satellite data coming from the European COPERNICUS programme to automatically detect whether mowing has taken place on the Estonian grasslands. The optical satellite images from Sentinel 1 and 2 are analysed together with reference data of farmer fields, historical inspection logs and meteorological data from the Estonian Weather Service. This AI system is now regarded as one of the first AI applications used by the government in Estonia. The SATIKAS system is still under development and will expand its features and capabilities in the near future. While at the moment the system is able to detect mowing of grass, in the future it will be used for identifying different types of crops and trees as well.",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "Estonia"
         ],
@@ -270,11 +430,11 @@
             "EE"
         ],
         "lead_organisation": {
-            "name": "ARIB",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "ARIB",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -285,16 +445,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Transformative \/ disruptive",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90010,
-        "name": "Predicting long term unemployment",
-        "url": "https:\/\/e-estonia.com\/new-e-estonia-factsheet-national-ai-kratt-strategy\/",
+        "id": 90015,
+        "name": "Statistics Estonia virtual assistant\/chatbot ITI",
+        "url": "Web link not available",
         "contact": "",
-        "description": "The Estonian Unemployment Insurance Fund uses profiling to identify the position that suits a job seeker the most. Based on machine-learning software, the solution assists people by suggesting job positions according to their qualifications. The application provides job seekers with better and more accurate suggestions on where they could work and offers customized recommendations on re-education and reskilling.",
-        "geoextent": "National",
+        "description": "The virtual assistant called Iti, created in collaboration with the Estonian start-up AlphaBlues, knows the population of Estonia, the size of the pay gap, average wages and consumer price changes, and many other things. Iti also assists the data provider, whose typical questions are related to activities in the electronic data submission portal and filling in questionnaires. If Iti does not know the answer, it will redirect the query based on its content to either the customer support specialist of the data provider or the user of the statistics. Iti has obtained its knowledge from the questions sent through online chats over one year and gets wiser with every query. The number of information requests that Statistics Estonia (the government agency responsible for producing official statistics regarding Estonia) receives is increasing year by year. Iti helps to find information faster thus allowing the customer support of Statistics Estonia to focus on answering more complicated and detailed queries.",
+        "geoextent": "",
         "geocoverage": [
             "Estonia"
         ],
@@ -302,11 +462,43 @@
             "EE"
         ],
         "lead_organisation": {
-            "name": "Estoninan Unemployment Insurance Fund",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Estoninan Unemployment Insurance Fund",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General services.",
+        "technology": "Chatbots, intelligent digital assistants, virtual agents and recommendation systems",
+        "uptake": "Public services and engagement",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Transformative \/ disruptive",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90016,
+        "name": "OTT - predicting employment pathways",
+        "url": "https:\/\/e-estonia.com\/new-e-estonia-factsheet-national-ai-kratt-strategy\/",
+        "contact": "",
+        "description": "The Estonian Unemployment Insurance Fund uses profiling to identify the position that suits a job seeker the most. Based on machine-learning software, the solution assists people by suggesting job positions according to their qualifications. The application (OTT) provides job seekers with better and more accurate suggestions on where they could work and offers customized recommendations on re-education and reskilling. OTT is a tool used by civil servants to improve the understanding of the clients\u2019 needs. It is an AI system that employs more than 100 000 client records to estimate the probabilities of different employment pathways, systematizes clients to provide support where it is most needed, and distributes the workload between civil servants. An early version of the project aimed to estimate the probability of becoming long-term unemployed, but this was difficult and not useful. Now, the system finds the probability of finding a new job and is regarded as much more useful. The AI has been created in collaboration with Citis, Nortal and Resta.",
+        "geoextent": "",
+        "geocoverage": [
+            "Estonia"
+        ],
+        "geocoverage_codes": [
+            "EE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -317,16 +509,112 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Organizational \/ sustained change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90011,
+        "id": 90017,
+        "name": "Text analysis for removing personal data from documents",
+        "url": "https:\/\/git.texta.ee\/texta\/texta-rest",
+        "contact": "",
+        "description": "The Ministry of Education and Research performed a document management audit using the Texta Toolkit, which was aimed at identifying the documents that had been published without authorisation (e.g. internal documents, personal data, etc.). During the audit, more than 1,200,000 documents were analysed, converted into machine-readable form and had the personal data removed. In collaboration with the Centre of Registers and Information Systems, the Ministry of Justice removed, using Texta, personal data from nearly 80,000 court decisions involving information about punishments deleted from the Criminal Records Database and republished the decisions in the Court Information System. Texta Toolkit grew out of industrial research in the Software Technology and Applications Competence Center (STACC) and its development has been supported from the Estonian Language Technology programme.",
+        "geoextent": "",
+        "geocoverage": [
+            "Estonia"
+        ],
+        "geocoverage_codes": [
+            "EE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General services.",
+        "technology": "Natural language processing, text mining and speech analytics",
+        "uptake": "Internal management",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Organizational \/ sustained change",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90018,
+        "name": "Detection of anomalies in X-Road \/ public officials computers",
+        "url": "Web link not available",
+        "contact": "",
+        "description": "The Information System Authority (RIA) uses an AI application to detect anomalies and incidents in our Data Exchange Layer (X-road) monitoring. Essentially, previous data exchange periods are compared with the current one and differences are sought. If the system is unable to identify whether a situation is erroneous or permitted, the system user currently has to decide. Based on the feedback, the system learns how to make better decisions and will be able to detect anomalies and incidents more accurately in the future.",
+        "geoextent": "",
+        "geocoverage": [
+            "Estonia"
+        ],
+        "geocoverage_codes": [
+            "EE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General public services n.e.c.",
+        "technology": "Security analytics and threat intelligence",
+        "uptake": "Internal management",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Organizational \/ sustained change",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90019,
+        "name": "SUVE Chatbot",
+        "url": "https:\/\/eebot.ee\/",
+        "contact": "",
+        "description": "The websites of several Estonian government agencies now have Suve, an automated chatbot which provides answers to frequently asked questions about the emergency situation and the coronavirus. The chatbot provides answers to questions in Estonian and English and uses information from the official sources of government agencies. The development of the Chatbot is the result of a hackathon which was organized in the early weeks of the COVID-19 outbreaks in Europe. Together with the Estonian start-up community, Suve was developed in rapid fashion. By using official information from government agencies, the role of Chatbot is to provide trustworthy information regarding the coronavirus and emergency situation in Estonia and to tackle misinformation.   https:\/\/www.valitsus.ee\/en\/news\/chatbot-will-help-you-find-answers-your-questions-about-crisis",
+        "geoextent": "",
+        "geocoverage": [
+            "Estonia"
+        ],
+        "geocoverage_codes": [
+            "EE"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Public health services.",
+        "technology": "Chatbots, intelligent digital assistants, virtual agents and recommendation systems",
+        "uptake": "Public services and engagement",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Incremental \/ technical change",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90020,
         "name": "Migri.fi Chatbot Kamu",
         "url": "https:\/\/migri.fi\/en\/chat1",
         "contact": "",
         "description": "Kamu is a chatbot used by the Finnish Immgration Service that gives general advice to citizens about immigration processes or about the process of the application.",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "Finland"
         ],
@@ -334,11 +622,11 @@
             "FI"
         ],
         "lead_organisation": {
-            "name": "Finnish Immigration Service",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Finnish Immigration Service",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -349,16 +637,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90012,
+        "id": 90021,
         "name": "OuloBot",
         "url": "https:\/\/www.ouka.fi\/oulu\/oulubot\/",
         "contact": "",
         "description": "The City of Oulu has started a project co-financed by Business Finland, which aims to build a chatbot service, OuluBot. The goal for OuluBot is to become a virtual assistant in all everyday issues, whether they concern tourism, companies or city services. The answer or guidance to an electronic service should be provided regardless of time, place, medium and language. Technically, chatbot retrieves information e.g. relevant City of Oulu websites, chat history, guidance information, databases, and other information sources. OuluBot is available 24\/7 service. independent of working hours. If the user is looking for information that OuluBot would not be able to answer, then during office hours the discussion could be directed to the City of Oulu chat service (Oulu10 general counseling customer service).",
-        "geoextent": "Local",
+        "geoextent": "",
         "geocoverage": [
             "Finland"
         ],
@@ -366,11 +654,11 @@
             "FI"
         ],
         "lead_organisation": {
-            "name": "Municipality of Oulu",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Municipality of Oulu",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -381,16 +669,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Organizational \/ sustained change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90013,
-        "name": "Fraud detection value declarations",
-        "url": "https:\/\/www.aiforhumanity.fr\/pdfs\/MissionVillani_Report_ENG-VF.pdf",
+        "id": 90022,
+        "name": "SignauxFaibles",
+        "url": "https:\/\/beta.gouv.fr\/startups\/signaux-faibles.html",
         "contact": "",
-        "description": "A supervised deep mining algorithm is used by French customs in order to detect fraud with value declarations and to analyze cases of identiy fraud or import trafficiking.",
-        "geoextent": "National",
+        "description": "The detection of weak signals, which indicate a deterioration in the company's situation, makes it possible to identify more early the companies on which support actions can be offered to the company manager. The innovations relate to: (1) The development of a detection algorithm that uses relevant data and variables and effectively detects companies in difficulty (URSSAF, DIRECCTE, Banque de France data, etc.); (2) The development of a data loading computer system capable of regularly and automatically refreshing data from operational databases. The objective is to dynamically detect 2 to 5 new SMEs per month on the scale of Bourgogne Franche-Comt\u00e9. Expected impacts in terms of digital transformation: an even more effective decentralized State action to support weakened companies. Ultimately, it is a real \u201csecure social network\u201d centered on the company which will become the daily tool of public actors mobilized around companies in difficulty .Initiated in 2014 on a very local scale, the national deployment of Weak Signals was approved on April 3, 2019 thanks to the signing of an agreement by the historical partners of the project. This partnership allows the establishment of a long-term team that makes scaling possible. For the detailed account of this adventure, read this blog post .",
+        "geoextent": "",
         "geocoverage": [
             "France"
         ],
@@ -398,31 +686,31 @@
             "FR"
         ],
         "lead_organisation": {
-            "name": "French Customs",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "French Customs",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
-        "primary_sector": "Public order and safety",
-        "secondary_sector": "Police services",
-        "technology": "Security analytics and threat intelligence",
-        "uptake": "Enforcement",
+        "primary_sector": "Economic affairs",
+        "secondary_sector": "General economic, commercial and labour affair",
+        "technology": "Predictive analytics, simulation and data visualisation",
+        "uptake": "Regulatory research, analysis and monitoring",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
-        "type": "Organizational \/ sustained change",
-        "status": "Unknown"
+        "type": "Incremental \/ technical change",
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90014,
+        "id": 90023,
         "name": "LaBonneBo\u00eete",
         "url": "https:\/\/ec.europa.eu\/social\/BlobServlet?docId=20605&langId=en",
         "contact": "",
         "description": "La Bonne Boite is an online tool that identifies companies with a high probability of hiring within the next six months in the sector and area selected by the seeker. The objective of La Bonne Boite is to help jobseekers find job opportunities that are not published by employers (i.e. \"hidden vacancies\") and to predict which companies are most likely to hire in the near  future. La Bonne Boite is one of the most used job searching services in France and it is about to be further developed in order to target more specific types of jobseekers, like students, that are looking for part-time jobs. This search engine improves a jobseeker's chance of securing a job interview on the basis of spontaneous job applications. La Bonne Boite's computer code can be copied and used by others. There is also an Application Programming Interface (API) which enables the duplication of La Bonne Boite on other websites.",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "France"
         ],
@@ -430,11 +718,11 @@
             "FR"
         ],
         "lead_organisation": {
-            "name": "P\u00f4le emploi",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "P\u00f4le emploi",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -445,16 +733,48 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90015,
+        "id": 90024,
+        "name": "Chatbot Claudia (Chorus)",
+        "url": "Web link not available",
+        "contact": "",
+        "description": "Chatbot has been put in place by the AIFE (State Financial IT Agency) for users of the information system Chorus of SME's and microbusinesses. Available since the end of 2017, this chatbot, called Claudia, is based on IBM's Watson artificial intelligence technology. The AIFE indicates that the number of support contacts \"has not stopped increasing, going from 20,000 per month to more than 40,000 (with a peak at 55,000 in January) all channels combined (phone calls, files, live chat , emails, avatar, chatbot). The requests handled manually by level 1 support operators now represent a volume of more than 15,000 per month (18,000 in January!). The AIFE anticipates a doubling of support requests each year. Before Claudia, only half of the requests were processed automatically. Today, the rate has risen to 65%. \u201cIn two months, ClaudIA handled more than 10,000 conversations, with an average of 3.5 interactions per conversation,\u201d says AIFE. Claudia takes the user context into account and knows how to detect inappropriate interactions.",
+        "geoextent": "",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs.",
+        "technology": "Chatbots, intelligent digital assistants, virtual agents and recommendation systems",
+        "uptake": "Public services and engagement",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Organizational \/ sustained change",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90025,
         "name": "Refugee Language Detection",
         "url": "https:\/\/www.dw.com\/en\/automatic-speech-analysis-software-used-to-verify-refugees-dialects\/a-37980819",
         "contact": "",
         "description": "Germany's Federal Office for Migrants and Refugees uses a voice recognition software that seeks to identify which country migrants without documentation are from. The Federal Office for Migrants and Refugees said the automated new system would begin within two weeks. The aim is to detect Arabic-speaking migrants claiming to be Syrian to increase their chances of asylum. The new software will run alongside techniques already in use to establish a person's identity. A variety of data will be examined, including the asylum-seeker's documentation, before a final decision is made. If necessary, officials will also seek expert opinion. Linguists argue it would, however, be challenging for an automatic machine to be completely accurate, as language and vocabulary are ever-changing, reducing the effectiveness and accuracy.",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "Germany"
         ],
@@ -462,11 +782,11 @@
             "DE"
         ],
         "lead_organisation": {
-            "name": "Federal Office for Migration and Refugees (BAMF)",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Federal Office for Migration and Refugees (BAMF)",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -477,16 +797,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Transformative \/ disruptive",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90016,
-        "name": "Buddy Krefeld",
-        "url": "https:\/\/open.nrw\/de\/content\/kumpel-krefeld-gewinnt-nrw-hackathon",
+        "id": 90026,
+        "name": "GovBot Verwaltungssuchmaschine NRW",
+        "url": "https:\/\/publicplan.de\/projekt\/verwaltungssuchmaschine-nrw",
         "contact": "",
-        "description": "Buddy Krefield is a Chatbot to which citizens can ask various questions related to the administrative processes in municipal administrations, for example on which form to fill in for what service. It is expected to save time as it does no longer require a civil servant to answer the questions and it offers citizens immediate responses to their queries. The chatbot is the result of a hackathon organized by the open data portal of the German region North Rhine-Westphalia.",
-        "geoextent": "Local",
+        "description": "GovBot which is in use with the administrative search engine of the administration of the German State North Rhine-Westphalia. The search engine for administrative matters guarantees citizens easy and clear access to information. It indexes all websites of the state of North Rhine-Westphalia, the regional associations, many chambers, all districts and municipalities of the state of North Rhine-Westphalia and thus accesses over 12 million individual websites in a search index. Using their own search interface, users can search for administrative terms and problems, are pointed out to correct administrative terms with search word recommendations and, if necessary, are given specific responsibilities for a problem. The full text search result - broken down by administrative level - completes the offer, with a map section showing the specific location of the relevant authority. https:\/\/www.verwaltungssuchmaschine.nrw\/",
+        "geoextent": "",
         "geocoverage": [
             "Germany"
         ],
@@ -494,31 +814,31 @@
             "DE"
         ],
         "lead_organisation": {
-            "name": "Unknown",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Unknown",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
         "primary_sector": "General public services",
         "secondary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs.",
         "technology": "Chatbots, intelligent digital assistants, virtual agents and recommendation systems",
-        "uptake": "Public services and engagement",
+        "uptake": "Internal management",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90017,
+        "id": 90027,
         "name": "Revenue Chatbot",
         "url": "https:\/\/www.ops2020.gov.ie\/actions\/innovating-for-our-future\/innovation\/emerging-technology\/artificial-intelligence\/revenue-chatbot\/",
         "contact": "",
         "description": "In early 2018, the Irish Revenue Commissioners began investigating the potential of Artificial Intelligence to provide a more efficient, effective experience for customers using their telephony services. A pilot project was initiated to examine if AI based Natural Language Processing (NLP) technologies could be used to deliver an improved customer service, reduce costs and increase efficiencies. This resulted in the implementation of a Virtual Digital Agent (VDA) or voicebot which was designed to focus on a subset of calls from the Irish taxpayer relating to tax clearance. On a daily basis, taxpayers contact Irish Revenue tax clearance customer support asking how to apply for tax clearance; enquiring what their current tax clearance status is; requesting more information on expired, refused & rescinded tax clearance applications as well as just looking for information on tax clearance itself. It is reported that currently, up to 50% of calls were handled from start to finish by the voicebot,  70% of first-time applicants engaged with the voicebot when submitting their application, 75% of tax clearance holders were able to retrieve their tax clearance access number (TCAN). Only in 10% of the calls, the calls were transferred to a human operator due to the inability of the voicebot to understand the request.",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "Ireland"
         ],
@@ -526,11 +846,11 @@
             "IE"
         ],
         "lead_organisation": {
-            "name": "Irish Revenue Commissioners",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Irish Revenue Commissioners",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -541,16 +861,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Organizational \/ sustained change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90018,
+        "id": 90028,
         "name": "The Dublin Beat",
         "url": "https:\/\/smartdublin.ie\/smart-dublin-explores-how-ai-social-media-can-help-improve-the-city-region\/",
         "contact": "",
         "description": "The Dublin Beat analyses citizen opinions in the Dublin Region for an overview of their most pressing concerns. Each month public tweets are collated by the AItext analytics platform Citibeats, whose artificial intelligence algorithms have been trained for understanding opinions in the local context of Dublin. This can assist local authorities to better understand how local people feel about civic issues.  The resulting analysis based on the gathered online data is presented via visual dashboards and through monthly reports provided online. The different reports give an overview of key issues such as how people feel about environmental issues, cultural events or city region developments expressed on the online media. The Dublin Beat can help local authorities to better understand how citizens feel about key issues and ensure that civic efforts and policy reflect the needs of communities. But of course, it is important to note that these insights are indicative only of the sentiments expressed by a cohort of citizens who use social media. Local authorities employ other methods to ensure truly inclusive citizen engagement.",
-        "geoextent": "Local",
+        "geoextent": "",
         "geocoverage": [
             "Ireland"
         ],
@@ -558,11 +878,11 @@
             "IE"
         ],
         "lead_organisation": {
-            "name": "Municipality of Dublin",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Municipality of Dublin",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -573,48 +893,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Transformative \/ disruptive",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90019,
-        "name": "Borbot",
-        "url": "https:\/\/borbot.it\/",
-        "contact": "",
-        "description": "Borbot  (acronym for Bourbons and Robotics) is a virtual assistant, adopted by the National Museum of the Royal Palace of Caserta, which through machine learning techniques is able to answer user questions, providing detailed tourist information and news about the monument. The mobile system supports the Museum's front office service and allows customer service staff to concentrate on the services with greater added value.",
-        "geoextent": "Local",
-        "geocoverage": [
-            "Italy"
-        ],
-        "geocoverage_codes": [
-            "IT"
-        ],
-        "lead_organisation": {
-            "name": "Reggia di Caserta",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Reggia di Caserta",
-        "lead_organisation_category": "Governmental",
-        "start_date": "",
-        "active": "Unknown",
-        "end_date": "",
-        "primary_sector": "Recreation - culture and religion",
-        "secondary_sector": "Cultural services.",
-        "technology": "Chatbots, intelligent digital assistants, virtual agents and recommendation systems",
-        "uptake": "Public services and engagement",
-        "cross_border": "Unknown",
-        "cross_sector": "Unknown",
-        "type": "Incremental \/ technical change",
-        "status": "Unknown"
-    },
-    {
-        "cid": 10009,
-        "id": 90020,
+        "id": 90029,
         "name": "Smart Planner",
         "url": "https:\/\/www.smartcommunitylab.it\/app\/",
         "contact": "",
         "description": "A planning navigation app (\"Viaggia + <name of the city>\") which is based on AI techniques and is able to suggest users who connect through an app from their smartphone the fastest and most ecological solutions to reach a specific destination in the city. Through the analysis of data intercepted from multiple sources, the app gives personalized indications on which public, private or shared means of transport should be used to reduce polluting emissions and travel times. The Smart Planner solution is reported to have been in use in the cities of Trento and Rovereto as well as the Emilia Romagna region.",
-        "geoextent": "Local",
+        "geoextent": "",
         "geocoverage": [
             "Italy"
         ],
@@ -622,11 +910,11 @@
             "IT"
         ],
         "lead_organisation": {
-            "name": "Smart Community Lab an initiative of the FBK research centre  , Smart Community Lab: an initiative of the FBK research centre  (Trento, Italy)",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Smart Community Lab an initiative of the FBK research centre  , Smart Community Lab: an initiative of the FBK research centre  (Trento, Italy)",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -637,16 +925,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90021,
-        "name": "Future assistant for entrepreneurs (FAE)",
-        "url": "https:\/\/oecd-opsi.org\/innovations\/una-the-first-virtual-assistant-of-public-administration-in-latvia\/",
+        "id": 90030,
+        "name": "Hugo Virtual Asssistant",
+        "url": "Web link not available",
         "contact": "",
-        "description": "In 2018, the Register of Enterprises of Latvia introduced the Chatbot UNA to answer frequently asked questions regarding the process of enterprise registration. The name UNA has a symbolic meaning as it stands for the Future Support of Entrepreneurs in the Latvian language. Chatbots are available 24\/7 and thus able to make communication between citizens and the state accessible and friendly. UNA is available on both the website of the Register of Enterprises as well as on the Facebook page as part of the Facebook messenger application. UNA is able to answer frequently asked questions about the registration of their businesses as well as the liquidation, merchants, companies and organizations. If citizens already have an application in progress, they are also able to ask about the progress of their documents. At the moment, UNA only works in the Latvian language.  A Latvian company, Tilde, specializing in AI technologies cooperated in the development of UNA. The usage of the conversational agent has been argued to be highly successful and has been nominated for numerous awards such as the OECD's Public Excellence, World Summit Awards and others. According to the first performance indicators, 44% of the questions asked on UNA are considered to be general of nature and easily taken care of by the Chatbot.",
-        "geoextent": "National",
+        "description": "The institution of direct administration under the authority of the Minister for Culture, the Culture Information Systems Centre (hereinafter - KISC), has commenced a single development of a virtual assistant platform of State administration. KISC has created and further developed the language technology platform for public administration, Hugo.lv. The Hugo.lv website provides machine translation, speech recognition and synthesis. National regulatory authorities will have to face challenges when they start using a virtual assistant, as they will have to learn to adapt it to their needs. It should be noted that regulatory frameworks often change and institutions will have to maintain an up-to-date virtual assistant knowledge base. This is a NLP Chatbot for Government which provides SaaP possibility on a shared platform.",
+        "geoextent": "",
         "geocoverage": [
             "Latvia"
         ],
@@ -654,11 +942,43 @@
             "LV"
         ],
         "lead_organisation": {
-            "name": "Register of Enterprises of the Republic of Latvia",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Register of Enterprises of the Republic of Latvia",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General services.",
+        "technology": "Chatbots, intelligent digital assistants, virtual agents and recommendation systems",
+        "uptake": "Public services and engagement",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Transformative \/ disruptive",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90031,
+        "name": "Chatbot UNA",
+        "url": "https:\/\/oecd-opsi.org\/innovations\/una-the-first-virtual-assistant-of-public-administration-in-latvia\/",
+        "contact": "",
+        "description": "In 2018, the Register of Enterprises of Latvia introduced the Chatbot UNA to answer frequently asked questions regarding the process of enterprise registration. The name UNA has a symbolic meaning as it stands for the Future Support of Entrepreneurs in the Latvian language. Chatbots are available 24\/7 and thus able to make communication between citizens and the state accessible and friendly. UNA is available on both the website of the Register of Enterprises as well as on the Facebook page as part of the Facebook messenger application. UNA is able to answer frequently asked questions about the registration of their businesses as well as the liquidation, merchants, companies and organizations. If citizens already have an application in progress, they are also able to ask about the progress of their documents. At the moment, UNA only works in the Latvian language.  A Latvian company, Tilde, specializing in AI technologies cooperated in the development of UNA. The usage of the conversational agent has been argued to be highly successful and has been nominated for numerous awards such as the OECD's Public Excellence, World Summit Awards and others. According to the first performance indicators, 44% of the questions asked on UNA are considered to be general of nature and easily taken care of by the Chatbot.",
+        "geoextent": "",
+        "geocoverage": [
+            "Latvia"
+        ],
+        "geocoverage_codes": [
+            "LV"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -669,16 +989,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Transformative \/ disruptive",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90022,
+        "id": 90032,
         "name": "FITS (Future Intelligent Transport Systems) ITEMS",
         "url": "https:\/\/investinlatvia.org\/en\/key-sectors\/sectors\/smart-city",
         "contact": "",
         "description": "The State Public Traffic Safety Directorate uses the FITS (\"Future Intelligent Transport Systems\") ITEMS, which significantly improves road safety and saves people's lives. This AI system is capable of recognizing car numbers for driving speed, ensurance and roadworthiness test control on roads. At the end of 2018, the number of road accidents decreased by 43% compared to the number prior to the installation of photo cameras (1 084, after 613) at the roadside stages where photo cameras were installed and operated.",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "Latvia"
         ],
@@ -686,11 +1006,11 @@
             "LV"
         ],
         "lead_organisation": {
-            "name": "State Public Traffic Safety Directorate",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "State Public Traffic Safety Directorate",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -701,16 +1021,48 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Transformative \/ disruptive",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90023,
+        "id": 90033,
+        "name": "Chatbot Toms",
+        "url": "https:\/\/www.vid.gov.lv\/",
+        "contact": "",
+        "description": "A Chatbot facilitating customer communication with the State Revenue service (working time, locations, etc.), registration of economic operators, use of the Electronic Declaration System (access facilities, general issues on EDs), annual income statement and eligible expenditure (mandatory submission, types of eligible expenditure, repayment and payment deadlines), as well as the mobile application \u201cEligible expenditure\u201d.Consulting availability 24\/7, freeing employees from answering typical questions.",
+        "geoextent": "",
+        "geocoverage": [
+            "Latvia"
+        ],
+        "geocoverage_codes": [
+            "LV"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs.",
+        "technology": "Chatbots, intelligent digital assistants, virtual agents and recommendation systems",
+        "uptake": "Public services and engagement",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Transformative \/ disruptive",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90034,
         "name": "viLTe' chatbot",
         "url": "https:\/\/koronastop.lrv.lt\/",
         "contact": "",
         "description": "viLTe' was created during a recent hackathon \"Hack the Crisis\" and is capable of answering relevant questions regarding the COVID-19 pandemic, such as the symptons, restrictions and more.",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "Lithuania"
         ],
@@ -718,11 +1070,11 @@
             "LT"
         ],
         "lead_organisation": {
-            "name": "Government of the Republic of Lithuania",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Government of the Republic of Lithuania",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -733,16 +1085,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90024,
+        "id": 90035,
         "name": "FCIS H2020",
         "url": "http:\/\/www.fntt.lt\/lt\/ivykiai\/fntt-kartu-su-partneriais-pradeda-igyvendinti-europos-sajungos-moksliniu-tyrimu-ir-inovaciju-lesomis-remiama-projekta\/3768",
         "contact": "",
         "description": "Lithuanian Customs 's Financial Crime Investigations Service are using machine learning to identify suspicious patterns (trade, financial flows). This is part of a H2020 project, which, among other things, will explore using AI for better processing and analysis of data. The project will aim to apply artificial intelligence, data analysis and data visualization methods over two years, allowing law enforcement professionals to link, prioritize and analyze information gathered from different sources to facilitate decision-making. Several organizational units will be directly involved in the development of a targeted data processing and analysis system.",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "Lithuania"
         ],
@@ -750,11 +1102,11 @@
             "LT"
         ],
         "lead_organisation": {
-            "name": "Lithuanian customs",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Lithuanian customs",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -765,16 +1117,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Organizational \/ sustained change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90025,
+        "id": 90036,
         "name": "Crime Anticipation System (CAS)",
         "url": "http:\/\/ceur-ws.org\/Vol-2103\/paper_6.pdf",
         "contact": "",
         "description": "The Crime Anticipation System (CAS) makes weekly analyzes based on local and current data. External data about neighborhoods and residents, for example, is supplemented by the police's own knowledge about crimes and local situations and information from Statistics Netherlands. The system searches for crimes that show a pattern - for example, bicycle thefts in a certain neighborhood happen most often between the hours of 9:00 p.m. and midnight. Based on that, the police can better deploy available resources to fight these crimes more effectively, according to the news wire.",
-        "geoextent": "Local",
+        "geoextent": "",
         "geocoverage": [
             "Netherlands"
         ],
@@ -782,11 +1134,11 @@
             "NL"
         ],
         "lead_organisation": {
-            "name": "City of Amsterdam",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "City of Amsterdam",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -797,16 +1149,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Organizational \/ sustained change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90026,
-        "name": "SyRi",
-        "url": "https:\/\/algorithmwatch.org\/en\/story\/syri-netherlands-algorithm\/",
+        "id": 90037,
+        "name": "ANPR",
+        "url": "https:\/\/www.politie.nl\/themas\/anpr.html",
         "contact": "",
-        "description": "Various municipalities in the Netherlands have been using the SyRi system to detect welfare fraud more effectively. SyRi has been developed by the Dutch government and uses various risk indicators from existing governmental systems such as taxes, health insurance, residence, education and many more, in order to detect which addresses hold a higher risk of fraud or misuse of welfare benefits.  SyRi was developed in 2014 after multiple municipalities had been creating their own systems to detect fraud. To enable the sharing of different information items that are relevant for SyRi, the system operates on a legal basis which clearly indicates which kind of data can be captured, stored and shared.The system does not make any decisions itself, but provides recommendations for civil servants to conduct further investigations.   Various organisations have opposed the usage of the system. They argue that it causes too many privacy infringements and is discriminatory towards the poor and vulnerable citizens. The lack of transparency on the inner working of the system and the inability of the people affected to get to know their data have been used, has been criticized as well. The UN-rapporteur for Human Rights also expressed his concerns on the use of SyRi as it could be a significant threat to human rights. Some projects revealed significant difficulties in integrating various data sources, which caused the recommendations by the system to become outdated and in fact unusable. In municipalities where the system actually gave recommendations on possible fraudulent behaviour, the success rate was very low. As, the costs of SyRi have been estimated to be over 325.000 euro per year, so that many have been wondering whether the system was worth the privacy and financial costs at all.   Following a court case, the Dutch court decided in early 2020 that the use of SyRi did not comply with Article 8 of the ECHR (European Convention of Human Rights), thus its usage has been cancelled. The judge ruled that the collective, economic welfare interest of preventing fraud weighed insufficiently against the social interest of privacy. Furthermore, the absence of disclosure about the inner working of SyRi makes its usage insufficiently transparent and verifiable.",
-        "geoextent": "National",
+        "description": "The ANPR system uses number plate recognition software for a variety of usages such as paid parking, traffic control, taks avoidance, environmental protection and more. It is used in more than 2000 administrations and is seen as a strong multi-purpose AI application",
+        "geoextent": "",
         "geocoverage": [
             "Netherlands"
         ],
@@ -814,11 +1166,43 @@
             "NL"
         ],
         "lead_organisation": {
-            "name": "Ministry of Social Affairs and Employment",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Ministry of Social Affairs and Employment",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Public order and safety",
+        "secondary_sector": "Police services",
+        "technology": "Computer vision and identity recognition",
+        "uptake": "Enforcement",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Organizational \/ sustained change",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90038,
+        "name": "SyRi",
+        "url": "https:\/\/algorithmwatch.org\/en\/story\/syri-netherlands-algorithm\/",
+        "contact": "",
+        "description": "Various municipalities in the Netherlands have been using the SyRi system to detect welfare fraud more effectively. SyRi has been developed by the Dutch government and uses various risk indicators from existing governmental systems such as taxes, health insurance, residence, education and many more, in order to detect which addresses hold a higher risk of fraud or misuse of welfare benefits.  SyRi was developed in 2014 after multiple municipalities had been creating their own systems to detect fraud. To enable the sharing of different information items that are relevant for SyRi, the system operates on a legal basis which clearly indicates which kind of data can be captured, stored and shared.The system does not make any decisions itself, but provides recommendations for civil servants to conduct further investigations.   Various organisations have opposed the usage of the system. They argue that it causes too many privacy infringements and is discriminatory towards the poor and vulnerable citizens. The lack of transparency on the inner working of the system and the inability of the people affected to get to know their data have been used, has been criticized as well. The UN-rapporteur for Human Rights also expressed his concerns on the use of SyRi as it could be a significant threat to human rights. Some projects revealed significant difficulties in integrating various data sources, which caused the recommendations by the system to become outdated and in fact unusable. In municipalities where the system actually gave recommendations on possible fraudulent behaviour, the success rate was very low. As, the costs of SyRi have been estimated to be over 325.000 euro per year, so that many have been wondering whether the system was worth the privacy and financial costs at all.   Following a court case, the Dutch court decided in early 2020 that the use of SyRi did not comply with Article 8 of the ECHR (European Convention of Human Rights), thus its usage has been cancelled. The judge ruled that the collective, economic welfare interest of preventing fraud weighed insufficiently against the social interest of privacy. Furthermore, the absence of disclosure about the inner working of SyRi makes its usage insufficiently transparent and verifiable.",
+        "geoextent": "",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "No",
         "end_date": "",
@@ -829,16 +1213,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Transformative \/ disruptive",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90027,
-        "name": "VDI: Protection of digital infrastructure",
-        "url": "https:\/\/www.regjeringen.no\/en\/dokumenter\/nasjonal-strategi-for-kunstig-intelligens\/id2685594\/?ch=7",
+        "id": 90039,
+        "name": "Chatbots Norway",
+        "url": "https:\/\/www.boost.ai\/articles\/automation-for-the-people-using-conversational-ai-to-benefit-the-public-sector",
         "contact": "",
-        "description": "The existing early warning system for digital infrastructure has been used to detect targeted cyber attacks for almost 20 years. The Norwegian National Security Authority is now developing new sensor technology that will build on and eventually replace the sensors used in the existing early warning system. A new platform will be developed to use artificial intelligence and machine learning on the data collected. The platform will enable automatic analysis of any malware detected as well as automatic sharing of results. It is expected that the AI will enable better cyber security for Norway's critical infrastructure.",
-        "geoextent": "National",
+        "description": "Several Norwegian Government Agencies and municipalities use chatbots based on AI technology. Most of them are based on technology from either boost.ai or Kindly.  Aim is to create a more efficient public sector with better service for citizens.",
+        "geoextent": "",
         "geocoverage": [
             "Norway"
         ],
@@ -846,11 +1230,43 @@
             "NO"
         ],
         "lead_organisation": {
-            "name": "Norwegian National Security Authority",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Norwegian National Security Authority",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General services.",
+        "technology": "Chatbots, intelligent digital assistants, virtual agents and recommendation systems",
+        "uptake": "Public services and engagement",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Incremental \/ technical change",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90040,
+        "name": "VDI: Protection of digital infrastructure",
+        "url": "https:\/\/www.regjeringen.no\/en\/dokumenter\/nasjonal-strategi-for-kunstig-intelligens\/id2685594\/?ch=7",
+        "contact": "",
+        "description": "The existing early warning system for digital infrastructure has been used to detect targeted cyber attacks for almost 20 years. The Norwegian National Security Authority is now developing new sensor technology that will build on and eventually replace the sensors used in the existing early warning system. A new platform will be developed to use artificial intelligence and machine learning on the data collected. The platform will enable automatic analysis of any malware detected as well as automatic sharing of results. It is expected that the AI will enable better cyber security for Norway's critical infrastructure.",
+        "geoextent": "",
+        "geocoverage": [
+            "Norway"
+        ],
+        "geocoverage_codes": [
+            "NO"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -861,16 +1277,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90028,
+        "id": 90041,
         "name": "Insolvency Predicition",
         "url": "https:\/\/norden.diva-portal.org\/smash\/get\/diva2:1375500\/FULLTEXT01.pdf",
         "contact": "",
         "description": "The TrondHeim Municipality has been working on an AI system capable of predicting which companies had a higher chance of become insolvent. This enable the organisation to detect companies at risk at take pre-emptive actions. The predictions were accurate to around 80% a year (an accuracy of 90% would have been much more preferred).",
-        "geoextent": "Local",
+        "geoextent": "",
         "geocoverage": [
             "Norway"
         ],
@@ -878,11 +1294,11 @@
             "NO"
         ],
         "lead_organisation": {
-            "name": "Trondheim Municipality",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Trondheim Municipality",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -893,16 +1309,48 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Organizational \/ sustained change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90029,
+        "id": 90042,
+        "name": "HAL",
+        "url": "https:\/\/www.regjeringen.no\/en\/dokumenter\/nasjonal-strategi-for-kunstig-intelligens\/id2685594\/?ch=4#id0022",
+        "contact": "",
+        "description": "The Ministry of Foreign Affairs (MFA) use ML and NLP to analyse and classify reports from embassies and delegations. Every year, the Ministry of Foreign Affairs (MFA) receives up to 6,000 reports from Norwegian embassies, delegations, etc. Previously it was extremely difficult to navigate all this information. Since the MFA adopted machine learning and NLP to analyse and classify the content of these documents, it has been possible to find almost all relevant information on a given subject matter. The solution is also used to extract key information in reports and prepare summaries.  In the work on developing this solution, the MFA cooperated with the University of Oslo, which provided solutions for categorising the Norwegian language. The plan is to gradually expand the solution with information from archives and external research reports.",
+        "geoextent": "",
+        "geocoverage": [
+            "Norway"
+        ],
+        "geocoverage_codes": [
+            "NO"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Foreign economic aid.",
+        "technology": "Natural language processing, text mining and speech analytics",
+        "uptake": "Internal management",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Incremental \/ technical change",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90043,
         "name": "Clearance Chamber ICT System",
         "url": "https:\/\/epf.org.pl\/en\/wp-content\/uploads\/sites\/3\/2019\/05\/alGOVrithms-State-of-Play-Report.pdf",
         "contact": "",
         "description": "This AI compiles a risk indicator based on collected financial data from financial institutions to determine whether account holders are more likely to conduct illegal activities. If the suspicious activity is detected, at the request of the tax authorities the bank will be able to freeze suspicious accounts. The system is run by the State Clearance Chamber, a key entity of the Polish payment system infrastructure, that renders complex clearing services and other bank services.",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "Poland"
         ],
@@ -910,11 +1358,11 @@
             "PL"
         ],
         "lead_organisation": {
-            "name": "Krajowa Izba Rozliczeniowa S.A (State  Clearance Chamber), Krajowa Izba Rozliczeniowa S.A (State Clearance Chamber)",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Krajowa Izba Rozliczeniowa S.A (State  Clearance Chamber), Krajowa Izba Rozliczeniowa S.A (State Clearance Chamber)",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -925,16 +1373,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Transformative \/ disruptive",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90030,
+        "id": 90044,
         "name": "Home Quarantine app",
         "url": "https:\/\/www.gov.pl\/web\/cyfryzacja\/aplikacja-kwarantanna-domowa--ruszyl-proces-jej-udostepniania",
         "contact": "",
         "description": "The Polish government has developed the free Home Quarantine app for both iPhone and Android, which allows the police to check that individuals do not break quarantine; those who do may be fined up to (at the moment this case was documented, in 2020) PLN 5,000 and also offers support to those who are quarantined. Once users activate the app by entering a phone number and a code sent via SMS, they send a reference photo. Every so often the app sends an unscheduled request for a new photo to be sent within 20 minutes. The system checks both the person (using facial recognition) and the location, essentially replicating what would otherwise be a visit from a police officer. Non-quarantined people cannot sign up, as the app is connected to a database of telephone numbers belonging to those ordered into quarantine. The app also gives access to relevant health information and a hotline. The government intends to add more functionality to the app over time.",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "Poland"
         ],
@@ -942,11 +1390,11 @@
             "PL"
         ],
         "lead_organisation": {
-            "name": "Unknown",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Unknown",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -957,16 +1405,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Organizational \/ sustained change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90031,
+        "id": 90045,
         "name": "Sigma",
         "url": "https:\/\/joinup.ec.europa.eu\/sites\/default\/files\/news\/2019-09\/ISA2_Architecture%20for%20public%20service%20chatbots.pdf",
         "contact": "",
         "description": "For Portuguese residents, it is possible to change their official address via the chatbot Sigma. The provision of services in the informative phase is through the services and entities catalog (CES - Entities and Services Catalogue).",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "Portugal"
         ],
@@ -974,11 +1422,11 @@
             "PT"
         ],
         "lead_organisation": {
-            "name": "Agency for  Administrative  Modernisation, Agency for Administrative Modernisation",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Agency for  Administrative  Modernisation, Agency for Administrative Modernisation",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -989,16 +1437,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90032,
+        "id": 90046,
         "name": "Verification of medical prescriptions",
         "url": "https:\/\/algorithmwatch.org\/en\/story\/portugal-automated-verification-prescriptions-medical-fraud\/",
         "contact": "",
         "description": "In Portugal, the Control and Monitoring Center from the Portuguese Public National Health Service (CCM-SNS), uses data from several databases, in order to detect and fight prescription fraud. It follows a paperless prescription program and the electronic medical prescriptions system which were both implemented in 2016 and made mandatory for the public sector. During the first seven years, the central unit detected irregularities amounting to hundreds of millions of euros, and was instrumental in starting many prosecution for fraud in the health system. According to the Ministry of Health, in the first semester of 2017, the Invoice Control Center processed 356.2 million Euros' worth of prescriptions and flagged 21.1 millions euros to the State prosecutor.",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "Portugal"
         ],
@@ -1006,11 +1454,11 @@
             "PT"
         ],
         "lead_organisation": {
-            "name": "Portuguese Public National Health Service (Centro de Controlo e Monitoriza\u00e7\u00e3o do Sistema Nacional de Sa\u00fade)",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Portuguese Public National Health Service (Centro de Controlo e Monitoriza\u00e7\u00e3o do Sistema Nacional de Sa\u00fade)",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -1021,16 +1469,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Transformative \/ disruptive",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90033,
+        "id": 90047,
         "name": "Face recognition Bucharest Airport",
         "url": "https:\/\/www.uti.eu.com\/press-releases\/uti-will-implement-face-recognition-and-intelligent-image-analysis-systems-with-otopeni-airport\/",
         "contact": "",
         "description": "A facial recognition system will be implemented in Bucharest Airport. The AI will be capable of both identifying wanted persons, terrorism subjects or others on the list of intelligence services as well as a solution which detects suspicious behaviour.",
-        "geoextent": "Local",
+        "geoextent": "",
         "geocoverage": [
             "Romania"
         ],
@@ -1038,11 +1486,11 @@
             "RO"
         ],
         "lead_organisation": {
-            "name": "Bucharest Airport",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Bucharest Airport",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -1053,16 +1501,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Organizational \/ sustained change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90034,
+        "id": 90048,
         "name": "Antonia",
         "url": "https:\/\/www.romaniajournal.ro\/society-people\/antonia-the-first-virtual-public-servant-in-romania\/",
         "contact": "",
         "description": "The City Hall of Cluj has an AI system called Antonia, which handles the automatic processing of 64 types of forms for requesting public services. The also has a chatbot component so she can answer questions about how to fill the forms. In the second development stage of the AI-based technology, Antonia will become a hologram, this being the surprise-element for the next stage. This depends on how fast we will work out the technical aspects, so there is \"no time estimation for the complete implementation\" according o the local officials in Cluj-Napoca. The project is estimated to be completed within 30 months' period. Antonia has been launched in April 2018 and functions around the clock.",
-        "geoextent": "Local",
+        "geoextent": "",
         "geocoverage": [
             "Romania"
         ],
@@ -1070,11 +1518,11 @@
             "RO"
         ],
         "lead_organisation": {
-            "name": "Municipality of Cluj-Napoca",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Municipality of Cluj-Napoca",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -1085,16 +1533,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Transformative \/ disruptive",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90035,
+        "id": 90049,
         "name": "Chatbot Taxana",
         "url": "https:\/\/www.youtube.com\/watch?v=UQ_XRlIFtrQ & https:\/\/www.podnikajte.sk\/dane\/taxana-chatbot",
         "contact": "",
         "description": "The Slovakian Financial Administration is the first state institution to launch an automated Chatbot to communicate with its clients, available 24\/7. This Chatbot was named Taxana, chosen by the employees of the financial administration combining the English word tax and the Slovak word toy. The system has been put in place as it is argued that the state financial management must continue to digitize and electronic processes to make the processes easier for taxpayers. The introduction of automated chat in communication with their clients will also assist the call center staff, who save time and can thus deal with more complex issues of taxpayers.",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "Slovakia"
         ],
@@ -1102,11 +1550,11 @@
             "SK"
         ],
         "lead_organisation": {
-            "name": "Financial Administration",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Financial Administration",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -1117,16 +1565,80 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90036,
+        "id": 90050,
+        "name": "Chatbot Oversi",
+        "url": "https:\/\/stopbyrokracii.sk\/",
+        "contact": "",
+        "description": "The Oversi Chatbot is part of a government initiative to stop the bureaucracy in Slovakia and to apply the once only principle in a digital way. The Chatbot has been invented in order to help find the best solutions and answers to common questions for the general public.",
+        "geoextent": "",
+        "geocoverage": [
+            "Slovakia"
+        ],
+        "geocoverage_codes": [
+            "SK"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General services.",
+        "technology": "Chatbots, intelligent digital assistants, virtual agents and recommendation systems",
+        "uptake": "Public services and engagement",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Organizational \/ sustained change",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90051,
+        "name": "AI algorithms PCA in audit methodology",
+        "url": "https:\/\/dennikn.sk\/blog\/1561696\/big-data-ukazali-nestandardne-predpisovanie-liekov-usporime-tak-statisice-eur\/",
+        "contact": "",
+        "description": "Successful use case: AI algorithms (PCA=principal component analysis (less successful) and TSNE +DBScanAlgo ) used in audit methodology when detecting potential fraud when prescribing medicines. .csv data structure + python \u2013 Status: Successful implementation and working on a strategy how to scale up.",
+        "geoextent": "",
+        "geocoverage": [
+            "Slovakia"
+        ],
+        "geocoverage_codes": [
+            "SK"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Public health services.",
+        "technology": "Expert and rule based systems, algorithmic decision making",
+        "uptake": "Enforcement",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Organizational \/ sustained change",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90052,
         "name": "Semantic analyser",
         "url": "https:\/\/nio.gov.si\/nio\/asset\/semanticni+analizator+besedil",
         "contact": "",
         "description": "Finding relations among text documents (in slovenian language) based on relations among terms used. In development. There is a working prototype. A search engine to find documents with similar content, support to data dictionaries. In development.",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "Slovenia"
         ],
@@ -1134,11 +1646,11 @@
             "SI"
         ],
         "lead_organisation": {
-            "name": "Ministry of Public Administration",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Ministry of Public Administration",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -1149,16 +1661,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90037,
+        "id": 90053,
         "name": "060 Service",
         "url": "https:\/\/joinup.ec.europa.eu\/sites\/default\/files\/inline-files\/08-2%20Salvador_Estevan_Martinez%20and%20Doaa_Samy_0.pdf",
         "contact": "",
         "description": "This is a service using Natural Language Processing (NLP) to answer frequently asked questions from citizens and to translate formal public administration terms into more informal terms for citizens. The 060 line is introduced in 2006 as being a central contact point for Spanish citizens with questions about state services, with a certain objective, being the center point of attention for the Spanish citizens, in order to provide information regarding the Central Administration Services and to connect the different public services through one short number: 060.",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "Spain"
         ],
@@ -1166,11 +1678,11 @@
             "ES"
         ],
         "lead_organisation": {
-            "name": "General Secretariat for Digital Administration",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "General Secretariat for Digital Administration",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -1181,16 +1693,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Transformative \/ disruptive",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90038,
+        "id": 90054,
         "name": "AI for measuring beach attendance",
         "url": "https:\/\/www.euroweeklynews.com\/2020\/05\/04\/costa-del-sols-fuengirola-will-use-artificial-intelligence-to-control-capacity-at-beaches-and-public-spaces\/",
         "contact": "",
         "description": "The Fuengirola Town Hall representatives aim to use artificial intelligence (AI) in order to control the capacity of beaches and other public spaces. The AI tool is developed by a local company. It allows for real-time information regarding the levels of attendance at beaches to be analysed in order to avoid crowds and minimise the risk of possible Covid-19 infections. This software works by using artificial intelligence sensors that are installed in streetlights. Then, virtual grids are created in which there is a maximum capacity for occupants.  The 3D volume of people entering and leaving these spaces is measured, as well as the amount of people entering the measurement grids. The results of the calculations are carried out in real time in order to warn citizens about means of occupancy (percentages and colours are used as visual warnings).",
-        "geoextent": "Local",
+        "geoextent": "",
         "geocoverage": [
             "Spain"
         ],
@@ -1198,11 +1710,11 @@
             "ES"
         ],
         "lead_organisation": {
-            "name": "Municipality of Fuengirola",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Municipality of Fuengirola",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -1213,16 +1725,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90039,
+        "id": 90055,
         "name": "VeriPol",
         "url": "https:\/\/www.sciencedirect.com\/science\/article\/abs\/pii\/S095070511830128X",
         "contact": "",
         "description": "The filing of fake police reports is quite common in Spain, especially for low level crimes. This practice is regarded as quite troublesome, as it can bring significant consequences for individuals, wasting valuable police resources and is often used in combination with other fraudulent behaviour. Recently, the Spanish national police have adopted the VeriPol, an AI system in order to detect false police reports. The system was designed to be integrated into the existing Spanish National Police information system called SIDENPOL, allowing for easier use and integration into existing work practices. Its development was the result of a collaborative project between the University of Cardiff, the Charles III University of Madrid and the Spanish National Police. The database of police reports was made available for the researchers of the universities in order to train the AI system on. For this, 1122 reports were used, including 534 true and 588 false reports. VeriPol exploits a combination of Natural Language Processing and machine learning classification algorithms, capable of estimating the probability of false police reports with significant accuracy. In addition to that, the system also enables insights into the differences between false and true police reports. For example, pilot studies found that false police reports are more likely to include shorter statements, focused on the objects which were stolen and lacking details. Following the development, the system was tested in pilot situations in both the police department of Malaga and Murcia. These pilots have been regarded as successful because an increase in the number of false reports was detected. Furthermore, an anonymous survey among the staff showed that the VeriPol system was useful, easy to use but should include more functionalities to detect other forms of crime. Now the system has been rolled out for use by all the departments of the Spanish National Police. The expected impact of the use of the system is to both detect false reports early, leaving more police resources available to focus on other tasks and reports, while at the same time deterring people from filing fake statements in the first place. An additional benefit of the system is to gain more insights into how people lie to police officers as well as to gain more knowledge in detecting true and false police reports.",
-        "geoextent": "National",
+        "geoextent": "",
         "geocoverage": [
             "Spain"
         ],
@@ -1230,11 +1742,11 @@
             "ES"
         ],
         "lead_organisation": {
-            "name": "Spanish Police",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Spanish Police",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -1245,16 +1757,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Transformative \/ disruptive",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90040,
+        "id": 90056,
         "name": "Automated social welfare decisions in Trelleborg",
         "url": "https:\/\/valcon.com\/insights\/trelleborg-robotics-solution\/",
         "contact": "",
         "description": "In the municipality of Trelleborg, AI technologies are used to automate various social assistance decisions since 2016. It was the first municipality to use Robotic Process Automation (RPA) to handle various applications on social assistance. At the moment, the automated decision making system is able to process applications for homecare, sickness benefits, unemployment benefits and taxes and has been regarded as a successful example for others to follow. Various other Swedish municipalities are exploring how to implement the Trelleborg model to gain access to the same kinds of benefits. Previously, employees had to manually assess the applications which took considerable amounts of time and costs. With more than 300 applications on social benefits in the municipality every month, citizens sometimes had to wait an average of 8 days on the decision on their welfare-payments, which sometimes leading up to 20 days. As a result of this waiting time, citizens would frequently contact the department about their applications, further increasing the workload of the staff. The decision to use AI to improve the welfare payment process was thought limit the waiting time and consequently various worries of payment delivery by citizens.  Any rejected applications are still handled by people themselves. The automation of the welfare services was not possible if there was not already an online process for people to submit their welfare applications to. In 2015, Trelleborg was the first Swedish municipality to digitalize their administration on social benefits. Already 75% of the citizens used the online platform to access welfare payments which enabled significant data and information to automate this process with RPA technology. Without the data coming from the self-service portal, it would not have been possible to automate these processes. Valcon, a consultancy, helped to develop and implement the RPA platform. As a result of the automation process, the waiting time for citizens on their welfare applications has been significantly reduced. It has been mentioned that many case handling times for people in economically vulnerable situations has been reduced from 10 days to 1 day, with all financial assistance decisions done within 24 hours. In addition, two employees in the Trelleborg administration could be allocated to spend more time on other, value adding tasks such as handling more complex cases.",
-        "geoextent": "Local",
+        "geoextent": "",
         "geocoverage": [
             "Sweden"
         ],
@@ -1262,11 +1774,11 @@
             "SE"
         ],
         "lead_organisation": {
-            "name": "Municipality of Trelleborg",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Municipality of Trelleborg",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -1277,16 +1789,16 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Organizational \/ sustained change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90041,
+        "id": 90057,
         "name": "Tengai",
         "url": "https:\/\/www.upplands-bro.se\/kommun--politik\/om-kommunen\/information-om-coronaviruset\/nyheter-corona\/2020-05-05-kommunen-tar-nasta-steg-i-fordomsfri-rekrytering-med-intervjuroboten-tengai.html",
         "contact": "",
         "description": "The Swedish municipality of Upplands-Bro has started experimenting with the robot Tengai in their recruitment processes since June 2019. Tengai is one of the first interviewer robots developed with the aim to make the recruitment process less biased than traditional interview practices would do. The robot is adopted by the recruitment and staffing agency of the municipality, which has already made their recruitment processes less biased. For the last 10 years already, the agency has not used resumes in their recruitment process and growingly taken an interest in data-driven recruitment tools. Consequently, having a physical robot was regarded as the next step in preventing biases in hiring decisions. The idea behind the use of the robot was to avoid that a human person was present at the beginning of the recruitment process in order to neutralise any psycho-social prejudices. The Tengai robot is the result of a collaboration between the municipality staff and the AI consultancy Furhat Robotics. After the Tengai robot was released, within a week, it was decided to adopt its services permanently. For the company this was also a first time, the municipal recruitment and staffing agency being their first public sector client. The Tengai robot is seen to complement the recruitment process nicely, having been designed not to perceive the age, gender, clothing, background or other looks of interviewed persons. The municipality is using Tengai to first identify candidates with the highest general performance score, in order to make a shortlist for future selections. Here, Tengai works in collaboration with existing staff, as the recruiters analyse competency checks and schedule an interview appointment with Tengai. The robot then conducts the interviews to assess the candidates by analysing their behaviours, problem-solving capacities and other skills. If needed, the robot is able to ask follow-up questions. The interviews are then analysed, combined with the competency scores. Tengai then makes a first selection of promising candidates. The recruiters of the municipality will conduct the final interview with candidates to assess their motivation. The first results following the adoption of the Tengai robot have been regarded as successful and brought significant media attention to the municipality due to the innovative approach to recruitment. According to one of the directors of the municipality, the Tengai robot has made the selection and hiring processes faster, cheaper and more unbiased, freeing up crucial resources to be spent on other tasks.",
-        "geoextent": "Local",
+        "geoextent": "",
         "geocoverage": [
             "Sweden"
         ],
@@ -1294,11 +1806,11 @@
             "SE"
         ],
         "lead_organisation": {
-            "name": "Municipality of Upplands-Bro",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Municipality of Upplands-Bro",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -1309,60 +1821,28 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Transformative \/ disruptive",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90042,
-        "name": "NOGAuto",
-        "url": "https:\/\/www.experimental.bfs.admin.ch\/expstat\/en\/home\/innovation-data-science\/nogauto.html",
+        "id": 90058,
+        "name": "Skatti",
+        "url": "Web link not available",
         "contact": "",
-        "description": "The employees responsible for the NOGA coding assign or control the codes of the economic activity of the companies based on the available information (input from surveys, description of the economic activity in the commercial register, etc.). This is inevitably coupled with a human and therefore subjective interpretation of the available information, which makes standardized coding difficult. There is the need to develop a tool that can automatically assign the corresponding NOGA codes to the companies registered in the BUR. With automatic coding, at least the same or even higher quality should be achieved than with the current manual coding by the NOGA Group.",
-        "geoextent": "National",
+        "description": "Skatti answers general questions about population registration and the income tax return for private individuals. You can not get answers to questions about, for example, ongoing or closed cases, or get help with information from the Swedish Tax Agency's register.",
+        "geoextent": "",
         "geocoverage": [
-            "Switzerland"
+            "Sweden"
         ],
         "geocoverage_codes": [
-            "CH"
+            "SE"
         ],
         "lead_organisation": {
-            "name": "Federal Office for Statistics",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Federal Office for Statistics",
-        "lead_organisation_category": "Governmental",
-        "start_date": "",
-        "active": "Unknown",
-        "end_date": "",
-        "primary_sector": "Economic affairs",
-        "secondary_sector": "R&d economic affairs",
-        "technology": "Cognitive robotics and process automation, connected and automated vehicles",
-        "uptake": "Internal management",
-        "cross_border": "Unknown",
-        "cross_sector": "Unknown",
-        "type": "Incremental \/ technical change",
-        "status": "Unknown"
-    },
-    {
-        "cid": 10009,
-        "id": 90043,
-        "name": "Maxi Chatbot",
-        "url": "https:\/\/www.previon.ch\/projekte\/maxi-der-clevere-chatbot-der-sva-aargau",
-        "contact": "",
-        "description": "The Social Insurance Aargau SVA has introduced the Maxi Chatbot in order to reduce the number of questions received daily. The chatbot can answer general questions without sensitive data content. In the future, all further emails should run through automated and intelligent (learning) triage and further processing. To do this, requests with personal data must be correctly triaged by the chatbot and, depending on the type of request, directly trigger a process on the specialist application. With the introduction of the \"Maxi\" chatbot, remedial measures were taken and mail inquiries reduced by around 30%.",
-        "geoextent": "Regional",
-        "geocoverage": [
-            "Switzerland"
-        ],
-        "geocoverage_codes": [
-            "CH"
-        ],
-        "lead_organisation": {
-            "name": "Social Insurance Institute of Canton of Aargau",
-            "category": "Governmental"
-        },
-        "lead_organisation_name": "Social Insurance Institute of Canton of Aargau",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
@@ -1373,80 +1853,80 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90044,
-        "name": "HART",
-        "url": "https:\/\/www.tandfonline.com\/doi\/pdf\/10.1080\/13600834.2018.1458455",
+        "id": 90059,
+        "name": "NOGAuto",
+        "url": "https:\/\/www.experimental.bfs.admin.ch\/expstat\/en\/home\/innovation-data-science\/nogauto.html",
         "contact": "",
-        "description": "The Harm Assessment Risk Tool (HART) puts information on a person's past offending history, age, postcode and other background characteristics through algorithms that then classify them as a low, medium or high risk. It is used by the police of Durham and was one of the first reported cases of predictive policing used in the police.",
-        "geoextent": "National",
+        "description": "The employees responsible for the NOGA coding assign or control the codes of the economic activity of the companies based on the available information (input from surveys, description of the economic activity in the commercial register, etc.). This is inevitably coupled with a human and therefore subjective interpretation of the available information, which makes standardized coding difficult. There is the need to develop a tool that can automatically assign the corresponding NOGA codes to the companies registered in the BUR. With automatic coding, at least the same or even higher quality should be achieved than with the current manual coding by the NOGA Group.",
+        "geoextent": "",
         "geocoverage": [
-            "United Kingdom"
+            "Switzerland"
         ],
         "geocoverage_codes": [
-            "GB"
+            "CH"
         ],
         "lead_organisation": {
-            "name": "Durham city police",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Durham city police",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
-        "primary_sector": "Public order and safety",
-        "secondary_sector": "Police services",
-        "technology": "Security analytics and threat intelligence",
-        "uptake": "Enforcement",
+        "primary_sector": "Economic affairs",
+        "secondary_sector": "R&d economic affairs",
+        "technology": "Cognitive robotics and process automation, connected and automated vehicles",
+        "uptake": "Internal management",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90045,
-        "name": "Babylon",
-        "url": "https:\/\/www.babylonhealth.com\/",
+        "id": 90060,
+        "name": "Maxi Chatbot",
+        "url": "https:\/\/www.previon.ch\/projekte\/maxi-der-clevere-chatbot-der-sva-aargau",
         "contact": "",
-        "description": "Babylon's interactive symptom checker asks you questions to analyse your condition. Babylon's AI system has been created by experienced doctors and scientists using the latest advances in deep-learning. Much more than a searchable database, it assesses known symptoms and risk factors to provide informed, up-to-date medical information.",
-        "geoextent": "National",
+        "description": "The Social Insurance Aargau SVA has introduced the Maxi Chatbot in order to reduce the number of questions received daily. The chatbot can answer general questions without sensitive data content. In the future, all further emails should run through automated and intelligent (learning) triage and further processing. To do this, requests with personal data must be correctly triaged by the chatbot and, depending on the type of request, directly trigger a process on the specialist application. With the introduction of the \"Maxi\" chatbot, remedial measures were taken and mail inquiries reduced by around 30%.",
+        "geoextent": "",
         "geocoverage": [
-            "United Kingdom"
+            "Switzerland"
         ],
         "geocoverage_codes": [
-            "GB"
+            "CH"
         ],
         "lead_organisation": {
-            "name": "National Health Service",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "National Health Service",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "Unknown",
         "end_date": "",
-        "primary_sector": "Health",
-        "secondary_sector": "Medical products, appliances and equipment.",
+        "primary_sector": "General public services",
+        "secondary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs.",
         "technology": "Chatbots, intelligent digital assistants, virtual agents and recommendation systems",
         "uptake": "Public services and engagement",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Incremental \/ technical change",
-        "status": "Unknown"
+        "status": ""
     },
     {
         "cid": 10009,
-        "id": 90046,
-        "name": "Early Help Profiling System (EHPS)",
-        "url": "https:\/\/www.hackneycitizen.co.uk\/2018\/10\/18\/council-360k-xantura-software-profiles-troubled-families\/",
+        "id": 90061,
+        "name": "Ensuring MOT standards in garages",
+        "url": "https:\/\/www.gov.uk\/government\/case-studies\/how-the-department-for-transport-used-ai-to-improve-mot-testing",
         "contact": "",
-        "description": "A predictive system called the \"Early Help Profiling System (EHPS)\" used in Hackney County (London), which uses data from a variety of different sources to identify children and families considered vulnerable and at risk of child abuse to the municipality. The data includes statistics from different government agencies, such as school attendance, housing information, economic indicators, and others. This allows early intervention to these families, avoiding the occurrence of a crisis with more expensive follow-up actions.   Each month, the social workers team gets a list of 20 families who are of high risk and unknown to the social workers at that time. Social workers then decide based on the information to conduct an early intervention, such as support from a child centre or a health assessment. It has been reported that the model had a high accuracy, with more than 80% of the risk alerts deemed valid, despite challenges with continuous updating of some data sources. The system was expected to help councils save around one million euro per year by having early, targeted interventions. However, the system was heavily criticized. The nature of the data collection and the risk assessment was very opaque as data is processed by a private company, leading to concerns by citizens. Those whose data was used were not informed and it was kept a secret which indicators were to determine the risks, since a private company was responsible for the development and argued that the information was commercially sensitive. Others noticed that the system was only put in place to cope with the austerity measures put in place, as the system was advertised to maximize payments from the Troubled Families programme.  Now Hackney Council stopped working with the programme as it did not realise the expected benefits.",
-        "geoextent": "Local",
+        "description": "The Driver and Vehicle Standards Agency (DVSA) wanted to use a more intelligent, data-driven approach to better target their resources and ensure MOT standards remained high.",
+        "geoextent": "",
         "geocoverage": [
             "United Kingdom"
         ],
@@ -1454,11 +1934,75 @@
             "GB"
         ],
         "lead_organisation": {
-            "name": "Unknown",
-            "category": "Governmental"
+            "name": "",
+            "category": ""
         },
-        "lead_organisation_name": "Unknown",
-        "lead_organisation_category": "Governmental",
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Economic affairs",
+        "secondary_sector": "Transport",
+        "technology": "Machine learning, deep learning",
+        "uptake": "Enforcement",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Incremental \/ technical change",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90062,
+        "name": "Amelia CitizenBot",
+        "url": "https:\/\/www.ukauthority.com\/articles\/enfield-joins-microsoft-in-citizenbot-project\/",
+        "contact": "",
+        "description": "Last month, amid budget cuts, the Enfield Council in North London became the first government to employ Amelia, an avatar and chatbot personal assistant from IPsoft. Amelia uses artificial intelligence, machine-learning algorithms, and a natural language processor to help local residents find city services.",
+        "geoextent": "",
+        "geocoverage": [
+            "United Kingdom"
+        ],
+        "geocoverage_codes": [
+            "GB"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs.",
+        "technology": "Chatbots, intelligent digital assistants, virtual agents and recommendation systems",
+        "uptake": "Public services and engagement",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Incremental \/ technical change",
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90063,
+        "name": "Early Help Profiling System (EHPS)",
+        "url": "https:\/\/www.hackneycitizen.co.uk\/2018\/10\/18\/council-360k-xantura-software-profiles-troubled-families\/",
+        "contact": "",
+        "description": "A predictive system called the \"Early Help Profiling System (EHPS)\" used in Hackney County (London), which uses data from a variety of different sources to identify children and families considered vulnerable and at risk of child abuse to the municipality. The data includes statistics from different government agencies, such as school attendance, housing information, economic indicators, and others. This allows early intervention to these families, avoiding the occurrence of a crisis with more expensive follow-up actions.   Each month, the social workers team gets a list of 20 families who are of high risk and unknown to the social workers at that time. Social workers then decide based on the information to conduct an early intervention, such as support from a child centre or a health assessment. It has been reported that the model had a high accuracy, with more than 80% of the risk alerts deemed valid, despite challenges with continuous updating of some data sources. The system was expected to help councils save around one million euro per year by having early, targeted interventions. However, the system was heavily criticized. The nature of the data collection and the risk assessment was very opaque as data is processed by a private company, leading to concerns by citizens. Those whose data was used were not informed and it was kept a secret which indicators were to determine the risks, since a private company was responsible for the development and argued that the information was commercially sensitive. Others noticed that the system was only put in place to cope with the austerity measures put in place, as the system was advertised to maximize payments from the Troubled Families programme.  Now Hackney Council stopped working with the programme as it did not realise the expected benefits.",
+        "geoextent": "",
+        "geocoverage": [
+            "United Kingdom"
+        ],
+        "geocoverage_codes": [
+            "GB"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
         "start_date": "",
         "active": "No",
         "end_date": "",
@@ -1469,6 +2013,38 @@
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
         "type": "Transformative \/ disruptive",
-        "status": "Unknown"
+        "status": ""
+    },
+    {
+        "cid": 10009,
+        "id": 90064,
+        "name": "Misty II",
+        "url": "https:\/\/www.barcelona.cat\/infobarcelona\/en\/tema\/senior-citizens\/misty-ii-the-social-robot-becomes-part-of-the-lives-of-twenty-senior-citizens_907645.html",
+        "contact": "",
+        "description": "Twenty elderly people who live alone and already use services provided by the City Council\u2019s Area for Social Rights are to be accompanied in their daily lives by the social robot Misty II. This is the start of a pilot project to analyse the usefulness of a project created for the challenge \u2018Improving the quality of life of senior citizens through technology\u2019, launched by the Barcelona Mobile World Capital Foundation. Users will be selected to live with a robot during a trial period. The pilot aims to discover to which extent the quality of life for senior citizens can be improved through assistance with a social robot, by, for example, reducing isolation, monitoring their health, preventing the forgetting of medicine or appointments.  Additional information can be found at these links: https:\/\/www.elespanol.com\/invertia\/disruptores-innovadores\/autonomias\/cataluna\/20210223\/misty-robot-facil-mayores-viven-solos-barcelona\/560944535_0.amp.html; https:\/\/5gbarcelona.org\/pilots\/5g-emotional-robot\/;  https:\/\/docs.mistyrobotics.com\/misty-ii\/get-started\/meet-misty\/",
+        "geoextent": "",
+        "geocoverage": [
+            "Spain"
+        ],
+        "geocoverage_codes": [
+            "ES"
+        ],
+        "lead_organisation": {
+            "name": "",
+            "category": ""
+        },
+        "lead_organisation_name": "",
+        "lead_organisation_category": "",
+        "start_date": "",
+        "active": "Yes",
+        "end_date": "",
+        "primary_sector": "Social protection",
+        "secondary_sector": "Old age.",
+        "technology": "Cognitive robotics and process automation, connected and automated vehicles",
+        "uptake": "Public services and engagement",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Transformative \/ disruptive",
+        "status": ""
     }
 ]

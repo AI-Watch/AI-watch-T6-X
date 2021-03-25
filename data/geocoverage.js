@@ -3,6 +3,7 @@ var geocoverage = [
     "Belgium",
     "Bulgaria",
     "Croatia",
+    "Cyprus",
     "Denmark",
     "Estonia",
     "Finland",
