@@ -5,6 +5,6 @@ var primary_sector = [
     "Health",
     "Housing and community amenities",
     "Public order and safety",
-    "Recreation - culture and religion",
+    "Recreation, culture and religion",
     "Social protection"
 ]
