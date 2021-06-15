@@ -7,5 +7,6 @@ var technology = [
     "Natural language processing",
     "Planning and scheduling",
     "Robotics and automation",
-    "Searching"
+    "Searching",
+    "Unknown"
 ]
