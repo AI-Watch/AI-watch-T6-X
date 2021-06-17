@@ -162,8 +162,40 @@
     {
         "cid": 10009,
         "id": 90006,
+        "name": "ILVO - Multiple AI projects n the agricultural domain",
+        "url": "https:\/\/ilvo.vlaanderen.be\/en\/search-results?q=Artificial+intelligence&id=home&l=en",
+        "contact": "",
+        "description": "The Institute for Agricultural, Fisheries and Food Research (ILVO) evaluated the possibilities of artificial intelligence for agricultural applications. Most applications are still in an initial phase and often in collaboration with other knowledge centers.   Some concrete projects are: o Processing of hyperspectral images for early detection of potato diseases o Automatic health monitoring in cattle (e.g. lameness detection) o Automatic health monitoring in fattening pigs o Image analysis for multiple specific applications (e.g. quality food products, sorting fish species, etc.) o Behavior of plants under the influence of external stimuli o Identification of problem insects (eg zip needles) via camera images o Site-specific detection of problem weeds",
+        "geoextent": "Regional",
+        "geocoverage": [
+            "Belgium"
+        ],
+        "geocoverage_codes": [
+            "BE"
+        ],
+        "lead_organisation": {
+            "name": "Instituut voor Landbouw-, Visserij- en Voedingsonderzoek",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Instituut voor Landbouw-, Visserij- en Voedingsonderzoek",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Economic affairs",
+        "secondary_sector": "General economic, commercial and labour affair",
+        "technology": "Machine learning",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90007,
         "name": "Jobnet - reskilling, upskilling and retraining of people",
-        "url": "https:\/\/jobbereik.vdab.be",
+        "url": "https:\/\/www.agoria.be\/nl\/VDAB-gebruikt-AI-om-jobmatching-te-verrijken",
         "contact": "",
         "description": "The Flemish Employment and Vocational Training Service (VDAB) is using AI since 2018 which assists in the reskilling, upskilling and retraining of people. The software is called Jobnet and is the combination of a variety of different AI-models into one big AI-model. With the AI, citizens can see which jobs are fitting to their skills, which relevant skills they still lack, starting from their own experience combined with job market data.",
         "geoextent": "Regional",
@@ -193,7 +225,39 @@
     },
     {
         "cid": 10009,
-        "id": 90007,
+        "id": 90008,
+        "name": "VDAB - chatbot for joob seekers",
+        "url": "https:\/\/tracebrussel.be\/nieuws\/vdab-experimenteert-met-chatbots-en-tinderdienst",
+        "contact": "",
+        "description": "VDAB experiments with chatbots to better match jobseekers with the right vacancies. A chatbot is an automated conversation partner that participates in typed conversations. VDAB is also investigating how chatbots can guide job seekers in their search by automatically answering questions and addressing job seekers. http:\/\/chatbotvanvdab.be\/",
+        "geoextent": "Regional",
+        "geocoverage": [
+            "Belgium"
+        ],
+        "geocoverage_codes": [
+            "BE"
+        ],
+        "lead_organisation": {
+            "name": "Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs.",
+        "technology": "Unknown",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90009,
         "name": "Verontrustingen - enabling accurate predictions to detect day-care services which require further inspection",
         "url": "https:\/\/www.dialogic.nl\/wp-content\/uploads\/2018\/06\/VTOM-Small-Kids-Big-Data-Frank-Bongers-mei-2018.pdf",
         "contact": "",
@@ -225,7 +289,39 @@
     },
     {
         "cid": 10009,
-        "id": 90008,
+        "id": 90010,
+        "name": "Walloon - Agricultural subsidy monitoring with the use of GeoAI",
+        "url": "https:\/\/inspire.ec.europa.eu\/sites\/default\/files\/1._location_intelligence_-_gartner_v1.2.pdf",
+        "contact": "",
+        "description": "Walloon uses geo AI with satellite imagery to check whether subsidy requirements are met",
+        "geoextent": "Regional",
+        "geocoverage": [
+            "Belgium"
+        ],
+        "geocoverage_codes": [
+            "BE"
+        ],
+        "lead_organisation": {
+            "name": "D\u00e9partement de l'Agriculture",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "D\u00e9partement de l'Agriculture",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Economic affairs",
+        "secondary_sector": "Agriculture, forestry, fishing and hunting",
+        "technology": "Machine learning",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90011,
         "name": "Plovdic - city Concierge Chatbot",
         "url": "https:\/\/umni.bg\/en\/plovdiv-city-concierge-chatbot\/",
         "contact": "",
@@ -257,7 +353,7 @@
     },
     {
         "cid": 10009,
-        "id": 90009,
+        "id": 90012,
         "name": "Andrija - virtual assistant supporting advising suspected COVID-19 infections",
         "url": "https:\/\/andrija.ai\/",
         "contact": "",
@@ -289,7 +385,7 @@
     },
     {
         "cid": 10009,
-        "id": 90010,
+        "id": 90013,
         "name": "Hope - chatbot informing work of the Civil Protection Staff",
         "url": "https:\/\/www.themayor.eu\/en\/a\/view\/coronavirus-chatbot-educates-the-citizens-of-vinkovci-4796",
         "contact": "",
@@ -321,7 +417,7 @@
     },
     {
         "cid": 10009,
-        "id": 90011,
+        "id": 90014,
         "name": "WaterAnalytics - water quality monitoring",
         "url": "https:\/\/www.wateranalytics.eu\/",
         "contact": "",
@@ -353,7 +449,7 @@
     },
     {
         "cid": 10009,
-        "id": 90012,
+        "id": 90015,
         "name": "CHAIN - smart Water optimising energy consumption",
         "url": "https:\/\/www.aquatechtrade.com\/news\/article\/video-story-digital-denmark\/",
         "contact": "",
@@ -385,7 +481,7 @@
     },
     {
         "cid": 10009,
-        "id": 90013,
+        "id": 90016,
         "name": "Corti's AI - emergency medical services real-time speech analysis for cardiac predictions",
         "url": "https:\/\/www.weforum.org\/agenda\/2018\/06\/this-ai-detects-cardiac-arrests-during-emergency-calls\/",
         "contact": "",
@@ -417,7 +513,7 @@
     },
     {
         "cid": 10009,
-        "id": 90014,
+        "id": 90017,
         "name": "Erhvervsstyrelsen - Detection of errors in business statements",
         "url": "https:\/\/joinup.ec.europa.eu\/sites\/default\/files\/custom-page\/attachment\/2020-07\/Study%20on%20public%20sector%20data%20strategies%2C%20policies%20and%20governance%20%E2%80%93%20ANNEX%20Case%20studies.pdf",
         "contact": "",
@@ -449,7 +545,7 @@
     },
     {
         "cid": 10009,
-        "id": 90015,
+        "id": 90018,
         "name": "Kiri - chatbot for citizens' enquiries",
         "url": "https:\/\/www.frederiksberg.dk\/nyheder\/frederiksberg-kommune-deltager-i-forsog-med-chatbot",
         "contact": "",
@@ -481,7 +577,39 @@
     },
     {
         "cid": 10009,
-        "id": 90016,
+        "id": 90019,
+        "name": "Datel - Speed cameras for detecting speeding violations",
+        "url": "https:\/\/www.datel.eu\/en\/solutions\/e-government-solutions\/item\/417",
+        "contact": "",
+        "description": "Probably one of the most \u201cvisible\u201d types of AI applications in Estonia are the speed cameras developed by an Estonian company Datel, which identify the license plate number on the photos of speeding cars using a machine learning algorithm. Based on the license plate number identified, the system finds the data required to conduct procedural acts, assesses the causality of speeding and imposes a penalty if necessary. Then the Police and Border Guard Board official conducting the proceedings verifies the data and signs the operation.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Estonia"
+        ],
+        "geocoverage_codes": [
+            "EE"
+        ],
+        "lead_organisation": {
+            "name": "Police and Border Guard",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Police and Border Guard",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Public order and safety",
+        "secondary_sector": "Police services",
+        "technology": "Unknown",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90020,
         "name": "Enhanced Care Management - prediction model",
         "url": "https:\/\/www.kratid.ee\/haigekassa-kasutuslug",
         "contact": "",
@@ -513,7 +641,71 @@
     },
     {
         "cid": 10009,
-        "id": 90017,
+        "id": 90021,
+        "name": "e-Residency - Chatbot for customer assistance",
+        "url": "https:\/\/medium.com\/e-residency-blog\/how-we-use-ai-to-help-users-get-answers-instantly-and-increase-customer-satisfaction-95d1a06caad",
+        "contact": "",
+        "description": "Artificial Intelligence (AI) customer service assistant for the Republic of Estonia\u2019s e-Residency organisation. Together, we decided to tackle the challenge of increasing customer support response time without hiring additional people. The solution was simple\u200a\u2014\u200aan artificial intelligence chatbot with a live-chat interface.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Estonia"
+        ],
+        "geocoverage_codes": [
+            "EE"
+        ],
+        "lead_organisation": {
+            "name": "e-Residency organization",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "e-Residency organization",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General services.",
+        "technology": "Natural language processing",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90022,
+        "name": "Hans - A system for preparing of verbatim reports",
+        "url": "https:\/\/m.riigikogu.ee\/en\/press-releases\/others\/the-riigikogu-has-a-new-system-for-making-verbatim-reports\/",
+        "contact": "",
+        "description": "The speech recognition system helps transcribe the speeches given at the rostrum of the Estonian Parliament (Riigikogu). The Chancellery of the Riigikogu is currently required to publish a verbatim report within one hour from the end of the sitting. It takes a lot of human effort to do that, and the burden falls on stenographers. By deploying speech recognition, it will increase the efficiency and accuracy in transcripts of the sessions. Also, the plan is to start providing verbatim recordings as machine-readable open data, so other systems can use that data freely as well.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Estonia"
+        ],
+        "geocoverage_codes": [
+            "EE"
+        ],
+        "lead_organisation": {
+            "name": "Estonian Parliament (Riigikogu)",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Estonian Parliament (Riigikogu)",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs.",
+        "technology": "Natural language processing",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90023,
         "name": "Iti - chatbot for Statistics Estonia",
         "url": "https:\/\/www.kratid.ee\/statistikaameti-kasutuslugu",
         "contact": "",
@@ -545,7 +737,7 @@
     },
     {
         "cid": 10009,
-        "id": 90018,
+        "id": 90024,
         "name": "OTT - predicting employment pathways",
         "url": "https:\/\/e-estonia.com\/new-e-estonia-factsheet-national-ai-kratt-strategy\/",
         "contact": "",
@@ -577,7 +769,39 @@
     },
     {
         "cid": 10009,
-        "id": 90019,
+        "id": 90025,
+        "name": "Riigikogu - Language speech synthesiser fror the Estonian Parliament",
+        "url": "https:\/\/www.err.ee\/1134953\/eesti-viimaste-stenografistide-too-vottis-ule-robot",
+        "contact": "",
+        "description": "The speech synthesis environment incorporates variations, applications and interfaces of Estonian text to speech synthesis and other materials for synthesis purposes. Speech synthesis is a crucial part of assistive devices for individuals with vision, hearing and speech impairments and in the communication between humans and machines.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Estonia"
+        ],
+        "geocoverage_codes": [
+            "EE"
+        ],
+        "lead_organisation": {
+            "name": "Unknown",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Unknown",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General services.",
+        "technology": "Natural language processing",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90026,
         "name": "SATIKAS -  detecting the agricultural grasslands changes",
         "url": "https:\/\/kosmos.ut.ee\/en\/news\/information-system-satikas-helps-detect-mowing-using-satellite-data",
         "contact": "",
@@ -609,7 +833,7 @@
     },
     {
         "cid": 10009,
-        "id": 90020,
+        "id": 90027,
         "name": "SUVE - chatbot for questions about the emergency situation",
         "url": "https:\/\/eebot.ee\/",
         "contact": "",
@@ -641,7 +865,7 @@
     },
     {
         "cid": 10009,
-        "id": 90021,
+        "id": 90028,
         "name": "Texta Toolkit - text analytics tasks",
         "url": "https:\/\/www.texta.ee\/home",
         "contact": "",
@@ -673,7 +897,39 @@
     },
     {
         "cid": 10009,
-        "id": 90022,
+        "id": 90029,
+        "name": "Traffic load - machine vision for collecting information",
+        "url": "https:\/\/www.kratid.ee\/tlt-kasutuslugu",
+        "contact": "",
+        "description": "The Tallinn transport department, responsible for organising public transport and traffic in Tallinn, started developing a machine vision application in autumn 2018 in collaboration with Sifr O\u00dc. The main objective of this application is to identify the traffic load within Tallinn, i.e. how many cars drive in and out of the city in a day in order to make city transport planning related decisions based on such data (e.g. parking issues, road construction, etc.). Three cameras were selected on intersections in Tallinn to train the application to count the vehicles passing by the cameras. The training of the application was a crucial process in developing the solution since there was no ready-made solution available that suited the circumstances of Tallinn. The result is an application that uses machine vision to count buses, cars, lorries and motorcycles and in the future hopefully also pedestrians, cyclists and like.The result was information with a near 70% accuracy on the traffic load in a certain area when previously there no such information available at all. The accuracy of the results is affected by weather conditions, dirt on the camera lens, etc. Regardless, the results are a valuable milestone for the city for expanding the use of machine vision to other hundreds of city traffic cameras.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Estonia"
+        ],
+        "geocoverage_codes": [
+            "EE"
+        ],
+        "lead_organisation": {
+            "name": "Public Transport and Traffic Management Transport Board in Tallinn",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Public Transport and Traffic Management Transport Board in Tallinn",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Economic affairs",
+        "secondary_sector": "Transport",
+        "technology": "Computer vision",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90030,
         "name": "X-Road - data excange anomalies",
         "url": "https:\/\/www.kratid.ee\/ria-kasutuslugu",
         "contact": "",
@@ -705,7 +961,39 @@
     },
     {
         "cid": 10009,
-        "id": 90023,
+        "id": 90031,
+        "name": "AuroraAI  - Programme with many AI examples.",
+        "url": "https:\/\/vm.fi\/documents\/10623\/13292513\/AuroraAI+development+and+implementation+plan+2019%E2%80%932023.pdf\/7c96ee87-2b0e-dadd-07cd-0235352fc6f9\/AuroraAI+development+and+implementation+plan+2019%E2%80%932023.pdf",
+        "contact": "",
+        "description": "One of the experimental applications that has been run during the AuroraAI programme focused on the \u201cmoving to a place of study\u201d life-event. Two cities involved (Tampere and Turku) carried out well-being surveys among its student populations, and - based on its results - clustered the students into the groups in need of different support. The study has discovered that factors such as reliability of the public transportation, and quality of the natural environment plays an important role in students\u2019 well-being. Data retrieved from the study helped create a new cross-cutting public offering - a bot that would supply information about the topics that students found important. The uptake of the new service has been lackluster, leading the authorities to believe that only proactive marketing could change customers\u2019 behaviour. At the same time, it has been concluded that in order to pursue such projects further, municipalities need to develop user experience awareness and data analytics skills.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "Munipality of Tampere and Turku",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Munipality of Tampere and Turku",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Health n.e.c.",
+        "technology": "Unknown",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90032,
         "name": "Case Fiva (RPA) - support the Financial supervisory Authority",
         "url": "https:\/\/julkaisut.valtioneuvosto.fi\/bitstream\/handle\/10024\/161688\/41_19_Leading%20the%20way%20into%20the%20age%20of%20artificial%20intelligence.pdf?sequence=4",
         "contact": "",
@@ -737,7 +1025,39 @@
     },
     {
         "cid": 10009,
-        "id": 90024,
+        "id": 90033,
+        "name": "Helsinki HUH - Intensive care for premature baby",
+        "url": "https:\/\/www.helsinki.fi\/en\/news\/healthier-world\/artificial-intelligence-evaluate-brain-maturity-preterm-infants",
+        "contact": "",
+        "description": "AI system to follow the intensive care of premature baby and equipment. The AI is more accurate to notice some signals better than the doctors, based on IBM Watson.  The system works 24\/7 without any breaks. This should ensure a better care system for the premature baby, living rate, suport for personal and improved trust in healthcare.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "Helsinki University Hospital",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Helsinki University Hospital",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Hospital services.",
+        "technology": "Machine learning",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90034,
         "name": "Kamu - chatbot about immigration processes",
         "url": "https:\/\/migri.fi\/en\/chat1",
         "contact": "",
@@ -769,7 +1089,7 @@
     },
     {
         "cid": 10009,
-        "id": 90025,
+        "id": 90035,
         "name": "OuloBot - virtual assistant for business",
         "url": "https:\/\/www.ouka.fi\/oulu\/oulubot\/",
         "contact": "",
@@ -801,7 +1121,103 @@
     },
     {
         "cid": 10009,
-        "id": 90026,
+        "id": 90036,
+        "name": "PatRek - Chatbot for business",
+        "url": "https:\/\/medium.com\/inland\/valtionhallinnon-chatbot-verkosto-neuvoo-ulkomaalaisia-yrityksen-perustamisessa-44eb1e0c4443",
+        "contact": "",
+        "description": "Chatbot to answer questions with regard to setting up a company in Finland based on the Finnish Chatbot Platform",
+        "geoextent": "National",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "Finnish Patent and Registration Office",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Finnish Patent and Registration Office",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Economic affairs",
+        "secondary_sector": "General economic, commercial and labour affair",
+        "technology": "Unknown",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90037,
+        "name": "VeroBot - Chatbot for citizens about tax management",
+        "url": "https:\/\/www.vero.fi\/en\/e-file\/mytax\/",
+        "contact": "",
+        "description": "The Finnish Tax Administration has published a joint chatbot service together with the Immigration Service and the Patent and Registration Office. The service includes three different chatbots. They utilise artificial intelligence to answer customers' questions. The bots know about work related taxation, immigration and business registration in Finland. At the moment the target group is entrepreneurs from outside Finland.  The chatbot service is currently in the trial stage and available only in English. The service is open until the end of June 2019. You can test the chatbot yourself on the tax.fi page. More information at:  https:\/\/www.vero.fi\/en\/About-us\/contact-us\/chat_with_the_tax_authoritie\/",
+        "geoextent": "National",
+        "geocoverage": [
+            "Finland"
+        ],
+        "geocoverage_codes": [
+            "FI"
+        ],
+        "lead_organisation": {
+            "name": "Vero Skatt",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Vero Skatt",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Economic affairs",
+        "secondary_sector": "General economic, commercial and labour affair",
+        "technology": "Natural language processing",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90038,
+        "name": "Aria - Chatbot answering retired people",
+        "url": "https:\/\/www.lassuranceretraite.fr\/portail-info\/sites\/pub\/hors-menu\/actualites-nationales\/retraite\/2018\/page-9.html",
+        "contact": "",
+        "description": "National Old Age Insurance Fund (Cnav) is working  with \"Aria\", a chatbot for aswering requests made by retirees, . This chatbot can tell you the amount of income you have declared to the tax authorities, the calendar of next payments, what the direct debit will consist of, etc. , \"Aria will be able to speak, will respond to non-retirees and will be able to tackle a larger number of subjects\".",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "National Old Age Insurance Fund (Cnav)",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "National Old Age Insurance Fund (Cnav)",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs.",
+        "technology": "Natural language processing",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90039,
         "name": "ClaudIA - chatbot for the invoicing portal for purchases by public authorities",
         "url": "https:\/\/www.cio-online.com\/actualites\/lire-chorus-pro-aussi-aide-ses-utilisateurs-avec-un-chatbot-10199.html",
         "contact": "",
@@ -833,7 +1249,39 @@
     },
     {
         "cid": 10009,
-        "id": 90027,
+        "id": 90040,
+        "name": "Datakalab - Covid-19 Mask wearing  detection In some French cities",
+        "url": "https:\/\/www.bbc.com\/news\/world-europe-52529981",
+        "contact": "",
+        "description": "France has authorised the use of surveillance cameras to monitor whether passengers on public transport are abiding by the requirement to wear masks. However, France\u2019s data protection watchdog CNIL called out the practice, saying it was not governed by any legal framework and was therefore illegal. It\u2019s part of the city\u2019s efforts to end lockdown and help prevent the spread of Covid-19, but it\u2019s raised concerns from the government\u2019s privacy watchdog. The authority began a three-month test of its software from French tech company Datakalab this week at the Chatelet-Les-Halles station in the heart of Paris, normally used by about 33 million passengers per year. Monitors will have access to a dashboard with the proportion of riders believed to be wearing masks. France planned to make mask wearing mandatory in public transportation from May 11 2019 as it planned to ease lockdown measures. The AI was regarded to be able to supplement enforcement agents in stations. Still, CNIL, the government body in charge of privacy, raised concerns that this type of technology carries a risk that the identity of the people being analyzed could be reconstructed. The measures would also qualify under Europe\u2019s General Data Protection Regulation because the cameras will be collecting people\u2019s personal data. The project has been terminated earlier due to ethical concerns and the impossiblity to oppose the results of the system. https:\/\/www.bfmtv.com\/tech\/trop-intrusives-les-cameras-de-detection-de-masques-desactivees-a-paris-et-a-cannes_AN-202006220163.html",
+        "geoextent": "Local",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "Public transport",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Public transport",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Health n.e.c.",
+        "technology": "Computer vision",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90041,
         "name": "French Fraud - fraud detection value declarations",
         "url": "https:\/\/www.aiforhumanity.fr\/pdfs\/MissionVillani_Report_ENG-VF.pdf",
         "contact": "",
@@ -865,7 +1313,39 @@
     },
     {
         "cid": 10009,
-        "id": 90028,
+        "id": 90042,
+        "name": "IAlim - Targeting restaurant health inspections",
+        "url": "https:\/\/agriculture.gouv.fr\/telecharger\/116478?token=34e41e9143e50e1be2324f7d9bf7f7fceffe7183e5e97acb34d333c90a70b5a6",
+        "contact": "",
+        "description": "Since November 2019, Ministry of Agriculture inspectors have been able to use \u201cFood AI\u201d (IAlim) to assist them in targeting their restaurant health inspections more effectively. Refine the targeting of establishments to be inspected in the direct-to-consumer delivery sector (restaurants, food service businesses, distributors) through consumer feedback on online notification sites.",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "The General Food Directorate (DGAL) of the Ministry of Agriculture and Food",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "The General Food Directorate (DGAL) of the Ministry of Agriculture and Food",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Public health services.",
+        "technology": "Unknown",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90043,
         "name": "LaBonneBo\u00eete - identification of companies with a high probability of hiring",
         "url": "https:\/\/ec.europa.eu\/social\/BlobServlet?docId=20605&langId=en",
         "contact": "",
@@ -897,7 +1377,71 @@
     },
     {
         "cid": 10009,
-        "id": 90029,
+        "id": 90044,
+        "name": "OpenJustice - Open case law, pseudonymization and enrichment of court decisions",
+        "url": "https:\/\/entrepreneur-interet-general.etalab.gouv.fr\/defis\/2019\/openjustice.html",
+        "contact": "",
+        "description": "The Court of Cassation , in conjunction with the Ministry of Justice, wishes to develop automatic learning techniques in order to identify the data to be pseudonymized in court decisions before making them accessible and reusable. The results of this work will profoundly transform the dissemination of case law, strengthen the consistency of decisions rendered and citizens' confidence in the judiciary; they can be widely applied to other types of data.This machine learning model to automatically pseudonymize case law data and foster open data of case law. . Aims to foster open data and the development of legal tech start ups",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "Unknown",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Unknown",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Public order and safety",
+        "secondary_sector": "Law courts",
+        "technology": "Machine learning",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90045,
+        "name": "RenoiRH - Chatbot in HR management rules to facilitate access",
+        "url": "https:\/\/www.soprahr.com\/docs\/librariesprovider45\/Documents\/customer-testimonials---temoignage-clients\/t%C3%A9moignage_le-cisirh-innove-avec-son-chatbot-rh-docx.pdf?sfvrsn=7eb4345b_2",
+        "contact": "",
+        "description": "Interministerial Center for IT Services Relating to Human Resources (CISIRH) has developed a chatbot specialized in HR management rules to facilitate access to information. The public service includes a large number of standards, nomenclatures and written rules such as those relating to the mobility of agents and their career development.",
+        "geoextent": "National",
+        "geocoverage": [
+            "France"
+        ],
+        "geocoverage_codes": [
+            "FR"
+        ],
+        "lead_organisation": {
+            "name": "Interministerial Center for IT Services Relating to Human Resources",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Interministerial Center for IT Services Relating to Human Resources",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs.",
+        "technology": "Natural language processing",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90046,
         "name": "SignauxFaibles - predictive analysis of business difficulties",
         "url": "https:\/\/beta.gouv.fr\/startups\/signaux-faibles.html",
         "contact": "",
@@ -929,7 +1473,7 @@
     },
     {
         "cid": 10009,
-        "id": 90030,
+        "id": 90047,
         "name": "C-19 - Interdepartmental chatbot on the topic of Corona.",
         "url": "https:\/\/chatbot.it.bund.de\/",
         "contact": "",
@@ -961,7 +1505,7 @@
     },
     {
         "cid": 10009,
-        "id": 90031,
+        "id": 90048,
         "name": "Germany's Federal Office for Migrants and Refugees - Refugee Language Detection",
         "url": "https:\/\/www.dw.com\/en\/automatic-speech-analysis-software-used-to-verify-refugees-dialects\/a-37980819",
         "contact": "",
@@ -993,7 +1537,7 @@
     },
     {
         "cid": 10009,
-        "id": 90032,
+        "id": 90049,
         "name": "Govbot -  administrative search engine for citizens' enquiries",
         "url": "https:\/\/publicplan.de\/projekt\/verwaltungssuchmaschine-nrw",
         "contact": "",
@@ -1025,7 +1569,7 @@
     },
     {
         "cid": 10009,
-        "id": 90033,
+        "id": 90050,
         "name": "CERTH-MUKA - Public Organizations Multi-factor Misinformation Handling",
         "url": "https:\/\/www.etapasproject.eu\/usecases\/post-4\/",
         "contact": "",
@@ -1057,7 +1601,7 @@
     },
     {
         "cid": 10009,
-        "id": 90034,
+        "id": 90051,
         "name": "Home Quarantine App - Supporting the use of electronic control for home quarantine",
         "url": "https:\/\/metamorphosis.org.mk\/wp-content\/uploads\/2021\/04\/algovrithms_2.0_report-2021.pdf",
         "contact": "",
@@ -1089,7 +1633,7 @@
     },
     {
         "cid": 10009,
-        "id": 90035,
+        "id": 90052,
         "name": "V\u00e9da-KAFIR-ROBOTZSARU (\u2018Robocop\u2019) - System Operated by the Police for Traffic Safety Automated Processing",
         "url": "https:\/\/metamorphosis.org.mk\/wp-content\/uploads\/2021\/04\/algovrithms_2.0_report-2021.pdf",
         "contact": "",
@@ -1121,7 +1665,7 @@
     },
     {
         "cid": 10009,
-        "id": 90036,
+        "id": 90053,
         "name": "The Dublin Beat - citizen opinion analysis",
         "url": "https:\/\/smartdublin.ie\/smart-dublin-explores-how-ai-social-media-can-help-improve-the-city-region\/",
         "contact": "",
@@ -1153,7 +1697,7 @@
     },
     {
         "cid": 10009,
-        "id": 90037,
+        "id": 90054,
         "name": "VDA - voicebot on calls from Irish taxpayer on tax clearance",
         "url": "https:\/\/www.ops2020.gov.ie\/actions\/innovating-for-our-future\/innovation\/emerging-technology\/artificial-intelligence\/revenue-chatbot\/",
         "contact": "",
@@ -1185,7 +1729,7 @@
     },
     {
         "cid": 10009,
-        "id": 90038,
+        "id": 90055,
         "name": "Borbot - virtual assistant for museums",
         "url": "https:\/\/borbot.it\/",
         "contact": "",
@@ -1217,7 +1761,71 @@
     },
     {
         "cid": 10009,
-        "id": 90039,
+        "id": 90056,
+        "name": "Noovle - Management of health documentation",
+        "url": "https:\/\/www.noovle.ch\/project\/arsenal-it-centro-veneto-ricerca-e-innovazione-per-la-sanita-digitale\/",
+        "contact": "",
+        "description": "Machine Learning techniques are used for the automatic identification of the salient parts of the discharge letters in order to automatically identify the diagnoses present therein according to the international coding ICD-9-CM. This allows to develop better services connected to the electronic health record, capable of offering added value both to the clinical environment (by developing applications to support clinical decisions) and to that of regional governance (population medicine, prevention, etc.). the solution is adopted by the Veneto Region owning the electronic health record initiative and being globally in charge of the regional healthcare system. Also documented by Google: https:\/\/cloud.google.com\/customers\/veneto-region",
+        "geoextent": "Regional",
+        "geocoverage": [
+            "Italy"
+        ],
+        "geocoverage_codes": [
+            "IT"
+        ],
+        "lead_organisation": {
+            "name": "Veneto Region",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Veneto Region",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "R&d health.",
+        "technology": "Machine learning",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90057,
+        "name": "Pierino - PIatform for the extraction and retrieval of online information",
+        "url": "https:\/\/www.researchgate.net\/publication\/323280575_NLP_and_Public_Engagement_the_Case_of_the_Italian_School_Reform",
+        "contact": "",
+        "description": "Pierino (acronym for PIatform for the extraction and retrieval of online information) is a platform for the automatic analysis of linguistic data, which works through AI semantic analysis techniques and modules for the automatic treatment of natural language.The platform was used for the first time by the Ministry of Education to analyze the data of the public consultation \"The good school\" and made it possible to process and synthesize 270 thousand comments in less than a week, making it possible to significantly reduce analysis times of the questionnaires. The platform was designed in such a way to be as flexible as possible to quickly process data from future consultations.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Italy"
+        ],
+        "geocoverage_codes": [
+            "IT"
+        ],
+        "lead_organisation": {
+            "name": "Ministry of Education",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Ministry of Education",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Education",
+        "secondary_sector": "R&d education.",
+        "technology": "Natural language processing",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90058,
         "name": "R1 - humanoid robot",
         "url": "https:\/\/www.dongnocchi.it\/news-ed-eventi\/@news\/robot-e-realta-virtuale-a-technology-hub-ecco-la-riabilitazione-innovativa",
         "contact": "",
@@ -1249,7 +1857,7 @@
     },
     {
         "cid": 10009,
-        "id": 90040,
+        "id": 90059,
         "name": "Smart Planner - navigation planning assistant",
         "url": "https:\/\/www.smartcommunitylab.it\/app\/",
         "contact": "",
@@ -1281,7 +1889,71 @@
     },
     {
         "cid": 10009,
-        "id": 90041,
+        "id": 90060,
+        "name": "TALIA SF - Extract and organize knowledge coming from the analysis of a huge quantity of textual documents",
+        "url": "https:\/\/social-and-creative.interreg-med.eu\/no-cache\/press-room\/news\/detail\/actualites\/the-sc-community-tools-the-semantic-framework\/",
+        "contact": "",
+        "description": "The TALIA SF is able to extract and organize knowledge coming from the analysis of a huge quantity of textual documents produced by the projects funded by the Interreg MED Programme. This knowledge proves to be invaluable to the management of innovation policies and for the capitalization of the most successful projects results. TALIA semantic framework is handled by Innovapuglia the in-house company of the Regional Government of Apulia.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Italy"
+        ],
+        "geocoverage_codes": [
+            "IT"
+        ],
+        "lead_organisation": {
+            "name": "Regional Government of Apulia",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Regional Government of Apulia",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "R&d general public services.",
+        "technology": "Natural language processing",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90061,
+        "name": "Toscana Open Research - Allows users to access information through \"queries\", without having to know the technical terms",
+        "url": "http:\/\/www.toscanaopenresearch.it\/explore-the-data\/#\/",
+        "contact": "",
+        "description": "The portal of the Tuscany Region designed to communicate and enhance the Tuscan system of research, innovation and higher education and to promote increasingly transparent and inclusive governance. The integration of data through a domain ontology allows users to query without having to use the technical terminology related to the physical organisation of databases and their complex internal structure.",
+        "geoextent": "Regional",
+        "geocoverage": [
+            "Italy"
+        ],
+        "geocoverage_codes": [
+            "IT"
+        ],
+        "lead_organisation": {
+            "name": "Regional Conference for Research and Innovation",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Regional Conference for Research and Innovation",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "R&d general public services.",
+        "technology": "Knowledge representation",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90062,
         "name": "FITS ITEMS - road safety",
         "url": "https:\/\/investinlatvia.org\/en\/key-sectors\/sectors\/smart-city",
         "contact": "",
@@ -1313,7 +1985,7 @@
     },
     {
         "cid": 10009,
-        "id": 90042,
+        "id": 90063,
         "name": "Hugo - virtual Asssistant",
         "url": "https:\/\/ec.europa.eu\/cefdigital\/wiki\/download\/attachments\/61932141\/2_04_Janis%20Ziedins_Artus%20Vasiljevskis_Hugo.lv-AI_powered_service.pdf?version=1&modificationDate=1544438787726&api=v2",
         "contact": "",
@@ -1345,7 +2017,7 @@
     },
     {
         "cid": 10009,
-        "id": 90043,
+        "id": 90064,
         "name": "Toms - chatbot facilitating customer communication with the State Revenue service",
         "url": "https:\/\/www.vid.gov.lv\/",
         "contact": "",
@@ -1377,7 +2049,7 @@
     },
     {
         "cid": 10009,
-        "id": 90044,
+        "id": 90065,
         "name": "UNA - chatbot regarding the process of enterprise registration",
         "url": "https:\/\/oecd-opsi.org\/innovations\/una-the-first-virtual-assistant-of-public-administration-in-latvia\/",
         "contact": "",
@@ -1409,7 +2081,7 @@
     },
     {
         "cid": 10009,
-        "id": 90045,
+        "id": 90066,
         "name": "FCIS - machine learning to identify suspicious patterns (trade, financial flows)",
         "url": "http:\/\/www.fntt.lt\/lt\/ivykiai\/fntt-kartu-su-partneriais-pradeda-igyvendinti-europos-sajungos-moksliniu-tyrimu-ir-inovaciju-lesomis-remiama-projekta\/3768",
         "contact": "",
@@ -1441,7 +2113,7 @@
     },
     {
         "cid": 10009,
-        "id": 90046,
+        "id": 90067,
         "name": "viLTe' - chatbot answering relevant questions regarding the COVID-19",
         "url": "https:\/\/koronastop.lrv.lt\/",
         "contact": "",
@@ -1473,9 +2145,9 @@
     },
     {
         "cid": 10009,
-        "id": 90047,
+        "id": 90068,
         "name": "ANPR - car plate recognition",
-        "url": "https:\/\/www.politie.nl\/themas\/anpr.html",
+        "url": "https:\/\/www.politie.nl\/onderwerpen\/anpr.html",
         "contact": "",
         "description": "The ANPR system uses number plate recognition software for a variety of usages such as paid parking, traffic control, taks avoidance, environmental protection and more. It is used in more than 2000 administrations and is seen as a strong multi-purpose AI application",
         "geoextent": "Local",
@@ -1505,7 +2177,7 @@
     },
     {
         "cid": 10009,
-        "id": 90048,
+        "id": 90069,
         "name": "CAS - crime anticipation system",
         "url": "http:\/\/ceur-ws.org\/Vol-2103\/paper_6.pdf",
         "contact": "",
@@ -1537,7 +2209,7 @@
     },
     {
         "cid": 10009,
-        "id": 90049,
+        "id": 90070,
         "name": "SyRi - detect welfare fraud",
         "url": "https:\/\/algorithmwatch.org\/en\/story\/syri-netherlands-algorithm\/",
         "contact": "",
@@ -1569,7 +2241,7 @@
     },
     {
         "cid": 10009,
-        "id": 90050,
+        "id": 90071,
         "name": "HAL - classification of documents",
         "url": "https:\/\/www.regjeringen.no\/en\/dokumenter\/nasjonal-strategi-for-kunstig-intelligens\/id2685594\/?ch=4#id0022",
         "contact": "",
@@ -1601,7 +2273,7 @@
     },
     {
         "cid": 10009,
-        "id": 90051,
+        "id": 90072,
         "name": "Kari - Chatbot",
         "url": "https:\/\/www.etapasproject.eu\/usecases\/post-3\/",
         "contact": "",
@@ -1633,7 +2305,7 @@
     },
     {
         "cid": 10009,
-        "id": 90052,
+        "id": 90073,
         "name": "Norway Chatbot - chatbot for public administrations",
         "url": "https:\/\/www.boost.ai\/articles\/automation-for-the-people-using-conversational-ai-to-benefit-the-public-sector",
         "contact": "",
@@ -1646,10 +2318,10 @@
             "NO"
         ],
         "lead_organisation": {
-            "name": "Kongsberg municipality",
+            "name": "Boost.ai",
             "category": "Governmental"
         },
-        "lead_organisation_name": "Kongsberg municipality",
+        "lead_organisation_name": "Boost.ai",
         "lead_organisation_category": "Governmental",
         "start_date": "2021\/01\/01",
         "active": "Unknown",
@@ -1665,7 +2337,7 @@
     },
     {
         "cid": 10009,
-        "id": 90053,
+        "id": 90074,
         "name": "TrondHeim - Insolvency Predicition",
         "url": "https:\/\/norden.diva-portal.org\/smash\/get\/diva2:1375500\/FULLTEXT01.pdf",
         "contact": "",
@@ -1697,7 +2369,7 @@
     },
     {
         "cid": 10009,
-        "id": 90054,
+        "id": 90075,
         "name": "VDI - Protection of digital infrastructure",
         "url": "https:\/\/www.regjeringen.no\/en\/dokumenter\/nasjonal-strategi-for-kunstig-intelligens\/id2685594\/?ch=7",
         "contact": "",
@@ -1729,7 +2401,7 @@
     },
     {
         "cid": 10009,
-        "id": 90055,
+        "id": 90076,
         "name": "Home Quarantine - app on COVID-19 risk",
         "url": "https:\/\/www.gov.pl\/web\/cyfryzacja\/aplikacja-kwarantanna-domowa--ruszyl-proces-jej-udostepniania",
         "contact": "",
@@ -1761,7 +2433,7 @@
     },
     {
         "cid": 10009,
-        "id": 90056,
+        "id": 90077,
         "name": "State Clearance Chamber - financial risk indicator",
         "url": "https:\/\/epf.org.pl\/en\/wp-content\/uploads\/sites\/3\/2019\/05\/alGOVrithms-State-of-Play-Report.pdf",
         "contact": "",
@@ -1793,7 +2465,7 @@
     },
     {
         "cid": 10009,
-        "id": 90057,
+        "id": 90078,
         "name": "CCM-SNS - verification of medical prescriptions",
         "url": "https:\/\/algorithmwatch.org\/en\/story\/portugal-automated-verification-prescriptions-medical-fraud\/",
         "contact": "",
@@ -1825,7 +2497,7 @@
     },
     {
         "cid": 10009,
-        "id": 90058,
+        "id": 90079,
         "name": "Sigma - chatbot on changing citizens' address",
         "url": "https:\/\/joinup.ec.europa.eu\/sites\/default\/files\/news\/2019-09\/ISA2_Architecture%20for%20public%20service%20chatbots.pdf",
         "contact": "",
@@ -1857,7 +2529,7 @@
     },
     {
         "cid": 10009,
-        "id": 90059,
+        "id": 90080,
         "name": "Antonia - automatic processing of requests of public services",
         "url": "https:\/\/www.romaniajournal.ro\/society-people\/antonia-the-first-virtual-public-servant-in-romania\/",
         "contact": "",
@@ -1889,7 +2561,7 @@
     },
     {
         "cid": 10009,
-        "id": 90060,
+        "id": 90081,
         "name": "Bucharest airport - face recognition",
         "url": "https:\/\/www.uti.eu.com\/press-releases\/uti-will-implement-face-recognition-and-intelligent-image-analysis-systems-with-otopeni-airport\/",
         "contact": "",
@@ -1921,8 +2593,8 @@
     },
     {
         "cid": 10009,
-        "id": 90061,
-        "name": "Oversi - Chatbot to faster burocracy",
+        "id": 90082,
+        "name": "OverSi - Chatbot to faster burocracy",
         "url": "https:\/\/stopbyrokracii.sk\/",
         "contact": "",
         "description": "The Oversi Chatbot is part of a government initiative to stop the bureaucracy in Slovakia and to apply the once only principle in a digital way. The Chatbot has been invented in order to help find the best solutions and answers to common questions for the general public.",
@@ -1953,7 +2625,7 @@
     },
     {
         "cid": 10009,
-        "id": 90062,
+        "id": 90083,
         "name": "PCA - AI algorithms in audit methodology",
         "url": "https:\/\/dennikn.sk\/blog\/1561696\/big-data-ukazali-nestandardne-predpisovanie-liekov-usporime-tak-statisice-eur\/",
         "contact": "",
@@ -1976,7 +2648,7 @@
         "end_date": "",
         "primary_sector": "Health",
         "secondary_sector": "Public health services.",
-        "technology": "Knowledge representation",
+        "technology": "Machine learning",
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
@@ -1985,7 +2657,7 @@
     },
     {
         "cid": 10009,
-        "id": 90063,
+        "id": 90084,
         "name": "Taxana - chatbot for financial administration",
         "url": "https:\/\/www.youtube.com\/watch?v=UQ_XRlIFtrQ & https:\/\/www.podnikajte.sk\/dane\/taxana-chatbot",
         "contact": "",
@@ -2017,7 +2689,7 @@
     },
     {
         "cid": 10009,
-        "id": 90064,
+        "id": 90085,
         "name": "Semantic analyser - document analyser for the public administration",
         "url": "https:\/\/nio.gov.si\/nio\/asset\/semanticni+analizator+besedil",
         "contact": "",
@@ -2049,7 +2721,7 @@
     },
     {
         "cid": 10009,
-        "id": 90065,
+        "id": 90086,
         "name": "060 Service - answer FAQ from citizens and burocratic terms into informal language",
         "url": "https:\/\/joinup.ec.europa.eu\/sites\/default\/files\/inline-files\/08-2%20Salvador_Estevan_Martinez%20and%20Doaa_Samy_0.pdf",
         "contact": "",
@@ -2081,7 +2753,7 @@
     },
     {
         "cid": 10009,
-        "id": 90066,
+        "id": 90087,
         "name": "Fuengirola Town Hall - measuring beach attendance",
         "url": "https:\/\/www.euroweeklynews.com\/2020\/05\/04\/costa-del-sols-fuengirola-will-use-artificial-intelligence-to-control-capacity-at-beaches-and-public-spaces\/",
         "contact": "",
@@ -2113,7 +2785,7 @@
     },
     {
         "cid": 10009,
-        "id": 90067,
+        "id": 90088,
         "name": "Merc\u00e9 - citizen science for better urban life",
         "url": "http:\/\/merce.300000.eu\/data2\/informe_merce.pdf",
         "contact": "",
@@ -2145,7 +2817,7 @@
     },
     {
         "cid": 10009,
-        "id": 90068,
+        "id": 90089,
         "name": "Misty II - Robot for elderly people",
         "url": "https:\/\/www.barcelona.cat\/infobarcelona\/en\/tema\/senior-citizens\/misty-ii-the-social-robot-becomes-part-of-the-lives-of-twenty-senior-citizens_907645.html",
         "contact": "",
@@ -2177,7 +2849,7 @@
     },
     {
         "cid": 10009,
-        "id": 90069,
+        "id": 90090,
         "name": "VeriPol - detect false police reports",
         "url": "https:\/\/www.sciencedirect.com\/science\/article\/abs\/pii\/S095070511830128X",
         "contact": "",
@@ -2209,7 +2881,7 @@
     },
     {
         "cid": 10009,
-        "id": 90070,
+        "id": 90091,
         "name": "Skatti - Answering system about population registration and the income tax return",
         "url": "https:\/\/www.skatteverket.se\/omoss\/kontaktaoss\/chattamedvardigitalamedarbetare.4.2cf1b5cd163796a5c8b403b.html",
         "contact": "",
@@ -2241,7 +2913,7 @@
     },
     {
         "cid": 10009,
-        "id": 90071,
+        "id": 90092,
         "name": "Tengai - robot in recruitment processes",
         "url": "https:\/\/www.upplands-bro.se\/kommun--politik\/om-kommunen\/information-om-coronaviruset\/nyheter-corona\/2020-05-05-kommunen-tar-nasta-steg-i-fordomsfri-rekrytering-med-intervjuroboten-tengai.html",
         "contact": "",
@@ -2273,7 +2945,7 @@
     },
     {
         "cid": 10009,
-        "id": 90072,
+        "id": 90093,
         "name": "Trelleborg - automated social welfare decisions",
         "url": "https:\/\/valcon.com\/insights\/trelleborg-robotics-solution\/",
         "contact": "",
@@ -2305,7 +2977,7 @@
     },
     {
         "cid": 10009,
-        "id": 90073,
+        "id": 90094,
         "name": "Maxi - chatbot answering questions on insurance",
         "url": "https:\/\/www.previon.ch\/projekte\/maxi-der-clevere-chatbot-der-sva-aargau",
         "contact": "",
@@ -2337,7 +3009,7 @@
     },
     {
         "cid": 10009,
-        "id": 90074,
+        "id": 90095,
         "name": "NOGAuto - assign or control codes to companies for economic activities",
         "url": "https:\/\/www.experimental.bfs.admin.ch\/expstat\/en\/home\/innovation-data-science\/nogauto.html",
         "contact": "",
@@ -2369,7 +3041,7 @@
     },
     {
         "cid": 10009,
-        "id": 90075,
+        "id": 90096,
         "name": "Amelia - chatbot helping local residents find city services",
         "url": "https:\/\/www.ukauthority.com\/articles\/enfield-joins-microsoft-in-citizenbot-project\/",
         "contact": "",
@@ -2401,7 +3073,7 @@
     },
     {
         "cid": 10009,
-        "id": 90076,
+        "id": 90097,
         "name": "Babylon - health interactive symptom checker",
         "url": "https:\/\/www.babylonhealth.com\/",
         "contact": "",
@@ -2433,7 +3105,7 @@
     },
     {
         "cid": 10009,
-        "id": 90077,
+        "id": 90098,
         "name": "DVSA MOT -  Intelligent, data-driven approach to better target Driver and Vehicle Standards Agency (DVSA) resources",
         "url": "https:\/\/www.gov.uk\/government\/case-studies\/how-the-department-for-transport-used-ai-to-improve-mot-testing",
         "contact": "",
@@ -2456,7 +3128,7 @@
         "end_date": "",
         "primary_sector": "Economic affairs",
         "secondary_sector": "Transport",
-        "technology": "Unknown",
+        "technology": "Machine learning",
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
@@ -2465,7 +3137,7 @@
     },
     {
         "cid": 10009,
-        "id": 90078,
+        "id": 90099,
         "name": "EHPS - early help profiling system to identify children and families considered vulnerable",
         "url": "https:\/\/www.hackneycitizen.co.uk\/2018\/10\/18\/council-360k-xantura-software-profiles-troubled-families\/",
         "contact": "",
@@ -2497,7 +3169,7 @@
     },
     {
         "cid": 10009,
-        "id": 90079,
+        "id": 90100,
         "name": "HART - assessment risk tool, predictive policing based on person data",
         "url": "https:\/\/www.tandfonline.com\/doi\/pdf\/10.1080\/13600834.2018.1458455",
         "contact": "",

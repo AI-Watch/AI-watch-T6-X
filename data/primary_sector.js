@@ -1,6 +1,7 @@
 var primary_sector = [
     "Defence",
     "Economic affairs",
+    "Education",
     "General public services",
     "Health",
     "Housing and community amenities",
