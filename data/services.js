@@ -1922,7 +1922,7 @@ var services = [
     {
         "cid": 10009,
         "id": 90061,
-        "name": "Toscana Open Research - Allows users to access information through \"queries\", without having to know the technical terms",
+        "name": "Toscana Open Research - Allows users to access information through \"queries\" without having to know the technical terms",
         "url": "http:\/\/www.toscanaopenresearch.it\/explore-the-data\/#\/",
         "contact": "",
         "description": "The portal of the Tuscany Region designed to communicate and enhance the Tuscan system of research, innovation and higher education and to promote increasingly transparent and inclusive governance. The integration of data through a domain ontology allows users to query without having to use the technical terminology related to the physical organisation of databases and their complex internal structure.",
