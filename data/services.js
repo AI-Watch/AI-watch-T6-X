@@ -248,7 +248,7 @@ var services = [
         "end_date": "",
         "primary_sector": "General public services",
         "secondary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs.",
-        "technology": "Unknown",
+        "technology": "Natural language processing",
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
@@ -280,7 +280,7 @@ var services = [
         "end_date": "",
         "primary_sector": "Social protection",
         "secondary_sector": "Family and children.",
-        "technology": "Unknown",
+        "technology": "Machine learning",
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
@@ -600,7 +600,7 @@ var services = [
         "end_date": "",
         "primary_sector": "Public order and safety",
         "secondary_sector": "Police services",
-        "technology": "Unknown",
+        "technology": "Computer vision",
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
@@ -984,7 +984,7 @@ var services = [
         "end_date": "",
         "primary_sector": "Health",
         "secondary_sector": "Health n.e.c.",
-        "technology": "Unknown",
+        "technology": "Natural language processing",
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
@@ -1144,7 +1144,7 @@ var services = [
         "end_date": "",
         "primary_sector": "Economic affairs",
         "secondary_sector": "General economic, commercial and labour affair",
-        "technology": "Unknown",
+        "technology": "Natural language processing",
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
@@ -1336,7 +1336,7 @@ var services = [
         "end_date": "",
         "primary_sector": "Health",
         "secondary_sector": "Public health services.",
-        "technology": "Unknown",
+        "technology": "Natural language processing",
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
@@ -1752,7 +1752,7 @@ var services = [
         "end_date": "",
         "primary_sector": "Recreation, culture and religion",
         "secondary_sector": "Cultural services.",
-        "technology": "Unknown",
+        "technology": "Natural language processing",
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
@@ -1954,6 +1954,38 @@ var services = [
     {
         "cid": 10009,
         "id": 90062,
+        "name": "Automatic decision making of the Electronic Declaration System of the State Revenue Service",
+        "url": "https:\/\/www.vid.gov.lv\/en\/electronic-declaration-system",
+        "contact": "",
+        "description": "The Electronic Declaration System (EDS) of the State Revenue Service shall use the decision-making automating elements by automatically verifying the submitted declarations. It allows the approval of a declaration up to 2\/3 which does not reveal non-compliance and thus allows experts to devote time only to checking declarations where non-compliance has been detected. In the future, there is great potential for ML solutions that will help to explore the client of public administration by promoting more efficient services for citizens, reducing the shadow economy and money laundering. At: https:\/\/www.vid.gov.lv\/en\/electronic-declaration-system \"EDS provides automated verification of correctness of document completion and information of the customer about results.\"",
+        "geoextent": "National",
+        "geocoverage": [
+            "Latvia"
+        ],
+        "geocoverage_codes": [
+            "LV"
+        ],
+        "lead_organisation": {
+            "name": "State Revenue Service",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "State Revenue Service",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs.",
+        "technology": "Machine learning",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90063,
         "name": "FITS ITEMS - road safety",
         "url": "https:\/\/investinlatvia.org\/en\/key-sectors\/sectors\/smart-city",
         "contact": "",
@@ -1985,7 +2017,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90063,
+        "id": 90064,
         "name": "Hugo - virtual Asssistant",
         "url": "https:\/\/ec.europa.eu\/cefdigital\/wiki\/download\/attachments\/61932141\/2_04_Janis%20Ziedins_Artus%20Vasiljevskis_Hugo.lv-AI_powered_service.pdf?version=1&modificationDate=1544438787726&api=v2",
         "contact": "",
@@ -2017,7 +2049,39 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90064,
+        "id": 90065,
+        "name": "LAA - Pilot lung cancer risk assessment",
+        "url": "https:\/\/issuu.com\/rigastehniskauniversitate\/docs\/innovation_2018_rudens_new_eng_link\/5",
+        "contact": "",
+        "description": "In Latvia, a pilot project for developing lung cancer risk assessment, early diagnosis and forecasting techniques based on large data analysis. Doctors acknowledge that treatment is more effective when it is detected as soon as possible. Over the course of the project, ML is intended to be used to diagnose cancer. In this area, the Latvian Investment and Development Agency (LAA) has approved two strategic commercialisation projects under the \u201cAid for Development of Technology Transfer System\u201d programme for a total amount of EUR 600 thousand. In the event of successful cooperation, a genomics centre may be developed in Latvia, with the necessary technical and research infrastructure, which, using data stored in the \u201cdata lake\u201d (data lake), would be able to achieve European excellence in applied research and services. In turn, the genomics centre would result in new and unique data.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Latvia"
+        ],
+        "geocoverage_codes": [
+            "LV"
+        ],
+        "lead_organisation": {
+            "name": "Unknown",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Unknown",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Hospital services.",
+        "technology": "Knowledge representation",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90066,
         "name": "Toms - chatbot facilitating customer communication with the State Revenue service",
         "url": "https:\/\/www.vid.gov.lv\/",
         "contact": "",
@@ -2049,7 +2113,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90065,
+        "id": 90067,
         "name": "UNA - chatbot regarding the process of enterprise registration",
         "url": "https:\/\/oecd-opsi.org\/innovations\/una-the-first-virtual-assistant-of-public-administration-in-latvia\/",
         "contact": "",
@@ -2081,7 +2145,39 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90066,
+        "id": 90068,
+        "name": "VARIS - Reviews all the applicants to Rural Support Service",
+        "url": "https:\/\/www.lad.gov.lv\/en\/news\/the-robot-varis-has-started-work-at-the-rural-support-service-of-latvia-892",
+        "contact": "",
+        "description": "The Rural Support Service (\u201cLAD\u201d) uses the virtual assistant \u201cVARIS\u201d. The \u201cVARIS\u201d shall review all aid applicants in the LAD database, then obtain information about the responsible persons of the company in the Lursoft database. The register of penalties \u201cVARIS\u201d shall check that the beneficiary has not been penalised. The resulting information \u201cVARIS\u201d shall be inserted into the LAD database.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Latvia"
+        ],
+        "geocoverage_codes": [
+            "LV"
+        ],
+        "lead_organisation": {
+            "name": "Rural Support Service (\u201cLAD\u201d)",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Rural Support Service (\u201cLAD\u201d)",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Economic affairs",
+        "secondary_sector": "Transport",
+        "technology": "Searching",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90069,
         "name": "FCIS - machine learning to identify suspicious patterns (trade, financial flows)",
         "url": "http:\/\/www.fntt.lt\/lt\/ivykiai\/fntt-kartu-su-partneriais-pradeda-igyvendinti-europos-sajungos-moksliniu-tyrimu-ir-inovaciju-lesomis-remiama-projekta\/3768",
         "contact": "",
@@ -2113,7 +2209,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90067,
+        "id": 90070,
         "name": "viLTe' - chatbot answering relevant questions regarding the COVID-19",
         "url": "https:\/\/koronastop.lrv.lt\/",
         "contact": "",
@@ -2145,7 +2241,39 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90068,
+        "id": 90071,
+        "name": "Amberscript - Automated speech translation for public organisations",
+        "url": "https:\/\/www.amberscript.com\/en\/news\/amberscript-makes-council-meetings-of-dutch-municipalities-accessible-to-the-deaf-and-hearing-impaired",
+        "contact": "",
+        "description": "Many Dutch municipalities, like the municipality of Staphorst, have implemented speech recognition model through a company product, AmberScript specialized in speech recognition, for providing automated speech translation coming from municipality council and bringing transparency on how decisions are made for the citizens. The product has been specifically trained on data from the public sector meetings. A dataset of more than 1.000 hours of audio with transcriptions was compiled, cleaned and processed into the AI Model. Now the product is capable of transcribing many of the discussions held in the municipal meetings, allowing citizens with hearing imparities to follow political debates online.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "About 120 different municipalities in the Netherlands",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "About 120 different municipalities in the Netherlands",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs.",
+        "technology": "Natural language processing",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90072,
         "name": "ANPR - car plate recognition",
         "url": "https:\/\/www.politie.nl\/onderwerpen\/anpr.html",
         "contact": "",
@@ -2177,7 +2305,39 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90069,
+        "id": 90073,
+        "name": "Cameras - Detection holding a phone in car",
+        "url": "https:\/\/www.om.nl\/actueel\/nieuws\/2020\/11\/12\/openbaar-ministerie-start-digitale-handhaving-op-handheld-telefoongebruik-achter-het-stuur",
+        "contact": "",
+        "description": "The Dutch Public Prosecution Service will intensify enforcement on the detention of mobile devices. With smart cameras that automatically forward violations to the Central Judicial Collection Agency (CJIB). The camera takes pictures of each passer-by, showing whether the driver is holding his mobile phone or not. Because the pictures are taken downwards, the driver's face is not in the picture. The license plate does, and the photo shows clearly and clearly whether someone is holding a mobile device behind the wheel. Only those photos where the system suspects that a phone is being held will be forwarded to the CJIB. A staff member carries out the final assessment at the CJIB. This can result in a fine of 240 euros.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Dutch Public Procesecution Service",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Dutch Public Procesecution Service",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Public order and safety",
+        "secondary_sector": "Police services",
+        "technology": "Computer vision",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90074,
         "name": "CAS - crime anticipation system",
         "url": "http:\/\/ceur-ws.org\/Vol-2103\/paper_6.pdf",
         "contact": "",
@@ -2209,7 +2369,135 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90070,
+        "id": 90075,
+        "name": "Rotterdam \u2013 Improving the usage of rooftops",
+        "url": "http:\/\/www.dssgfellowship.org\/project\/identifying-rooftop-usage-in-rotterdam\/?portfolioID=15901",
+        "contact": "",
+        "description": "The Municipality of Rotterdam (Gemeente Rotterdam) manages Rotterdam, one of the most modern and touristic cities in the Netherlands, which is inhabited by 600,000 residents. Rotterdam has a unique roof landscape that was created after World War II, where many buildings with flat roofs were built during the city\u2019s reconstruction. There are approximately 14.5km2 of flat roofs in the city and the Municipality of Rotterdam wants to use data to make informed decisions regarding the sustainable usage of its rooftops. DSSG (Data Science for Social Good) is helping Rotterdam figure out how improved use of its rooftops could help address challenges with water storage, green spaces and energy generation. The principal goal will be to use aerial and satellite images to identify the current usage of rooftops in Rotterdam.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Unknown",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Unknown",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Housing and community amenities",
+        "secondary_sector": "Housing and community amenities n.e.c.",
+        "technology": "Unknown",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90076,
+        "name": "RWS - Machine learning for road accident predictions",
+        "url": "http:\/\/www.dssgfellowship.org\/project\/rijkswaterstaat-netherlands\/",
+        "contact": "",
+        "description": "The densely connected road network in the Netherlands is severely impacted by road accidents with high human, economic and environmental consequences. Road accidents result in 600 deaths per year, and traffic jams that may result from accidents cause an estimated \u20ac 2.7 billion loss in productivity per year. The division of the Netherlands Ministry of Water and Infrastructure Management, Rijkswaterstaat (RWS) operates a 24 hour incident management service to ensure the safety and mobility of emergency response workers, and to regulate and restore traffic flow in the event of an accident.  The growing number of accidents in the Netherlands highways is creating increased pressure on traffic managers and inspectors. Traffic managers must process real-time data from 15+ screens, increasing the chances of an accident being missed. Traffic inspectors need to ensure they are optimally positioned in their deployment zone to minimize travel time to accident sites.  This year Data Science for Social Good has been working with Rijkswaterstaat to create a machine learning model using data from incidents recorded between 2012 to 2016, road characteristics, speed and flow traffic data and weather data. The model predicts within a given time window and road segment the probability of an accident. Overlaying this on a heatmap we are able to display to traffic managers the road sections with the highest likelihood of accidents. This will allow them to better allocate inspectors to road sections to patrol. Using this model gives a 3 to 4 times improvement on a baseline, where traffic inspectors patrol random road segments.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Rijkswaterstraat",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Rijkswaterstraat",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Public order and safety",
+        "secondary_sector": "Public order and safety n.e.c.",
+        "technology": "Unknown",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90077,
+        "name": "SHAP - Holiday rental home fraud",
+        "url": "https:\/\/algoritmeregister.amsterdam.nl\/vakantieverhuur-woningfraude\/",
+        "contact": "",
+        "description": "In the city of Amsterdam, a pilot is being carried out which uses AI and algorithms to track down people illegally renting out their homes via platforms, such as Airbnb. Housing fraud is an increasingly big issue in the city of Amsterdam according to the Court of Audit of Amsterdam, leading to harms of the neighbourhood.  The algorithm will include information about previous housing fraud, information from the city\u2019s population registries and building data from the city\u2019s registry of addresses and buildings. While this information is also usable for analysis by civil servants themselves, the use of the AI system is expected will speed up the process significantly and enable more accurate responses as it can connect multiple factors together in ways civil servants themselves would not be able to.  According to the AI registry of the city of Amsterdam, once a new report has been received in which a rental is suspected of illegal holiday rental, a probability based on a random forest regression is generated resulting in either a high or low suspicion of fraud, based on a combination of different values.  If the probability of housing fraud that rolls out of the algorithm is higher than 50 percent, an employee can prioritize the address for a field investigation. The city mentions however, that the tackling of fraud remains human work and the algorithm will not make decisions, merely recommendations. The civil staff will have to decide whether to investigate an address further, by combining their expertise and the algorithm predictions. The AI system will provide a visualization of the risk assessment and consequently on the basis which data plays a role in the recommendation and which does not. Furthermore, the system does not in the end decide if fraud has taken place, as this is the responsibility of the department. To this end, the AI system merely acts as a first recommendation in the process of determining if housing frauds take place. It is expected that the use of the AI system is to optimize the limited inspection capacity of the city in the most efficient and effective matter, so that field investigations are conducted in premises where fraud is indeed more like. However, there are many risks to public value destruction, of which the city is already aware of. Therefore, personal data such as birth, nationality and others are not included in the algorithm, limiting prejudice of the algorithm to a certain demographic or increasing privacy concerns.  Furthermore, even when personal information is not used, it may occur that the AI indirectly leads to targeting certain neighbourhoods more often, potentially leading to discriminatory recommendations. Therefore, the city of Amsterdam is conducting ongoing research to tackle this form of unintended algorithmic bias during the pilot, highlighting that the increase of efficiency may lead to more discriminatory services as calculations are based on correlations and not causations.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "City of Amsterdam",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "City of Amsterdam",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Social protection",
+        "secondary_sector": "Housing.",
+        "technology": "Automated reasoning",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90078,
+        "name": "SIA - Notificiations public space",
+        "url": "https:\/\/tada.city\/en\/nieuws\/algorithms-for-more-fairness-in-the-city\/",
+        "contact": "",
+        "description": "Notifications provided by citizens on problems in the public space are categorized automatically and send to the responsible department.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "Municipality of Dordrecht",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Municipality of Dordrecht",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "General public services n.e.c.",
+        "technology": "Optimisation",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90079,
         "name": "SyRi - detect welfare fraud",
         "url": "https:\/\/algorithmwatch.org\/en\/story\/syri-netherlands-algorithm\/",
         "contact": "",
@@ -2241,7 +2529,71 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90071,
+        "id": 90080,
+        "name": "Xomnia - The Burglary Predictor",
+        "url": "https:\/\/www.xomnia.com\/burglary-prediction-for-the-municipality-of-utrecht\/",
+        "contact": "",
+        "description": "In the municipality of Utrecht, Xomnia has built a model that predicts the occurrence of burglaries in each district of Utrecht for a given week. From the date and time of the burglary, we derived weather conditions, holidays and special events. Sociodemographic statistics of the neighborhoods have been derived, as well as certain points of interest, like street lights, cameras, trees, parks and large garbage containers. The Burglary Predictor built by Xomnia enables the municipality of Utrecht to prevent burglaries by data-driven decision making.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "City of Utrecht",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "City of Utrecht",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Public order and safety",
+        "secondary_sector": "Police services",
+        "technology": "Machine learning",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90081,
+        "name": "Xoomia - Law enforcement optimization system",
+        "url": "https:\/\/www.xomnia.com\/law-enforcement-optimization-at-amsterdam\/",
+        "contact": "",
+        "description": "For the municipality of Amsterdam, Xomnia built a user-friendly dashboard to optimize law enforcement. Xomnia harvested data from 7 entirely different data sources stored in the municipality\u2019s data silos, such as GPS data from walkie-talkies and text data from fines collected by PDA\u2019s and control room reports. The data was reconstructed and interconnected to enable dynamic data exploring for creating the dashboard.",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Netherlands"
+        ],
+        "geocoverage_codes": [
+            "NL"
+        ],
+        "lead_organisation": {
+            "name": "City of Amsterdam",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "City of Amsterdam",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Public order and safety",
+        "secondary_sector": "Police services",
+        "technology": "Machine learning",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90082,
         "name": "HAL - classification of documents",
         "url": "https:\/\/www.regjeringen.no\/en\/dokumenter\/nasjonal-strategi-for-kunstig-intelligens\/id2685594\/?ch=4#id0022",
         "contact": "",
@@ -2273,7 +2625,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90072,
+        "id": 90083,
         "name": "Kari - Chatbot",
         "url": "https:\/\/www.etapasproject.eu\/usecases\/post-3\/",
         "contact": "",
@@ -2305,7 +2657,39 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90073,
+        "id": 90084,
+        "name": "Lanekassen - Improve control on students with loan payments and identification",
+        "url": "https:\/\/norwaytoday.info\/education\/artificial-intelligence-revealed-more-loan-fund-cheating\/",
+        "contact": "",
+        "description": "The Norwegian student loan fund (L\u00e5nekassen) has for the first time used artificial intelligence (AI) to select account controls. It provided twice as many revelations of cheating. The book check is done among students who state that they live away from home, since only students who do not live with their parents can get the loan back from grants. L\u00e5nekassen\u2019s book check in 2018 included 25,000 students. 15,000 were picked out by artificial intelligence (machine learning), while 10,000 were picked out by random selection (control group). The results showed that artificial intelligence made it easier to find those who are not really living away from home, said the Loan Fund. 5.5% in the control group and 11.6% in the machine learning group did not pass the book check. It shows that the machine learning selection has been twice as effective as the random selection in finding students who have given us incorrect information about housing",
+        "geoextent": "National",
+        "geocoverage": [
+            "Norway"
+        ],
+        "geocoverage_codes": [
+            "NO"
+        ],
+        "lead_organisation": {
+            "name": "Norwegian student loan fund (L\u00e5nekassen)",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Norwegian student loan fund (L\u00e5nekassen)",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs.",
+        "technology": "Machine learning",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90085,
         "name": "Norway Chatbot - chatbot for public administrations",
         "url": "https:\/\/www.boost.ai\/articles\/automation-for-the-people-using-conversational-ai-to-benefit-the-public-sector",
         "contact": "",
@@ -2337,7 +2721,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90074,
+        "id": 90086,
         "name": "TrondHeim - Insolvency Predicition",
         "url": "https:\/\/norden.diva-portal.org\/smash\/get\/diva2:1375500\/FULLTEXT01.pdf",
         "contact": "",
@@ -2369,7 +2753,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90075,
+        "id": 90087,
         "name": "VDI - Protection of digital infrastructure",
         "url": "https:\/\/www.regjeringen.no\/en\/dokumenter\/nasjonal-strategi-for-kunstig-intelligens\/id2685594\/?ch=7",
         "contact": "",
@@ -2401,7 +2785,39 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90076,
+        "id": 90088,
+        "name": "Fraud Detection COVID-19 support",
+        "url": "https:\/\/www.experian.com.pl\/en\/business\/identity-and-fraud\/fraud-prevention-responses",
+        "contact": "",
+        "description": "AI system supporting fraud prevention. It consists in automatic verification of statements submitted in applications, mainly financial data from National Tax Administration and The Social Insurance Institution databases. Additionally, some irregularities are analyzed, e.g. too high amounts in relation to the number of employees. Among other things the system analyzes the criterion of a decline in turnover. It must be directly related to the pandemic and not, for example, to a failed business plan or a failed investment. The system will also examine what the subsidy money was spent on. - The rule is that financial subsidy money can only be used to pay for business expenses. The above mentioned information are the only available sources describing the system and were shared with the press by the Polish Development Fund which is responsible for granting subsidies.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Poland"
+        ],
+        "geocoverage_codes": [
+            "PL"
+        ],
+        "lead_organisation": {
+            "name": "Unknown",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Unknown",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs.",
+        "technology": "Machine learning",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90089,
         "name": "Home Quarantine - app on COVID-19 risk",
         "url": "https:\/\/www.gov.pl\/web\/cyfryzacja\/aplikacja-kwarantanna-domowa--ruszyl-proces-jej-udostepniania",
         "contact": "",
@@ -2433,7 +2849,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90077,
+        "id": 90090,
         "name": "State Clearance Chamber - financial risk indicator",
         "url": "https:\/\/epf.org.pl\/en\/wp-content\/uploads\/sites\/3\/2019\/05\/alGOVrithms-State-of-Play-Report.pdf",
         "contact": "",
@@ -2465,7 +2881,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90078,
+        "id": 90091,
         "name": "CCM-SNS - verification of medical prescriptions",
         "url": "https:\/\/algorithmwatch.org\/en\/story\/portugal-automated-verification-prescriptions-medical-fraud\/",
         "contact": "",
@@ -2497,7 +2913,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90079,
+        "id": 90092,
         "name": "Sigma - chatbot on changing citizens' address",
         "url": "https:\/\/joinup.ec.europa.eu\/sites\/default\/files\/news\/2019-09\/ISA2_Architecture%20for%20public%20service%20chatbots.pdf",
         "contact": "",
@@ -2529,7 +2945,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90080,
+        "id": 90093,
         "name": "Antonia - automatic processing of requests of public services",
         "url": "https:\/\/www.romaniajournal.ro\/society-people\/antonia-the-first-virtual-public-servant-in-romania\/",
         "contact": "",
@@ -2561,7 +2977,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90081,
+        "id": 90094,
         "name": "Bucharest airport - face recognition",
         "url": "https:\/\/www.uti.eu.com\/press-releases\/uti-will-implement-face-recognition-and-intelligent-image-analysis-systems-with-otopeni-airport\/",
         "contact": "",
@@ -2593,7 +3009,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90082,
+        "id": 90095,
         "name": "OverSi - Chatbot to faster burocracy",
         "url": "https:\/\/stopbyrokracii.sk\/",
         "contact": "",
@@ -2625,7 +3041,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90083,
+        "id": 90096,
         "name": "PCA - AI algorithms in audit methodology",
         "url": "https:\/\/dennikn.sk\/blog\/1561696\/big-data-ukazali-nestandardne-predpisovanie-liekov-usporime-tak-statisice-eur\/",
         "contact": "",
@@ -2657,7 +3073,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90084,
+        "id": 90097,
         "name": "Taxana - chatbot for financial administration",
         "url": "https:\/\/www.youtube.com\/watch?v=UQ_XRlIFtrQ & https:\/\/www.podnikajte.sk\/dane\/taxana-chatbot",
         "contact": "",
@@ -2689,7 +3105,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90085,
+        "id": 90098,
         "name": "Semantic analyser - document analyser for the public administration",
         "url": "https:\/\/nio.gov.si\/nio\/asset\/semanticni+analizator+besedil",
         "contact": "",
@@ -2721,7 +3137,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90086,
+        "id": 90099,
         "name": "060 Service - answer FAQ from citizens and burocratic terms into informal language",
         "url": "https:\/\/joinup.ec.europa.eu\/sites\/default\/files\/inline-files\/08-2%20Salvador_Estevan_Martinez%20and%20Doaa_Samy_0.pdf",
         "contact": "",
@@ -2753,7 +3169,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90087,
+        "id": 90100,
         "name": "Fuengirola Town Hall - measuring beach attendance",
         "url": "https:\/\/www.euroweeklynews.com\/2020\/05\/04\/costa-del-sols-fuengirola-will-use-artificial-intelligence-to-control-capacity-at-beaches-and-public-spaces\/",
         "contact": "",
@@ -2785,7 +3201,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90088,
+        "id": 90101,
         "name": "Merc\u00e9 - citizen science for better urban life",
         "url": "http:\/\/merce.300000.eu\/data2\/informe_merce.pdf",
         "contact": "",
@@ -2817,7 +3233,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90089,
+        "id": 90102,
         "name": "Misty II - Robot for elderly people",
         "url": "https:\/\/www.barcelona.cat\/infobarcelona\/en\/tema\/senior-citizens\/misty-ii-the-social-robot-becomes-part-of-the-lives-of-twenty-senior-citizens_907645.html",
         "contact": "",
@@ -2849,7 +3265,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90090,
+        "id": 90103,
         "name": "VeriPol - detect false police reports",
         "url": "https:\/\/www.sciencedirect.com\/science\/article\/abs\/pii\/S095070511830128X",
         "contact": "",
@@ -2881,7 +3297,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90091,
+        "id": 90104,
         "name": "Skatti - Answering system about population registration and the income tax return",
         "url": "https:\/\/www.skatteverket.se\/omoss\/kontaktaoss\/chattamedvardigitalamedarbetare.4.2cf1b5cd163796a5c8b403b.html",
         "contact": "",
@@ -2913,7 +3329,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90092,
+        "id": 90105,
         "name": "Tengai - robot in recruitment processes",
         "url": "https:\/\/www.upplands-bro.se\/kommun--politik\/om-kommunen\/information-om-coronaviruset\/nyheter-corona\/2020-05-05-kommunen-tar-nasta-steg-i-fordomsfri-rekrytering-med-intervjuroboten-tengai.html",
         "contact": "",
@@ -2945,7 +3361,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90093,
+        "id": 90106,
         "name": "Trelleborg - automated social welfare decisions",
         "url": "https:\/\/valcon.com\/insights\/trelleborg-robotics-solution\/",
         "contact": "",
@@ -2977,7 +3393,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90094,
+        "id": 90107,
         "name": "Maxi - chatbot answering questions on insurance",
         "url": "https:\/\/www.previon.ch\/projekte\/maxi-der-clevere-chatbot-der-sva-aargau",
         "contact": "",
@@ -3009,7 +3425,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90095,
+        "id": 90108,
         "name": "NOGAuto - assign or control codes to companies for economic activities",
         "url": "https:\/\/www.experimental.bfs.admin.ch\/expstat\/en\/home\/innovation-data-science\/nogauto.html",
         "contact": "",
@@ -3041,7 +3457,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90096,
+        "id": 90109,
         "name": "Amelia - chatbot helping local residents find city services",
         "url": "https:\/\/www.ukauthority.com\/articles\/enfield-joins-microsoft-in-citizenbot-project\/",
         "contact": "",
@@ -3073,7 +3489,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90097,
+        "id": 90110,
         "name": "Babylon - health interactive symptom checker",
         "url": "https:\/\/www.babylonhealth.com\/",
         "contact": "",
@@ -3105,7 +3521,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90098,
+        "id": 90111,
         "name": "DVSA MOT -  Intelligent, data-driven approach to better target Driver and Vehicle Standards Agency (DVSA) resources",
         "url": "https:\/\/www.gov.uk\/government\/case-studies\/how-the-department-for-transport-used-ai-to-improve-mot-testing",
         "contact": "",
@@ -3137,7 +3553,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90099,
+        "id": 90112,
         "name": "EHPS - early help profiling system to identify children and families considered vulnerable",
         "url": "https:\/\/www.hackneycitizen.co.uk\/2018\/10\/18\/council-360k-xantura-software-profiles-troubled-families\/",
         "contact": "",
@@ -3169,7 +3585,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90100,
+        "id": 90113,
         "name": "HART - assessment risk tool, predictive policing based on person data",
         "url": "https:\/\/www.tandfonline.com\/doi\/pdf\/10.1080\/13600834.2018.1458455",
         "contact": "",

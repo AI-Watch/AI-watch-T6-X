@@ -9,6 +9,8 @@ var secondary_sector = [
     "General services.",
     "Health n.e.c.",
     "Hospital services.",
+    "Housing and community amenities n.e.c.",
+    "Housing.",
     "Law courts",
     "Medical products, appliances and equipment.",
     "Military defence.",
