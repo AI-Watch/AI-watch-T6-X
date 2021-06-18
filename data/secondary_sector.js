@@ -4,6 +4,7 @@ var secondary_sector = [
     "Executive and legislative organs, financial and fiscal affairs, external affairs.",
     "Family and children.",
     "Foreign economic aid.",
+    "Fuel and energy",
     "General economic, commercial and labour affair",
     "General public services n.e.c.",
     "General services.",

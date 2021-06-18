@@ -994,7 +994,7 @@ var services = [
     {
         "cid": 10009,
         "id": 90032,
-        "name": "Case Fiva (RPA) - support the Financial supervisory Authority",
+        "name": "Case Fiva (RPA) - Support the Financial supervisory Authority",
         "url": "https:\/\/julkaisut.valtioneuvosto.fi\/bitstream\/handle\/10024\/161688\/41_19_Leading%20the%20way%20into%20the%20age%20of%20artificial%20intelligence.pdf?sequence=4",
         "contact": "",
         "description": "The Financial Supervisory Authority is an example of a government agency that uses  artificial intelligence. The Financial Supervisory Authority is a financial and insurance supervisory agency, which does not always have adequate resources for its tasks. Robotics   and artificial intelligence have eased the situation and their use has also led to a sharp   fall in the number of human errors. The Financial Supervisory Authority supervises the   operations of banks, insurance and pension insurance companies, other actors in the   insurance sector, investment firms, fund management companies and the Helsinki Stock   Exchange. The supervised entities provide 95% of the funding for the operations and the   remaining five per cent comes from the Bank of Finland.",
@@ -1016,7 +1016,7 @@ var services = [
         "end_date": "",
         "primary_sector": "General public services",
         "secondary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs.",
-        "technology": "Unknown",
+        "technology": "Automated reasoning",
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
@@ -1304,7 +1304,7 @@ var services = [
         "end_date": "",
         "primary_sector": "Public order and safety",
         "secondary_sector": "Police services",
-        "technology": "Unknown",
+        "technology": "Machine learning",
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
@@ -2392,7 +2392,7 @@ var services = [
         "end_date": "",
         "primary_sector": "Housing and community amenities",
         "secondary_sector": "Housing and community amenities n.e.c.",
-        "technology": "Unknown",
+        "technology": "Computer vision",
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
@@ -2424,7 +2424,7 @@ var services = [
         "end_date": "",
         "primary_sector": "Public order and safety",
         "secondary_sector": "Public order and safety n.e.c.",
-        "technology": "Unknown",
+        "technology": "Machine learning",
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
@@ -2690,6 +2690,38 @@ var services = [
     {
         "cid": 10009,
         "id": 90085,
+        "name": "Norway AI for Diagnose and treating Breast cancer",
+        "url": "https:\/\/sciencenorway.no\/breast-cancer-cancer-technology\/norwegian-researchers-are-developing-a-new-method-for-detecting-breast-cancer\/1739574",
+        "contact": "",
+        "description": "In Norway research is ongoing to be able to diagnose and treat cancer more accurately based on massive and well-structured healthcare datasets Norway maintains. One hospital is working on specific kind of AI with much more precise treatments of cancer based on the datasets we have. The use of  AI since 2,5 years into the project is now already very accurate.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Norway"
+        ],
+        "geocoverage_codes": [
+            "NO"
+        ],
+        "lead_organisation": {
+            "name": "Unknown",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Unknown",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Hospital services.",
+        "technology": "Machine learning",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90086,
         "name": "Norway Chatbot - chatbot for public administrations",
         "url": "https:\/\/www.boost.ai\/articles\/automation-for-the-people-using-conversational-ai-to-benefit-the-public-sector",
         "contact": "",
@@ -2721,7 +2753,39 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90086,
+        "id": 90087,
+        "name": "Statnett - Forecast service for weather",
+        "url": "https:\/\/datascience.statnett.no\/2018\/04\/27\/from-idea-to-deployment-a-service-for-estimation-of-failure-probability-on-overhead-lines-based-on-the-current-weather-forecast\/",
+        "contact": "",
+        "description": "Forecast service for weather dependent failures on power lines.  Combining Tableau, Python, Splunk and open data from met.no to deliver a realtime forecast of the probability of failure due to wind and lightning on overhead lines.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Norway"
+        ],
+        "geocoverage_codes": [
+            "NO"
+        ],
+        "lead_organisation": {
+            "name": "Statnett, the Norwegian electricity transmission system operator",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Statnett, the Norwegian electricity transmission system operator",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Economic affairs",
+        "secondary_sector": "Fuel and energy",
+        "technology": "Machine learning",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90088,
         "name": "TrondHeim - Insolvency Predicition",
         "url": "https:\/\/norden.diva-portal.org\/smash\/get\/diva2:1375500\/FULLTEXT01.pdf",
         "contact": "",
@@ -2753,7 +2817,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90087,
+        "id": 90089,
         "name": "VDI - Protection of digital infrastructure",
         "url": "https:\/\/www.regjeringen.no\/en\/dokumenter\/nasjonal-strategi-for-kunstig-intelligens\/id2685594\/?ch=7",
         "contact": "",
@@ -2785,11 +2849,11 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90088,
-        "name": "Fraud Detection COVID-19 support",
-        "url": "https:\/\/www.experian.com.pl\/en\/business\/identity-and-fraud\/fraud-prevention-responses",
+        "id": 90090,
+        "name": "Canard - Speed camera system to flag potential traffic rules infringement",
+        "url": "https:\/\/www.canard.gitd.gov.pl\/cms\/web\/portal\/o-projekcie-pois",
         "contact": "",
-        "description": "AI system supporting fraud prevention. It consists in automatic verification of statements submitted in applications, mainly financial data from National Tax Administration and The Social Insurance Institution databases. Additionally, some irregularities are analyzed, e.g. too high amounts in relation to the number of employees. Among other things the system analyzes the criterion of a decline in turnover. It must be directly related to the pandemic and not, for example, to a failed business plan or a failed investment. The system will also examine what the subsidy money was spent on. - The rule is that financial subsidy money can only be used to pay for business expenses. The above mentioned information are the only available sources describing the system and were shared with the press by the Polish Development Fund which is responsible for granting subsidies.",
+        "description": "EU financed system allows speed cameras installed at road junctures to derive information from the photographs and flag potential traffic rules infringement. The decision to fine the driver is not automatic, the system serves rather as an initial sorting mechanism that makes the work of CANARD employees more efficient.",
         "geoextent": "National",
         "geocoverage": [
             "Poland"
@@ -2798,17 +2862,17 @@ var services = [
             "PL"
         ],
         "lead_organisation": {
-            "name": "Unknown",
+            "name": "Automated Traffic Supervision Center",
             "category": "Governmental"
         },
-        "lead_organisation_name": "Unknown",
+        "lead_organisation_name": "Automated Traffic Supervision Center",
         "lead_organisation_category": "Governmental",
         "start_date": "2021\/01\/01",
         "active": "Unknown",
         "end_date": "",
-        "primary_sector": "General public services",
-        "secondary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs.",
-        "technology": "Machine learning",
+        "primary_sector": "Public order and safety",
+        "secondary_sector": "Police services",
+        "technology": "Computer vision",
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
@@ -2817,7 +2881,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90089,
+        "id": 90091,
         "name": "Home Quarantine - app on COVID-19 risk",
         "url": "https:\/\/www.gov.pl\/web\/cyfryzacja\/aplikacja-kwarantanna-domowa--ruszyl-proces-jej-udostepniania",
         "contact": "",
@@ -2849,7 +2913,39 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90090,
+        "id": 90092,
+        "name": "Poland - Fraud Detection COVID-19 support",
+        "url": "https:\/\/www.experian.com.pl\/en\/business\/identity-and-fraud\/fraud-prevention-responses",
+        "contact": "",
+        "description": "AI system supporting fraud prevention. It consists in automatic verification of statements submitted in applications, mainly financial data from National Tax Administration and The Social Insurance Institution databases. Additionally, some irregularities are analyzed, e.g. too high amounts in relation to the number of employees. Among other things the system analyzes the criterion of a decline in turnover. It must be directly related to the pandemic and not, for example, to a failed business plan or a failed investment. The system will also examine what the subsidy money was spent on. - The rule is that financial subsidy money can only be used to pay for business expenses. The above mentioned information are the only available sources describing the system and were shared with the press by the Polish Development Fund which is responsible for granting subsidies.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Poland"
+        ],
+        "geocoverage_codes": [
+            "PL"
+        ],
+        "lead_organisation": {
+            "name": "Unknown",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Unknown",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs.",
+        "technology": "Machine learning",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90093,
         "name": "State Clearance Chamber - financial risk indicator",
         "url": "https:\/\/epf.org.pl\/en\/wp-content\/uploads\/sites\/3\/2019\/05\/alGOVrithms-State-of-Play-Report.pdf",
         "contact": "",
@@ -2881,7 +2977,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90091,
+        "id": 90094,
         "name": "CCM-SNS - verification of medical prescriptions",
         "url": "https:\/\/algorithmwatch.org\/en\/story\/portugal-automated-verification-prescriptions-medical-fraud\/",
         "contact": "",
@@ -2913,7 +3009,199 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90092,
+        "id": 90095,
+        "name": "Data2Help - optimizing the allocation of resources for a better and faster response to medical emergencies",
+        "url": "https:\/\/www.alert-online.com\/br\/news\/health-portal\/inteligencia-artificial-vai-ser-aplicada-as-emergencias-medicas",
+        "contact": "",
+        "description": "The objective of the Data2Help project is to provide INEM with new tools to improve its operational results by optimizing the allocation of resources, resulting in a better and faster response to medical emergencies in Portugal. The Data2Help project focuses on: (1) integrating INEM's information systems with other relevant external data (eg meteorology, epidemics, demography, forest fires, etc.), (2) through the analysis of historical data, developing predictive models for emergency vehicle requests in each geographic area, and (3) optimize the allocation of INEM resources based on predictive models in order to improve response times to medical emergencies.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Portugal"
+        ],
+        "geocoverage_codes": [
+            "PT"
+        ],
+        "lead_organisation": {
+            "name": "National Institute of Medical Emergency",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "National Institute of Medical Emergency",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Health n.e.c.",
+        "technology": "Unknown",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90096,
+        "name": "Derm.AI",
+        "url": "https:\/\/rse-siga.spms.min-saude.pt\/category\/rse-siga-derm-ai\/",
+        "contact": "",
+        "description": "Use of AI to enhance Tele.Dermatological Screening. Decreased skin cancer morbidity and mortality - Optimization of health processes through the integration of AI technologies in a real environment. Usage of Artificial Intelligence to Power Teledermatological Screening, Fraunhofer AICOS\u2019 most recent project, pioneers in being fully integrated with the Primary Care Units and Hospital Dermatology Departments of the National Health Service while using AI to improve the Teledermatological processes and Machine Learning to help the decision making process. Starting this month and running for three years, this project is coordinated by AICOS and developed in partnership with SPMS \u2013 Servi\u00e7os Partilhados do Minist\u00e9rio da Sa\u00fade, under the programme Data Science and Artificial Intelligence in Public Administration.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Portugal"
+        ],
+        "geocoverage_codes": [
+            "PT"
+        ],
+        "lead_organisation": {
+            "name": "Servi\u00e7os Partilhados do Minist\u00e9rio da Sa\u00fade",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Servi\u00e7os Partilhados do Minist\u00e9rio da Sa\u00fade",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "Health n.e.c.",
+        "technology": "Computer vision",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90097,
+        "name": "EPISA - Entity and property inference for semantic archives",
+        "url": "https:\/\/www.inesctec.pt\/en\/news\/inesc-tec-wants-to-digitise-the-largest-documental-collection-of-portugal#about",
+        "contact": "",
+        "description": "EPISA uses natural language processing, entity recognition, and automatic learning methods in order to explore the records of documents and documents themselves if they are in digital form. From the descriptions produced by archivists, entities and relationships will be extracted that will populate a description model, semantically richer than the current one and easier to deal with automatically.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Portugal"
+        ],
+        "geocoverage_codes": [
+            "PT"
+        ],
+        "lead_organisation": {
+            "name": "National Archive of Torre do Tombo",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "National Archive of Torre do Tombo",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Recreation, culture and religion",
+        "secondary_sector": "Cultural services.",
+        "technology": "Natural language processing",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90098,
+        "name": "Failstopper - Study the compressed air system of the vehicle",
+        "url": "https:\/\/www.inesctec.pt\/en\/projects\/failstopper#intro",
+        "contact": "",
+        "description": "The project, called 'FailStopper' and launched earlier this month, aims, through sensors, to study the compressed air system of the vehicle (installed on the roof) which, according to the researcher, allows the \"performance of the secondary suspension\", an element responsible for \"keeping the vehicle level with station platforms\". Researchers from the Institute of Systems and Computers Engineering, Technology and Science (INESC TEC), in Porto, launched a project that aims to \"combat and anticipate leveling failures\" of Metro do Porto vehicles. The 'FailStopper' project was one of the 15 projects approved in the Scientific Research and Technological Development contest in Data Science and Artificial Intelligence in Public Administration, an initiative of the Foundation for Science and Technology (FCT) that joins the Ministry of Science, Technology and Higher Education and the Ministry of Administrative Modernization. More Information also at https:\/\/www.researchgate.net\/project\/FailStopper-Early-failure-detection-of-public-transport-vehicles-in-operational-context",
+        "geoextent": "Local",
+        "geocoverage": [
+            "Portugal"
+        ],
+        "geocoverage_codes": [
+            "PT"
+        ],
+        "lead_organisation": {
+            "name": "Metro do Porto",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Metro do Porto",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Economic affairs",
+        "secondary_sector": "Transport",
+        "technology": "Machine learning",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90099,
+        "name": "IPOscore - Predicting complications surgery and prognosis  of cancer patients",
+        "url": "https:\/\/www.fct.pt\/media\/docs\/Brochura_ResearchinDataScienceandAIappliedtoPA.pdf",
+        "contact": "",
+        "description": "Prognosis of cancer patients through risk prediction of surgical complications and integration of clinical and biopathological data",
+        "geoextent": "National",
+        "geocoverage": [
+            "Portugal"
+        ],
+        "geocoverage_codes": [
+            "PT"
+        ],
+        "lead_organisation": {
+            "name": "Unknown",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Unknown",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Health",
+        "secondary_sector": "R&d health.",
+        "technology": "Unknown",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90100,
+        "name": "Portugal -  Predicting long term unemployment",
+        "url": "https:\/\/online.ucpress.edu\/gp\/article-abstract\/1\/1\/12908\/110741",
+        "contact": "",
+        "description": "This project builds upon unemployment data held by the public employment service with additional data sources in order to produce a score reflecting the risk of a person to become long term unemployment (12 months or longer). This will enable the agency to tailor actions to this person.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Portugal"
+        ],
+        "geocoverage_codes": [
+            "PT"
+        ],
+        "lead_organisation": {
+            "name": "Instituto  de Emprego e Forma\u00e7\u00e3o Profissional (IEFP)",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Instituto  de Emprego e Forma\u00e7\u00e3o Profissional (IEFP)",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "Social protection",
+        "secondary_sector": "Unemployment.",
+        "technology": "Automated reasoning",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90101,
         "name": "Sigma - chatbot on changing citizens' address",
         "url": "https:\/\/joinup.ec.europa.eu\/sites\/default\/files\/news\/2019-09\/ISA2_Architecture%20for%20public%20service%20chatbots.pdf",
         "contact": "",
@@ -2945,7 +3233,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90093,
+        "id": 90102,
         "name": "Antonia - automatic processing of requests of public services",
         "url": "https:\/\/www.romaniajournal.ro\/society-people\/antonia-the-first-virtual-public-servant-in-romania\/",
         "contact": "",
@@ -2977,7 +3265,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90094,
+        "id": 90103,
         "name": "Bucharest airport - face recognition",
         "url": "https:\/\/www.uti.eu.com\/press-releases\/uti-will-implement-face-recognition-and-intelligent-image-analysis-systems-with-otopeni-airport\/",
         "contact": "",
@@ -3009,7 +3297,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90095,
+        "id": 90104,
         "name": "OverSi - Chatbot to faster burocracy",
         "url": "https:\/\/stopbyrokracii.sk\/",
         "contact": "",
@@ -3041,7 +3329,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90096,
+        "id": 90105,
         "name": "PCA - AI algorithms in audit methodology",
         "url": "https:\/\/dennikn.sk\/blog\/1561696\/big-data-ukazali-nestandardne-predpisovanie-liekov-usporime-tak-statisice-eur\/",
         "contact": "",
@@ -3073,7 +3361,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90097,
+        "id": 90106,
         "name": "Taxana - chatbot for financial administration",
         "url": "https:\/\/www.youtube.com\/watch?v=UQ_XRlIFtrQ & https:\/\/www.podnikajte.sk\/dane\/taxana-chatbot",
         "contact": "",
@@ -3105,7 +3393,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90098,
+        "id": 90107,
         "name": "Semantic analyser - document analyser for the public administration",
         "url": "https:\/\/nio.gov.si\/nio\/asset\/semanticni+analizator+besedil",
         "contact": "",
@@ -3137,7 +3425,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90099,
+        "id": 90108,
         "name": "060 Service - answer FAQ from citizens and burocratic terms into informal language",
         "url": "https:\/\/joinup.ec.europa.eu\/sites\/default\/files\/inline-files\/08-2%20Salvador_Estevan_Martinez%20and%20Doaa_Samy_0.pdf",
         "contact": "",
@@ -3169,7 +3457,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90100,
+        "id": 90109,
         "name": "Fuengirola Town Hall - measuring beach attendance",
         "url": "https:\/\/www.euroweeklynews.com\/2020\/05\/04\/costa-del-sols-fuengirola-will-use-artificial-intelligence-to-control-capacity-at-beaches-and-public-spaces\/",
         "contact": "",
@@ -3192,7 +3480,7 @@ var services = [
         "end_date": "",
         "primary_sector": "Recreation, culture and religion",
         "secondary_sector": "Recreational and sporting services.",
-        "technology": "Unknown",
+        "technology": "Computer vision",
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
@@ -3201,7 +3489,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90101,
+        "id": 90110,
         "name": "Merc\u00e9 - citizen science for better urban life",
         "url": "http:\/\/merce.300000.eu\/data2\/informe_merce.pdf",
         "contact": "",
@@ -3233,7 +3521,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90102,
+        "id": 90111,
         "name": "Misty II - Robot for elderly people",
         "url": "https:\/\/www.barcelona.cat\/infobarcelona\/en\/tema\/senior-citizens\/misty-ii-the-social-robot-becomes-part-of-the-lives-of-twenty-senior-citizens_907645.html",
         "contact": "",
@@ -3265,7 +3553,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90103,
+        "id": 90112,
         "name": "VeriPol - detect false police reports",
         "url": "https:\/\/www.sciencedirect.com\/science\/article\/abs\/pii\/S095070511830128X",
         "contact": "",
@@ -3297,7 +3585,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90104,
+        "id": 90113,
         "name": "Skatti - Answering system about population registration and the income tax return",
         "url": "https:\/\/www.skatteverket.se\/omoss\/kontaktaoss\/chattamedvardigitalamedarbetare.4.2cf1b5cd163796a5c8b403b.html",
         "contact": "",
@@ -3329,7 +3617,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90105,
+        "id": 90114,
         "name": "Tengai - robot in recruitment processes",
         "url": "https:\/\/www.upplands-bro.se\/kommun--politik\/om-kommunen\/information-om-coronaviruset\/nyheter-corona\/2020-05-05-kommunen-tar-nasta-steg-i-fordomsfri-rekrytering-med-intervjuroboten-tengai.html",
         "contact": "",
@@ -3361,7 +3649,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90106,
+        "id": 90115,
         "name": "Trelleborg - automated social welfare decisions",
         "url": "https:\/\/valcon.com\/insights\/trelleborg-robotics-solution\/",
         "contact": "",
@@ -3393,7 +3681,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90107,
+        "id": 90116,
         "name": "Maxi - chatbot answering questions on insurance",
         "url": "https:\/\/www.previon.ch\/projekte\/maxi-der-clevere-chatbot-der-sva-aargau",
         "contact": "",
@@ -3425,7 +3713,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90108,
+        "id": 90117,
         "name": "NOGAuto - assign or control codes to companies for economic activities",
         "url": "https:\/\/www.experimental.bfs.admin.ch\/expstat\/en\/home\/innovation-data-science\/nogauto.html",
         "contact": "",
@@ -3457,7 +3745,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90109,
+        "id": 90118,
         "name": "Amelia - chatbot helping local residents find city services",
         "url": "https:\/\/www.ukauthority.com\/articles\/enfield-joins-microsoft-in-citizenbot-project\/",
         "contact": "",
@@ -3489,7 +3777,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90110,
+        "id": 90119,
         "name": "Babylon - health interactive symptom checker",
         "url": "https:\/\/www.babylonhealth.com\/",
         "contact": "",
@@ -3521,7 +3809,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90111,
+        "id": 90120,
         "name": "DVSA MOT -  Intelligent, data-driven approach to better target Driver and Vehicle Standards Agency (DVSA) resources",
         "url": "https:\/\/www.gov.uk\/government\/case-studies\/how-the-department-for-transport-used-ai-to-improve-mot-testing",
         "contact": "",
@@ -3553,7 +3841,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90112,
+        "id": 90121,
         "name": "EHPS - early help profiling system to identify children and families considered vulnerable",
         "url": "https:\/\/www.hackneycitizen.co.uk\/2018\/10\/18\/council-360k-xantura-software-profiles-troubled-families\/",
         "contact": "",
@@ -3585,7 +3873,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90113,
+        "id": 90122,
         "name": "HART - assessment risk tool, predictive policing based on person data",
         "url": "https:\/\/www.tandfonline.com\/doi\/pdf\/10.1080\/13600834.2018.1458455",
         "contact": "",
