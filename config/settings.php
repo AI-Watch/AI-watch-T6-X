@@ -99,23 +99,17 @@
   
   $subsection["chart"]["10004"]["name"] = "AI typology";
   $subsection["chart"]["10004"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10004"]["descr"] = "Distribution by 'AI typologies', the  10 AI application domains identified in the JRC report 'Misuraca, G., and van Noordt, C., Overview of the use and impact of AI in public services in the EU, doi:10.2760/039619'";
-//  $subsection["chart"]["10004"]["url"] = $site_abs_path . "chart/10004.html";
-//  $subsection["chart"]["10004"]["path"] = $root_abs_path . "chart/10004.html";
-//  $subsection["chart"]["10004"]["data"] = $site_abs_path . $data_folder . "services";
+  $subsection["chart"]["10004"]["descr"] = "Distribution by 'AI typologies'";
   $subsection["chart"]["10004"]["data"] = $data_path . "services";
   $subsection["chart"]["10004"]["graph"] = '<perspective-viewer view="y_bar" row-pivots=\'["technology"]\' sort=\'[["id", "desc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10004"></perspective-viewer>';
   $subsection["chart"]["10004"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10005"]["name"] = "Purpose of AI uptake";
-  $subsection["chart"]["10005"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10005"]["descr"] = "Distribution of purpose of AI uptake as described in the JRC report 'Misuraca, G., and van Noordt, C., Overview of the use and impact of AI in public services in the EU, doi:10.2760/039619'";
-//  $subsection["chart"]["10005"]["url"] = $site_abs_path . "chart/10005.html";
-//  $subsection["chart"]["10005"]["path"] = $root_abs_path . "chart/10005.html";
-//  $subsection["chart"]["10005"]["data"] = $site_abs_path . $data_folder . "services";
-  $subsection["chart"]["10005"]["data"] = $data_path . "services";
-  $subsection["chart"]["10005"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["uptake"]\' sort=\'[["id", "desc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10005"></perspective-viewer>';
-  $subsection["chart"]["10005"]["lib"] = 'perspective';
+//  $subsection["chart"]["10005"]["name"] = "Purpose of AI uptake";
+//  $subsection["chart"]["10005"]["icon"] = "fa-area-chart";
+//  $subsection["chart"]["10005"]["descr"] = "Distribution of purpose of AI uptake as described in the JRC report 'Misuraca, G., and van Noordt, C., Overview of the use and impact of AI in public services in the EU, doi:10.2760/039619'";
+//  $subsection["chart"]["10005"]["data"] = $data_path . "services";
+//  $subsection["chart"]["10005"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["uptake"]\' sort=\'[["id", "desc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10005"></perspective-viewer>';
+//  $subsection["chart"]["10005"]["lib"] = 'perspective';
   
   $subsection["chart"]["10006"]["name"] = "Administrative level";
   $subsection["chart"]["10006"]["icon"] = "fa-area-chart";
@@ -127,16 +121,12 @@
   $subsection["chart"]["10006"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["geoextent"]\' sort=\'[["id", "desc"]]\' columns=\'["id", "name"]\' aggregates=\'{"name": "distinct count"}\' id="chart-10006"></perspective-viewer>';
   $subsection["chart"]["10006"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10007"]["name"] = "Innovative potential";
-  $subsection["chart"]["10007"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10007"]["descr"] = "Distribution of the innovative potential of the cases as defined in the JRC report 'Misuraca, G., and van Noordt, C., Overview of the use and impact of AI in public services in the EU, doi:10.2760/039619''";
-//  $subsection["chart"]["10007"]["url"] = $site_abs_path . "chart/10007.html";
-//  $subsection["chart"]["10007"]["path"] = $root_abs_path . "chart/10007.html";
-//  $subsection["chart"]["10007"]["data"] = $site_abs_path . $data_folder . "services";
-  $subsection["chart"]["10007"]["data"] = $data_path . "services";
-//  $subsection["chart"]["10007"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["uptake", "lead_organisation_category"]\' sort=\'[["id", "asc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10007"></perspective-viewer>';
-  $subsection["chart"]["10007"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["type"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "name"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10007"></perspective-viewer>';
-  $subsection["chart"]["10007"]["lib"] = 'perspective';
+//  $subsection["chart"]["10007"]["name"] = "Innovative potential";
+//  $subsection["chart"]["10007"]["icon"] = "fa-area-chart";
+//  $subsection["chart"]["10007"]["descr"] = "Distribution of the innovative potential of the cases as defined in the JRC report 'Misuraca, G., and van Noordt, C., Overview of the use and impact of AI in public services in the EU, doi:10.2760/039619''";
+//  $subsection["chart"]["10007"]["data"] = $data_path . "services";
+//  $subsection["chart"]["10007"]["graph"] = '<perspective-viewer view="treemap" row-pivots=\'["type"]\' sort=\'[["id", "asc"]]\' columns=\'["id", "name"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10007"></perspective-viewer>';
+//  $subsection["chart"]["10007"]["lib"] = 'perspective';
   
   $subsection["chart"]["10008"]["name"] = "COFOG I & COFOG II";
   $subsection["chart"]["10008"]["icon"] = "fa-area-chart";
