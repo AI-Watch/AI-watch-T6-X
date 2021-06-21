@@ -8,7 +8,7 @@ var prj_per_country = {
     "Estonia": 12,
     "Finland": 7,
     "France": 9,
-    "Germany": 3,
+    "Germany": 8,
     "Greece": 1,
     "Hungary": 2,
     "Ireland": 2,
@@ -16,14 +16,14 @@ var prj_per_country = {
     "Latvia": 7,
     "Lithuania": 2,
     "Netherlands": 11,
-    "Norway": 8,
+    "Norway": 10,
     "Poland": 4,
     "Portugal": 8,
     "Romania": 2,
     "Slovakia": 3,
     "Slovenia": 1,
-    "Spain": 5,
-    "Sweden": 3,
-    "Switzerland": 2,
-    "United Kingdom": 5
+    "Spain": 8,
+    "Sweden": 8,
+    "Switzerland": 6,
+    "United Kingdom": 6
 }

@@ -1,6 +1,7 @@
 var secondary_sector = [
     "Agriculture, forestry, fishing and hunting",
     "Cultural services.",
+    "Education n.e.c.",
     "Executive and legislative organs, financial and fiscal affairs, external affairs.",
     "Family and children.",
     "Foreign economic aid.",
