@@ -74,6 +74,16 @@
   $subsection["chart"]["10001"]["data"] = $data_path . "services";
   $subsection["chart"]["10001"]["graph"] = '<div id="chart-10001"></div>';
   $subsection["chart"]["10001"]["lib"] = 'jvectormap';
+  
+  $subsection["chart"]["10006"]["name"] = "Administrative level";
+  $subsection["chart"]["10006"]["icon"] = "fa-area-chart";
+  $subsection["chart"]["10006"]["descr"] = "Distribution of AI cases by administrative levels";
+//  $subsection["chart"]["10006"]["url"] = $site_abs_path . "chart/10006.html";
+//  $subsection["chart"]["10006"]["path"] = $root_abs_path . "chart/10006.html";
+//  $subsection["chart"]["10006"]["data"] = $site_abs_path . $data_folder . "services";
+  $subsection["chart"]["10006"]["data"] = $data_path . "services";
+  $subsection["chart"]["10006"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["geoextent"]\' sort=\'[["id", "desc"]]\' columns=\'["id", "name"]\' aggregates=\'{"name": "distinct count"}\' id="chart-10006"></perspective-viewer>';
+  $subsection["chart"]["10006"]["lib"] = 'perspective';
 
   $subsection["chart"]["10002"]["name"] = "Main government division (COFOG I level)";
   $subsection["chart"]["10002"]["icon"] = "fa-area-chart";
@@ -111,15 +121,7 @@
 //  $subsection["chart"]["10005"]["graph"] = '<perspective-viewer view="x_bar" row-pivots=\'["uptake"]\' sort=\'[["id", "desc"]]\' columns=\'["id"]\' aggregates=\'{"id": "distinct count"}\' id="chart-10005"></perspective-viewer>';
 //  $subsection["chart"]["10005"]["lib"] = 'perspective';
   
-  $subsection["chart"]["10006"]["name"] = "Administrative level";
-  $subsection["chart"]["10006"]["icon"] = "fa-area-chart";
-  $subsection["chart"]["10006"]["descr"] = "Distribution of AI cases by administrative levels";
-//  $subsection["chart"]["10006"]["url"] = $site_abs_path . "chart/10006.html";
-//  $subsection["chart"]["10006"]["path"] = $root_abs_path . "chart/10006.html";
-//  $subsection["chart"]["10006"]["data"] = $site_abs_path . $data_folder . "services";
-  $subsection["chart"]["10006"]["data"] = $data_path . "services";
-  $subsection["chart"]["10006"]["graph"] = '<perspective-viewer view="sunburst" row-pivots=\'["geoextent"]\' sort=\'[["id", "desc"]]\' columns=\'["id", "name"]\' aggregates=\'{"name": "distinct count"}\' id="chart-10006"></perspective-viewer>';
-  $subsection["chart"]["10006"]["lib"] = 'perspective';
+
   
 //  $subsection["chart"]["10007"]["name"] = "Innovative potential";
 //  $subsection["chart"]["10007"]["icon"] = "fa-area-chart";
