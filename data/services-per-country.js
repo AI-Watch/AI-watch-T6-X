@@ -10,7 +10,7 @@ var prj_per_country = {
     "France": 9,
     "Germany": 8,
     "Greece": 1,
-    "Hungary": 2,
+    "Hungary": 3,
     "Ireland": 2,
     "Italy": 7,
     "Latvia": 7,

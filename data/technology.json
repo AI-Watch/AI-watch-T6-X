@@ -1,4 +1,5 @@
 [
+    "Ai services",
     "Audio processing",
     "Automated reasoning",
     "Computer vision",
@@ -8,6 +9,5 @@
     "Optimisation",
     "Planning and scheduling",
     "Robotics and automation",
-    "Searching",
-    "Unknown"
+    "Searching"
 ]

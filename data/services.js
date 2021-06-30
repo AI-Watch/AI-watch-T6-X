@@ -1346,7 +1346,7 @@ var services = [
     {
         "cid": 10009,
         "id": 90043,
-        "name": "LaBonneBo\u00eete - Identification of companies with a high probability of hiring",
+        "name": "LaBonneBoite - Identification of companies with a high probability of hiring",
         "url": "https:\/\/ec.europa.eu\/social\/BlobServlet?docId=20605&langId=en",
         "contact": "",
         "description": "La Bonne Boite is an online tool that identifies companies with a high probability of hiring within the next six months in the sector and area selected by the seeker. The objective of La Bonne Boite is to help jobseekers find job opportunities that are not published by employers (i.e. \"hidden vacancies\") and to predict which companies are most likely to hire in the near  future. La Bonne Boite is one of the most used job searching services in France and it is about to be further developed in order to target more specific types of jobseekers, like students, that are looking for part-time jobs. This search engine improves a jobseeker's chance of securing a job interview on the basis of spontaneous job applications. La Bonne Boite's computer code can be copied and used by others. There is also an Application Programming Interface (API) which enables the duplication of La Bonne Boite on other websites.",
@@ -1794,6 +1794,38 @@ var services = [
     {
         "cid": 10009,
         "id": 90057,
+        "name": "T\u00c9BA - Decision on the Maternity Benefit  following the family support scheme of the Hungarian State Treasury",
+        "url": "https:\/\/metamorphosis.org.mk\/wp-content\/uploads\/2021\/04\/algovrithms_2.0_report-2021.pdf",
+        "contact": "",
+        "description": "The Treasury operates some other complex algorithms, such as an ASP-system for local governments that aims to:    Support local governments in the performance of their tasks and internal operation, the development and electronic development of organizations and processes, the improvement of efficiency, and the reduction of their costs,   Monitor the management of local governments with modern tools and methods.   Monitor the financing mechanisms of the local government subsystem.   Provide access to electronic administration services for the population and businesses living in the affected areas on a single platform in certain municipal administration processes.   Another example is the KIRA system, which provides centralized payroll accounting for employees of state and municipal budget bodies (government officials, civil and public servants, foster parents, and other state employees). However, though the above-mentioned systems are suitable to perform statistical and (risk) analysis, they do not involve the narrowly interpreted automated-decision making.",
+        "geoextent": "National",
+        "geocoverage": [
+            "Hungary"
+        ],
+        "geocoverage_codes": [
+            "HU"
+        ],
+        "lead_organisation": {
+            "name": "Unknown",
+            "category": "Governmental"
+        },
+        "lead_organisation_name": "Unknown",
+        "lead_organisation_category": "Governmental",
+        "start_date": "2021\/01\/01",
+        "active": "Unknown",
+        "end_date": "",
+        "primary_sector": "General public services",
+        "secondary_sector": "Executive and legislative organs, financial and fiscal affairs, external affairs.",
+        "technology": "Ai services",
+        "uptake": "Unknown",
+        "cross_border": "Unknown",
+        "cross_sector": "Unknown",
+        "type": "Unknown",
+        "status": "Unknown"
+    },
+    {
+        "cid": 10009,
+        "id": 90058,
         "name": "V\u00e9da-KAFIR-ROBOTZSARU (\u2018Robocop\u2019) - System Operated by the Police for Traffic Safety Automated Processing",
         "url": "https:\/\/metamorphosis.org.mk\/wp-content\/uploads\/2021\/04\/algovrithms_2.0_report-2021.pdf",
         "contact": "",
@@ -1806,10 +1838,10 @@ var services = [
             "HU"
         ],
         "lead_organisation": {
-            "name": "Hungarian Police",
+            "name": "NAV",
             "category": "Governmental"
         },
-        "lead_organisation_name": "Hungarian Police",
+        "lead_organisation_name": "NAV",
         "lead_organisation_category": "Governmental",
         "start_date": "2021\/01\/01",
         "active": "Unknown",
@@ -1825,7 +1857,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90058,
+        "id": 90059,
         "name": "The Dublin Beat - Citizen opinion analysis",
         "url": "https:\/\/smartdublin.ie\/smart-dublin-explores-how-ai-social-media-can-help-improve-the-city-region\/",
         "contact": "",
@@ -1857,7 +1889,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90059,
+        "id": 90060,
         "name": "VDA - Voicebot on calls from Irish taxpayer on tax clearance",
         "url": "https:\/\/www.ops2020.gov.ie\/actions\/innovating-for-our-future\/innovation\/emerging-technology\/artificial-intelligence\/revenue-chatbot\/",
         "contact": "",
@@ -1889,7 +1921,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90060,
+        "id": 90061,
         "name": "Borbot - Virtual assistant for museums",
         "url": "https:\/\/borbot.it\/",
         "contact": "",
@@ -1921,7 +1953,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90061,
+        "id": 90062,
         "name": "Noovle - Management of health documentation",
         "url": "https:\/\/www.noovle.ch\/project\/arsenal-it-centro-veneto-ricerca-e-innovazione-per-la-sanita-digitale\/",
         "contact": "",
@@ -1953,7 +1985,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90062,
+        "id": 90063,
         "name": "Pierino - PIatform for the extraction and retrieval of online information",
         "url": "https:\/\/www.researchgate.net\/publication\/323280575_NLP_and_Public_Engagement_the_Case_of_the_Italian_School_Reform",
         "contact": "",
@@ -1985,7 +2017,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90063,
+        "id": 90064,
         "name": "R1 - humanoid robot",
         "url": "https:\/\/www.dongnocchi.it\/news-ed-eventi\/@news\/robot-e-realta-virtuale-a-technology-hub-ecco-la-riabilitazione-innovativa",
         "contact": "",
@@ -2017,7 +2049,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90064,
+        "id": 90065,
         "name": "Smart Planner - Navigation planning assistant",
         "url": "https:\/\/www.smartcommunitylab.it\/app\/",
         "contact": "",
@@ -2049,7 +2081,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90065,
+        "id": 90066,
         "name": "TALIA SF - Extract and organize knowledge coming from the analysis of a huge quantity of textual documents",
         "url": "https:\/\/social-and-creative.interreg-med.eu\/no-cache\/press-room\/news\/detail\/actualites\/the-sc-community-tools-the-semantic-framework\/",
         "contact": "",
@@ -2081,7 +2113,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90066,
+        "id": 90067,
         "name": "Toscana Open Research - Allows users to access information through \"queries\" without having to know the technical terms",
         "url": "http:\/\/www.toscanaopenresearch.it\/explore-the-data\/#\/",
         "contact": "",
@@ -2113,7 +2145,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90067,
+        "id": 90068,
         "name": "Automatic decision making of the Electronic Declaration System of the State Revenue Service",
         "url": "https:\/\/www.vid.gov.lv\/en\/electronic-declaration-system",
         "contact": "",
@@ -2145,7 +2177,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90068,
+        "id": 90069,
         "name": "FITS ITEMS - Road safety",
         "url": "https:\/\/investinlatvia.org\/en\/key-sectors\/sectors\/smart-city",
         "contact": "",
@@ -2177,7 +2209,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90069,
+        "id": 90070,
         "name": "Hugo - Virtual Assistant for governments",
         "url": "https:\/\/ec.europa.eu\/cefdigital\/wiki\/download\/attachments\/61932141\/2_04_Janis%20Ziedins_Artus%20Vasiljevskis_Hugo.lv-AI_powered_service.pdf?version=1&modificationDate=1544438787726&api=v2",
         "contact": "",
@@ -2209,7 +2241,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90070,
+        "id": 90071,
         "name": "LAA - Pilot lung cancer risk assessment",
         "url": "https:\/\/issuu.com\/rigastehniskauniversitate\/docs\/innovation_2018_rudens_new_eng_link\/5",
         "contact": "",
@@ -2241,7 +2273,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90071,
+        "id": 90072,
         "name": "Toms - Chatbot facilitating customer communication with the State Revenue service",
         "url": "https:\/\/www.vid.gov.lv\/",
         "contact": "",
@@ -2273,7 +2305,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90072,
+        "id": 90073,
         "name": "UNA - Chatbot regarding the process of enterprise registration",
         "url": "https:\/\/oecd-opsi.org\/innovations\/una-the-first-virtual-assistant-of-public-administration-in-latvia\/",
         "contact": "",
@@ -2305,7 +2337,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90073,
+        "id": 90074,
         "name": "VARIS - Reviews all the applicants to Rural Support Service",
         "url": "https:\/\/www.lad.gov.lv\/en\/news\/the-robot-varis-has-started-work-at-the-rural-support-service-of-latvia-892",
         "contact": "",
@@ -2337,7 +2369,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90074,
+        "id": 90075,
         "name": "FCIS - Machine learning to identify suspicious patterns (trade, financial flows)",
         "url": "http:\/\/www.fntt.lt\/lt\/ivykiai\/fntt-kartu-su-partneriais-pradeda-igyvendinti-europos-sajungos-moksliniu-tyrimu-ir-inovaciju-lesomis-remiama-projekta\/3768",
         "contact": "",
@@ -2369,7 +2401,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90075,
+        "id": 90076,
         "name": "viLTe' - Chatbot answering relevant questions regarding the COVID-19",
         "url": "https:\/\/koronastop.lrv.lt\/",
         "contact": "",
@@ -2401,7 +2433,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90076,
+        "id": 90077,
         "name": "Amberscript - Automated speech translation for public organisations",
         "url": "https:\/\/www.amberscript.com\/en\/news\/amberscript-makes-council-meetings-of-dutch-municipalities-accessible-to-the-deaf-and-hearing-impaired",
         "contact": "",
@@ -2433,7 +2465,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90077,
+        "id": 90078,
         "name": "ANPR - Car plate recognition",
         "url": "https:\/\/www.politie.nl\/onderwerpen\/anpr.html",
         "contact": "",
@@ -2465,7 +2497,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90078,
+        "id": 90079,
         "name": "Cameras - Detection holding a phone in car",
         "url": "https:\/\/www.om.nl\/actueel\/nieuws\/2020\/11\/12\/openbaar-ministerie-start-digitale-handhaving-op-handheld-telefoongebruik-achter-het-stuur",
         "contact": "",
@@ -2497,7 +2529,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90079,
+        "id": 90080,
         "name": "CAS - Crime anticipation system",
         "url": "http:\/\/ceur-ws.org\/Vol-2103\/paper_6.pdf",
         "contact": "",
@@ -2529,7 +2561,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90080,
+        "id": 90081,
         "name": "Rotterdam \u2013 Improving the usage of rooftops",
         "url": "http:\/\/www.dssgfellowship.org\/project\/identifying-rooftop-usage-in-rotterdam\/?portfolioID=15901",
         "contact": "",
@@ -2561,7 +2593,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90081,
+        "id": 90082,
         "name": "RWS - Machine learning for road accident predictions",
         "url": "http:\/\/www.dssgfellowship.org\/project\/rijkswaterstaat-netherlands\/",
         "contact": "",
@@ -2593,7 +2625,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90082,
+        "id": 90083,
         "name": "SHAP - Holiday rental home fraud",
         "url": "https:\/\/algoritmeregister.amsterdam.nl\/vakantieverhuur-woningfraude\/",
         "contact": "",
@@ -2625,7 +2657,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90083,
+        "id": 90084,
         "name": "SIA - Notificiations public space",
         "url": "https:\/\/tada.city\/en\/nieuws\/algorithms-for-more-fairness-in-the-city\/",
         "contact": "",
@@ -2657,7 +2689,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90084,
+        "id": 90085,
         "name": "SyRi - Detect welfare fraud",
         "url": "https:\/\/algorithmwatch.org\/en\/story\/syri-netherlands-algorithm\/",
         "contact": "",
@@ -2689,7 +2721,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90085,
+        "id": 90086,
         "name": "Xomnia - The Burglary Predictor",
         "url": "https:\/\/www.xomnia.com\/burglary-prediction-for-the-municipality-of-utrecht\/",
         "contact": "",
@@ -2721,7 +2753,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90086,
+        "id": 90087,
         "name": "Xoomia - Law enforcement optimization system",
         "url": "https:\/\/www.xomnia.com\/law-enforcement-optimization-at-amsterdam\/",
         "contact": "",
@@ -2753,7 +2785,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90087,
+        "id": 90088,
         "name": "HAL - classification of documents",
         "url": "https:\/\/www.regjeringen.no\/en\/dokumenter\/nasjonal-strategi-for-kunstig-intelligens\/id2685594\/?ch=4#id0022",
         "contact": "",
@@ -2785,7 +2817,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90088,
+        "id": 90089,
         "name": "Kari - Chatbot",
         "url": "https:\/\/www.etapasproject.eu\/usecases\/post-3\/",
         "contact": "",
@@ -2817,7 +2849,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90089,
+        "id": 90090,
         "name": "Lanekassen - Improve control on students with loan payments and identification",
         "url": "https:\/\/norwaytoday.info\/education\/artificial-intelligence-revealed-more-loan-fund-cheating\/",
         "contact": "",
@@ -2849,7 +2881,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90090,
+        "id": 90091,
         "name": "Nancy - Access to National library assets",
         "url": "https:\/\/www.youtube.com\/watch?v=o_6M_ZL7AuU",
         "contact": "",
@@ -2881,7 +2913,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90091,
+        "id": 90092,
         "name": "Norway AI for Diagnose and treating Breast cancer",
         "url": "https:\/\/sciencenorway.no\/breast-cancer-cancer-technology\/norwegian-researchers-are-developing-a-new-method-for-detecting-breast-cancer\/1739574",
         "contact": "",
@@ -2913,7 +2945,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90092,
+        "id": 90093,
         "name": "Norway Chatbot - Chatbot for public administrations",
         "url": "https:\/\/www.boost.ai\/articles\/automation-for-the-people-using-conversational-ai-to-benefit-the-public-sector",
         "contact": "",
@@ -2945,7 +2977,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90093,
+        "id": 90094,
         "name": "Posting of invoices - Robot to propose the correct posting",
         "url": "https:\/\/www.regjeringen.no\/en\/dokumenter\/nasjonal-strategi-for-kunstig-intelligens\/id2685594\/?ch=6#id0043",
         "contact": "",
@@ -2977,7 +3009,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90094,
+        "id": 90095,
         "name": "Statnett - Forecast service for weather",
         "url": "https:\/\/datascience.statnett.no\/2018\/04\/27\/from-idea-to-deployment-a-service-for-estimation-of-failure-probability-on-overhead-lines-based-on-the-current-weather-forecast\/",
         "contact": "",
@@ -3009,7 +3041,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90095,
+        "id": 90096,
         "name": "TrondHeim - Insolvency Predicition",
         "url": "https:\/\/norden.diva-portal.org\/smash\/get\/diva2:1375500\/FULLTEXT01.pdf",
         "contact": "",
@@ -3041,7 +3073,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90096,
+        "id": 90097,
         "name": "VDI - Protection of digital infrastructure",
         "url": "https:\/\/www.regjeringen.no\/en\/dokumenter\/nasjonal-strategi-for-kunstig-intelligens\/id2685594\/?ch=7",
         "contact": "",
@@ -3073,7 +3105,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90097,
+        "id": 90098,
         "name": "Canard - Speed camera system to flag potential traffic rules infringement",
         "url": "https:\/\/www.canard.gitd.gov.pl\/cms\/web\/portal\/o-projekcie-pois",
         "contact": "",
@@ -3105,7 +3137,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90098,
+        "id": 90099,
         "name": "Home Quarantine - app on COVID-19 risk",
         "url": "https:\/\/www.gov.pl\/web\/cyfryzacja\/aplikacja-kwarantanna-domowa--ruszyl-proces-jej-udostepniania",
         "contact": "",
@@ -3137,7 +3169,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90099,
+        "id": 90100,
         "name": "Poland - Fraud Detection COVID-19 support",
         "url": "https:\/\/www.experian.com.pl\/en\/business\/identity-and-fraud\/fraud-prevention-responses",
         "contact": "",
@@ -3169,7 +3201,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90100,
+        "id": 90101,
         "name": "State Clearance Chamber - financial risk indicator",
         "url": "https:\/\/epf.org.pl\/en\/wp-content\/uploads\/sites\/3\/2019\/05\/alGOVrithms-State-of-Play-Report.pdf",
         "contact": "",
@@ -3201,7 +3233,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90101,
+        "id": 90102,
         "name": "CCM-SNS - Verification of medical prescriptions",
         "url": "https:\/\/algorithmwatch.org\/en\/story\/portugal-automated-verification-prescriptions-medical-fraud\/",
         "contact": "",
@@ -3233,7 +3265,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90102,
+        "id": 90103,
         "name": "Data2Help - Optimizing the allocation of resources for a better and faster response to medical emergencies",
         "url": "https:\/\/www.alert-online.com\/br\/news\/health-portal\/inteligencia-artificial-vai-ser-aplicada-as-emergencias-medicas",
         "contact": "",
@@ -3265,8 +3297,8 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90103,
-        "name": "Derm.AI",
+        "id": 90104,
+        "name": "Derm.AI - Tele Dermatological Screening",
         "url": "https:\/\/rse-siga.spms.min-saude.pt\/category\/rse-siga-derm-ai\/",
         "contact": "",
         "description": "Use of AI to enhance Tele.Dermatological Screening. Decreased skin cancer morbidity and mortality - Optimization of health processes through the integration of AI technologies in a real environment. Usage of Artificial Intelligence to Power Teledermatological Screening, Fraunhofer AICOS\u2019 most recent project, pioneers in being fully integrated with the Primary Care Units and Hospital Dermatology Departments of the National Health Service while using AI to improve the Teledermatological processes and Machine Learning to help the decision making process. Starting this month and running for three years, this project is coordinated by AICOS and developed in partnership with SPMS \u2013 Servi\u00e7os Partilhados do Minist\u00e9rio da Sa\u00fade, under the programme Data Science and Artificial Intelligence in Public Administration.",
@@ -3288,7 +3320,7 @@ var services = [
         "end_date": "",
         "primary_sector": "Health",
         "secondary_sector": "Health n.e.c.",
-        "technology": "Computer vision",
+        "technology": "Machine learning",
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
@@ -3297,7 +3329,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90104,
+        "id": 90105,
         "name": "EPISA - Entity and property inference for semantic archives",
         "url": "https:\/\/www.inesctec.pt\/en\/news\/inesc-tec-wants-to-digitise-the-largest-documental-collection-of-portugal#about",
         "contact": "",
@@ -3329,7 +3361,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90105,
+        "id": 90106,
         "name": "Failstopper - Study the compressed air system of the vehicle",
         "url": "https:\/\/www.inesctec.pt\/en\/projects\/failstopper#intro",
         "contact": "",
@@ -3361,7 +3393,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90106,
+        "id": 90107,
         "name": "IPOscore - Predicting complications surgery and prognosis  of cancer patients",
         "url": "https:\/\/www.fct.pt\/media\/docs\/Brochura_ResearchinDataScienceandAIappliedtoPA.pdf",
         "contact": "",
@@ -3384,7 +3416,7 @@ var services = [
         "end_date": "",
         "primary_sector": "Health",
         "secondary_sector": "R&d health.",
-        "technology": "Unknown",
+        "technology": "Computer vision",
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
@@ -3393,7 +3425,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90107,
+        "id": 90108,
         "name": "Portugal -  Predicting long term unemployment",
         "url": "https:\/\/online.ucpress.edu\/gp\/article-abstract\/1\/1\/12908\/110741",
         "contact": "",
@@ -3425,7 +3457,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90108,
+        "id": 90109,
         "name": "Sigma - Chatbot on changing citizens' address",
         "url": "https:\/\/joinup.ec.europa.eu\/sites\/default\/files\/news\/2019-09\/ISA2_Architecture%20for%20public%20service%20chatbots.pdf",
         "contact": "",
@@ -3457,7 +3489,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90109,
+        "id": 90110,
         "name": "Antonia - Automatic processing of requests of public services",
         "url": "https:\/\/www.romaniajournal.ro\/society-people\/antonia-the-first-virtual-public-servant-in-romania\/",
         "contact": "",
@@ -3489,7 +3521,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90110,
+        "id": 90111,
         "name": "Bucharest airport - Face recognition",
         "url": "https:\/\/www.uti.eu.com\/press-releases\/uti-will-implement-face-recognition-and-intelligent-image-analysis-systems-with-otopeni-airport\/",
         "contact": "",
@@ -3521,7 +3553,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90111,
+        "id": 90112,
         "name": "OverSi - Chatbot to faster burocracy",
         "url": "https:\/\/stopbyrokracii.sk\/",
         "contact": "",
@@ -3553,7 +3585,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90112,
+        "id": 90113,
         "name": "PCA - AI algorithms in audit methodology detecting potential fraud when prescribing medicines",
         "url": "https:\/\/dennikn.sk\/blog\/1561696\/big-data-ukazali-nestandardne-predpisovanie-liekov-usporime-tak-statisice-eur\/",
         "contact": "",
@@ -3585,7 +3617,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90113,
+        "id": 90114,
         "name": "Taxana - Chatbot for financial administration",
         "url": "https:\/\/www.youtube.com\/watch?v=UQ_XRlIFtrQ & https:\/\/www.podnikajte.sk\/dane\/taxana-chatbot",
         "contact": "",
@@ -3617,7 +3649,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90114,
+        "id": 90115,
         "name": "Semantic analyser - Document analyser for the public administration",
         "url": "https:\/\/nio.gov.si\/nio\/asset\/semanticni+analizator+besedil",
         "contact": "",
@@ -3649,7 +3681,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90115,
+        "id": 90116,
         "name": "060 Service - Answer FAQ from citizens and burocratic terms into informal language",
         "url": "https:\/\/joinup.ec.europa.eu\/sites\/default\/files\/inline-files\/08-2%20Salvador_Estevan_Martinez%20and%20Doaa_Samy_0.pdf",
         "contact": "",
@@ -3681,7 +3713,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90116,
+        "id": 90117,
         "name": "Chatbot  - Boost relations with citizens",
         "url": "https:\/\/avanttic.com\/actualidad\/el-chatbot-del-ayuntamiento-de-sant-just-desvern-premiado-en-oracle-openworld\/",
         "contact": "",
@@ -3713,7 +3745,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90117,
+        "id": 90118,
         "name": "Fuengirola Town Hall - measuring beach attendance",
         "url": "https:\/\/www.euroweeklynews.com\/2020\/05\/04\/costa-del-sols-fuengirola-will-use-artificial-intelligence-to-control-capacity-at-beaches-and-public-spaces\/",
         "contact": "",
@@ -3745,7 +3777,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90118,
+        "id": 90119,
         "name": "Merc\u00e9 - citizen science for better urban life",
         "url": "http:\/\/merce.300000.eu\/data2\/informe_merce.pdf",
         "contact": "",
@@ -3777,7 +3809,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90119,
+        "id": 90120,
         "name": "Misty II - Robot for elderly people",
         "url": "https:\/\/www.barcelona.cat\/infobarcelona\/en\/tema\/senior-citizens\/misty-ii-the-social-robot-becomes-part-of-the-lives-of-twenty-senior-citizens_907645.html",
         "contact": "",
@@ -3809,7 +3841,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90120,
+        "id": 90121,
         "name": "Robots - Testing  Covid-19",
         "url": "https:\/\/www.computerweekly.com\/news\/252480445\/Coronavirus-Spain-to-use-Artificial-intelligence-to-automate-testing",
         "contact": "",
@@ -3841,7 +3873,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90121,
+        "id": 90122,
         "name": "VeriPol - Detect false police reports",
         "url": "https:\/\/www.sciencedirect.com\/science\/article\/abs\/pii\/S095070511830128X",
         "contact": "",
@@ -3873,7 +3905,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90122,
+        "id": 90123,
         "name": "VioGen - Forecast gender violence",
         "url": "https:\/\/algorithmwatch.org\/en\/viogen-algorithm-gender-violence\/",
         "contact": "",
@@ -3905,7 +3937,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90123,
+        "id": 90124,
         "name": "AIDA - Interpreting detailed plan provisions",
         "url": "https:\/\/www.smartbuilt.se\/projekt\/innovationer-och-nya-tillaempningar\/aida\/",
         "contact": "",
@@ -3937,7 +3969,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90124,
+        "id": 90125,
         "name": "Scapis - Prevention of heart- and lung-diseases",
         "url": "https:\/\/www.scapis.org\/about\/",
         "contact": "",
@@ -3969,7 +4001,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90125,
+        "id": 90126,
         "name": "Skatti - Answering system about population registration and income tax return",
         "url": "https:\/\/www.skatteverket.se\/omoss\/kontaktaoss\/chattamedvardigitalamedarbetare.4.2cf1b5cd163796a5c8b403b.html",
         "contact": "",
@@ -4001,7 +4033,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90126,
+        "id": 90127,
         "name": "SKOSA - Interpreting medical information",
         "url": "https:\/\/computersweden.idg.se\/2.2683\/1.720144\/forsakringskassan-ai-stod",
         "contact": "",
@@ -4033,7 +4065,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90127,
+        "id": 90128,
         "name": "Stockholm3 - Diagnosing prostate cancer",
         "url": "https:\/\/eithealth.eu\/news-article\/study-ai-system-effective-in-diagnosing-prostate-cancer\/",
         "contact": "",
@@ -4065,7 +4097,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90128,
+        "id": 90129,
         "name": "Swedish Land Registry (SLR) - Fostering efficiency when dealing with land registry requests",
         "url": "https:\/\/www.gov.uk\/government\/case-studies\/natural-language-processing-for-land-registry-documentation-in-sweden",
         "contact": "",
@@ -4097,7 +4129,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90129,
+        "id": 90130,
         "name": "Tengai - Robot in recruitment processes",
         "url": "https:\/\/www.upplands-bro.se\/kommun--politik\/om-kommunen\/information-om-coronaviruset\/nyheter-corona\/2020-05-05-kommunen-tar-nasta-steg-i-fordomsfri-rekrytering-med-intervjuroboten-tengai.html",
         "contact": "",
@@ -4129,7 +4161,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90130,
+        "id": 90131,
         "name": "Trelleborg - Automated social welfare decisions",
         "url": "https:\/\/valcon.com\/insights\/trelleborg-robotics-solution\/",
         "contact": "",
@@ -4161,7 +4193,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90131,
+        "id": 90132,
         "name": "BFS - Plausibility check on quality and reliability of administrative data",
         "url": "https:\/\/www.experimental.bfs.admin.ch\/expstat\/de\/home\/innovative-datenwissenschaft\/plausi.html",
         "contact": "",
@@ -4193,7 +4225,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90132,
+        "id": 90133,
         "name": "Chatbot - Offer residents and tourism better access to information and services from the administration",
         "url": "https:\/\/www.egovernment.ch\/de\/dokumentation\/webpublikation\/projekte\/leistungen-fur-die-bevolkerung\/chatbot-fur-die-offentliche-verwaltung\/",
         "contact": "",
@@ -4225,7 +4257,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90133,
+        "id": 90134,
         "name": "Chatbot - Security institution information, find the ones entitled to premium reductions",
         "url": "https:\/\/www.leaderdigital.ch\/news\/sva-will-chatbot-angebot-ausbauen-2718.html",
         "contact": "",
@@ -4257,7 +4289,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90134,
+        "id": 90135,
         "name": "Maxi - Chatbot answering questions on insurance",
         "url": "https:\/\/www.previon.ch\/projekte\/maxi-der-clevere-chatbot-der-sva-aargau",
         "contact": "",
@@ -4289,7 +4321,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90135,
+        "id": 90136,
         "name": "NOGAuto - Assign or control codes to companies for economic activities",
         "url": "https:\/\/www.experimental.bfs.admin.ch\/expstat\/en\/home\/innovation-data-science\/nogauto.html",
         "contact": "",
@@ -4312,7 +4344,7 @@ var services = [
         "end_date": "",
         "primary_sector": "Economic affairs",
         "secondary_sector": "R&d economic affairs",
-        "technology": "Unknown",
+        "technology": "Machine learning",
         "uptake": "Unknown",
         "cross_border": "Unknown",
         "cross_sector": "Unknown",
@@ -4321,7 +4353,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90136,
+        "id": 90137,
         "name": "Refugees - Assigning asylum seekers",
         "url": "https:\/\/www.srf.ch\/news\/schweiz\/jobs-fuer-fluechtlinge-algorithmus-verteilt-neu-asylbewerber-auf-kantone",
         "contact": "",
@@ -4353,7 +4385,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90137,
+        "id": 90138,
         "name": "Amelia - Chatbot helping local residents find city services",
         "url": "https:\/\/www.ukauthority.com\/articles\/enfield-joins-microsoft-in-citizenbot-project\/",
         "contact": "",
@@ -4385,7 +4417,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90138,
+        "id": 90139,
         "name": "Babylon - Health interactive symptom checker",
         "url": "https:\/\/www.babylonhealth.com\/",
         "contact": "",
@@ -4417,7 +4449,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90139,
+        "id": 90140,
         "name": "DVSA MOT -  Intelligent, data-driven approach to better target Driver and Vehicle Standards Agency (DVSA) resources",
         "url": "https:\/\/www.gov.uk\/government\/case-studies\/how-the-department-for-transport-used-ai-to-improve-mot-testing",
         "contact": "",
@@ -4449,7 +4481,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90140,
+        "id": 90141,
         "name": "EHPS - Early help profiling system to identify children and families considered vulnerable",
         "url": "https:\/\/www.hackneycitizen.co.uk\/2018\/10\/18\/council-360k-xantura-software-profiles-troubled-families\/",
         "contact": "",
@@ -4481,7 +4513,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90141,
+        "id": 90142,
         "name": "HART - Assessment risk tool, predictive policing based on person data",
         "url": "https:\/\/www.tandfonline.com\/doi\/pdf\/10.1080\/13600834.2018.1458455",
         "contact": "",
@@ -4513,7 +4545,7 @@ var services = [
     },
     {
         "cid": 10009,
-        "id": 90142,
+        "id": 90143,
         "name": "TravelBot - Chatbot for travel information",
         "url": "https:\/\/tfl.gov.uk\/info-for\/media\/press-releases\/2017\/june\/tfl-launches-new-social-media-travelb",
         "contact": "",
